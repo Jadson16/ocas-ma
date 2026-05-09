@@ -23,15 +23,24 @@ PRODUCTS = {
         "qty_col": "quantidade_ton",
         "val_col": "valor_mil_reais",
         "unit": "t",
+        "fonte": "PEVS/IBGE",
     },
-    # Exemplos futuros:
-    # "acai": {
-    #     "label": "Açaí",
-    #     "csv": DATA_DIR / "acai" / "acai_pevs.csv",
-    #     "qty_col": "quantidade_ton",
-    #     "val_col": "valor_mil_reais",
-    #     "unit": "t",
-    # },
+    "acai": {
+        "label": "Açaí (bagas)",
+        "csv": DATA_DIR / "acai" / "acai_pevs.csv",
+        "qty_col": "quantidade_ton",
+        "val_col": "valor_mil_reais",
+        "unit": "t",
+        "fonte": "PEVS/IBGE",
+    },
+    "mel": {
+        "label": "Mel de abelha",
+        "csv": DATA_DIR / "mel" / "mel_ppm.csv",
+        "qty_col": "quantidade_kg",
+        "val_col": "valor_mil_reais",
+        "unit": "kg",
+        "fonte": "PPM/IBGE",
+    },
 }
 
 
@@ -112,9 +121,17 @@ def build_slider(years: list, data_by_year: dict) -> dict:
 def generate_map(geojson, estado_geojson, mid_list, name_map) -> go.Figure:
     estado_lats, estado_lons = _estado_coords(estado_geojson)
 
-    # Produto inicial (primeiro do catálogo)
-    first_key = next(iter(PRODUCTS))
-    first_cfg = PRODUCTS[first_key]
+    # Carrega apenas produtos com CSV disponível
+    available = {k: v for k, v in PRODUCTS.items() if v["csv"].exists()}
+    if not available:
+        raise FileNotFoundError("Nenhum CSV de produto encontrado em data/.")
+    missing = [k for k in PRODUCTS if k not in available]
+    if missing:
+        print(f"Produtos sem CSV (ignorados): {missing}")
+
+    # Produto inicial (primeiro disponível)
+    first_key = next(iter(available))
+    first_cfg = available[first_key]
     years0, data0, cmax0 = load_product(first_cfg, mid_list, name_map)
     latest0 = years0[-1]
     z0, text0 = data0[latest0]
@@ -144,9 +161,9 @@ def generate_map(geojson, estado_geojson, mid_list, name_map) -> go.Figure:
         ),
     ])
 
-    # Dropdown de produtos
+    # Dropdown de produtos (apenas os disponíveis)
     prod_buttons = []
-    for cfg in PRODUCTS.values():
+    for cfg in available.values():
         years, data, cmax = load_product(cfg, mid_list, name_map)
         latest = years[-1]
         z_lat, text_lat = data[latest]
