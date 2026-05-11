@@ -43,6 +43,42 @@ PRODUCTS = {
         "unit_val": "mil R$",
         "fonte": "PPM/IBGE",
     },
+    "buriti": {
+        "label": "Buriti (fibra)",
+        "csv": DATA_DIR / "buriti" / "buriti_pevs.csv",
+        "qty_col": "quantidade_ton",
+        "val_col": "valor_mil_reais",
+        "unit_qty": "t",
+        "unit_val": "mil R$",
+        "fonte": "PEVS/IBGE",
+    },
+    "carnauba": {
+        "label": "Carnaúba (cera)",
+        "csv": DATA_DIR / "carnauba" / "carnauba_pevs.csv",
+        "qty_col": "quantidade_ton",
+        "val_col": "valor_mil_reais",
+        "unit_qty": "t",
+        "unit_val": "mil R$",
+        "fonte": "PEVS/IBGE",
+    },
+    "carnauba_fibra": {
+        "label": "Carnaúba (fibra/folha)",
+        "csv": DATA_DIR / "carnauba_fibra" / "carnauba_fibra_pevs.csv",
+        "qty_col": "quantidade_ton",
+        "val_col": "valor_mil_reais",
+        "unit_qty": "t",
+        "unit_val": "mil R$",
+        "fonte": "PEVS/IBGE",
+    },
+    "piacava": {
+        "label": "Piaçava (fibra)",
+        "csv": DATA_DIR / "piacava" / "piacava_pevs.csv",
+        "qty_col": "quantidade_ton",
+        "val_col": "valor_mil_reais",
+        "unit_qty": "t",
+        "unit_val": "mil R$",
+        "fonte": "PEVS/IBGE",
+    },
 }
 
 
