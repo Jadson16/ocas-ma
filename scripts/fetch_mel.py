@@ -75,7 +75,7 @@ def main():
         print(f"Lote {i}/{len(batches)}: anos {batch[0]}-{batch[-1]}")
         for tentativa in range(1, 4):
             try:
-                resp = requests.get(url, timeout=120)
+                resp = requests.get(url, timeout=120, verify=False)
                 resp.raise_for_status()
                 frames.append(parse_response(resp.json()))
                 break
@@ -106,4 +106,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

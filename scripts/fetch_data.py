@@ -64,7 +64,7 @@ def main():
     url = build_url()
     print(f"Requisição SIDRA:\n{url}\n")
 
-    resp = requests.get(url, timeout=180)
+    resp = requests.get(url, timeout=180, verify=False)
     resp.raise_for_status()
 
     df = parse_response(resp.json())
@@ -84,4 +84,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

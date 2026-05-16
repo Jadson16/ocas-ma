@@ -1,5 +1,4 @@
 ﻿municipio_id,municipio,ano,quantidade_ton,valor_mil_reais
-2100105,Afonso Cunha - MA,1994,282.0,56.0
 2100105,Afonso Cunha - MA,1995,245.0,61.0
 2100105,Afonso Cunha - MA,1996,143.0,39.0
 2100105,Afonso Cunha - MA,1997,148.0,42.0
@@ -30,7 +29,6 @@
 2100105,Afonso Cunha - MA,2022,23.0,67.0
 2100105,Afonso Cunha - MA,2023,20.0,61.0
 2100105,Afonso Cunha - MA,2024,17.0,56.0
-2100204,Alcântara - MA,1994,314.0,82.0
 2100204,Alcântara - MA,1995,320.0,96.0
 2100204,Alcântara - MA,1996,9.0,3.0
 2100204,Alcântara - MA,1997,8.0,2.0
@@ -40,7 +38,6 @@
 2100204,Alcântara - MA,2001,9.0,4.0
 2100204,Alcântara - MA,2002,9.0,3.0
 2100204,Alcântara - MA,2003,9.0,3.0
-2100303,Aldeias Altas - MA,1994,941.0,188.0
 2100303,Aldeias Altas - MA,1995,909.0,227.0
 2100303,Aldeias Altas - MA,1996,1616.0,452.0
 2100303,Aldeias Altas - MA,1997,1651.0,479.0
@@ -71,7 +68,6 @@
 2100303,Aldeias Altas - MA,2022,154.0,430.0
 2100303,Aldeias Altas - MA,2023,136.0,421.0
 2100303,Aldeias Altas - MA,2024,126.0,404.0
-2100402,Altamira do Maranhão - MA,1994,417.0,83.0
 2100402,Altamira do Maranhão - MA,1995,430.0,86.0
 2100402,Altamira do Maranhão - MA,1996,934.0,234.0
 2100402,Altamira do Maranhão - MA,1997,232.0,65.0
@@ -158,7 +154,6 @@
 2100477,Alto Alegre do Pindaré - MA,2022,326.0,547.0
 2100477,Alto Alegre do Pindaré - MA,2023,300.0,539.0
 2100477,Alto Alegre do Pindaré - MA,2024,292.0,612.0
-2100600,Amarante do Maranhão - MA,1994,243.0,92.0
 2100600,Amarante do Maranhão - MA,1995,236.0,118.0
 2100600,Amarante do Maranhão - MA,1996,25.0,10.0
 2100600,Amarante do Maranhão - MA,1997,24.0,10.0
@@ -189,7 +184,6 @@
 2100600,Amarante do Maranhão - MA,2022,17.0,47.0
 2100600,Amarante do Maranhão - MA,2023,90.0,324.0
 2100600,Amarante do Maranhão - MA,2024,29.0,143.0
-2100709,Anajatuba - MA,1994,249.0,92.0
 2100709,Anajatuba - MA,1995,252.0,96.0
 2100709,Anajatuba - MA,1996,88.0,22.0
 2100709,Anajatuba - MA,1997,88.0,26.0
@@ -220,7 +214,6 @@
 2100709,Anajatuba - MA,2022,72.0,159.0
 2100709,Anajatuba - MA,2023,72.0,170.0
 2100709,Anajatuba - MA,2024,72.0,174.0
-2100808,Anapurus - MA,1994,27.0,5.0
 2100808,Anapurus - MA,1995,24.0,6.0
 2100808,Anapurus - MA,1996,51.0,13.0
 2100808,Anapurus - MA,1997,43.0,15.0
@@ -305,7 +298,6 @@
 2100956,Arame - MA,1996,1.0,0.0
 2100956,Arame - MA,2023,12.0,37.0
 2100956,Arame - MA,2024,4.0,22.0
-2101004,Arari - MA,1994,622.0,137.0
 2101004,Arari - MA,1995,613.0,153.0
 2101004,Arari - MA,1996,245.0,93.0
 2101004,Arari - MA,1997,243.0,109.0
@@ -336,9 +328,7 @@
 2101004,Arari - MA,2022,45.0,95.0
 2101004,Arari - MA,2023,43.0,108.0
 2101004,Arari - MA,2024,43.0,115.0
-2101103,Axixá - MA,1994,90.0,40.0
 2101103,Axixá - MA,1995,93.0,46.0
-2101202,Bacabal - MA,1994,1620.0,405.0
 2101202,Bacabal - MA,1995,1654.0,430.0
 2101202,Bacabal - MA,1996,6500.0,1885.0
 2101202,Bacabal - MA,1997,2983.0,895.0
@@ -396,7 +386,6 @@
 2101251,Bacabeira - MA,2022,17.0,32.0
 2101251,Bacabeira - MA,2023,16.0,32.0
 2101251,Bacabeira - MA,2024,14.0,32.0
-2101301,Bacuri - MA,1994,39.0,8.0
 2101301,Bacuri - MA,1995,34.0,9.0
 2101301,Bacuri - MA,1996,1.0,0.0
 2101301,Bacuri - MA,1997,5.0,1.0
@@ -455,7 +444,6 @@
 2101350,Bacurituba - MA,2022,15.0,37.0
 2101350,Bacurituba - MA,2023,15.0,41.0
 2101350,Bacurituba - MA,2024,15.0,44.0
-2101400,Balsas - MA,1994,1.0,0.0
 2101400,Balsas - MA,1995,1.0,0.0
 2101400,Balsas - MA,1996,1.0,0.0
 2101400,Balsas - MA,1997,1.0,0.0
@@ -473,7 +461,6 @@
 2101400,Balsas - MA,2022,14.0,39.0
 2101400,Balsas - MA,2023,14.0,41.0
 2101400,Balsas - MA,2024,14.0,43.0
-2101608,Barra do Corda - MA,1994,105.0,31.0
 2101608,Barra do Corda - MA,1995,95.0,28.0
 2101608,Barra do Corda - MA,1996,46.0,15.0
 2101608,Barra do Corda - MA,1997,25.0,7.0
@@ -488,7 +475,6 @@
 2101707,Barreirinhas - MA,2000,2.0,1.0
 2101707,Barreirinhas - MA,2001,2.0,1.0
 2101707,Barreirinhas - MA,2002,2.0,1.0
-2101509,Barão de Grajaú - MA,1994,176.0,63.0
 2101509,Barão de Grajaú - MA,1995,129.0,39.0
 2101509,Barão de Grajaú - MA,1996,98.0,29.0
 2101509,Barão de Grajaú - MA,1997,1.0,0.0
@@ -575,7 +561,6 @@
 2101731,Belágua - MA,2022,0.0,1.0
 2101731,Belágua - MA,2023,0.0,1.0
 2101731,Belágua - MA,2024,0.0,1.0
-2101806,Benedito Leite - MA,1994,220.0,79.0
 2101806,Benedito Leite - MA,1995,181.0,40.0
 2101806,Benedito Leite - MA,1996,29.0,7.0
 2101806,Benedito Leite - MA,1997,0.0,0.0
@@ -606,7 +591,6 @@
 2101806,Benedito Leite - MA,2022,3.0,7.0
 2101806,Benedito Leite - MA,2023,3.0,8.0
 2101806,Benedito Leite - MA,2024,3.0,8.0
-2101905,Bequimão - MA,1994,203.0,51.0
 2101905,Bequimão - MA,1995,179.0,45.0
 2101905,Bequimão - MA,1996,106.0,29.0
 2101905,Bequimão - MA,1997,98.0,29.0
@@ -665,7 +649,6 @@
 2101939,Bernardo do Mearim - MA,2022,566.0,1359.0
 2101939,Bernardo do Mearim - MA,2023,230.0,620.0
 2101939,Bernardo do Mearim - MA,2024,117.0,411.0
-2102002,Bom Jardim - MA,1994,964.0,193.0
 2102002,Bom Jardim - MA,1995,992.0,248.0
 2102002,Bom Jardim - MA,1996,1955.0,586.0
 2102002,Bom Jardim - MA,1997,1718.0,429.0
@@ -724,7 +707,6 @@
 2102077,Bom Lugar - MA,2022,491.0,1081.0
 2102077,Bom Lugar - MA,2023,550.0,1376.0
 2102077,Bom Lugar - MA,2024,95.0,238.0
-2102101,Brejo - MA,1994,390.0,98.0
 2102101,Brejo - MA,1995,186.0,47.0
 2102101,Brejo - MA,1996,402.0,141.0
 2102101,Brejo - MA,1997,298.0,119.0
@@ -783,7 +765,6 @@
 2102150,Brejo de Areia - MA,2022,97.0,195.0
 2102150,Brejo de Areia - MA,2023,93.0,168.0
 2102150,Brejo de Areia - MA,2024,46.0,139.0
-2102200,Buriti - MA,1994,450.0,113.0
 2102200,Buriti - MA,1995,415.0,145.0
 2102200,Buriti - MA,1996,1303.0,391.0
 2102200,Buriti - MA,1997,1175.0,411.0
@@ -814,7 +795,6 @@
 2102200,Buriti - MA,2022,39.0,101.0
 2102200,Buriti - MA,2023,35.0,95.0
 2102200,Buriti - MA,2024,34.0,189.0
-2102309,Buriti Bravo - MA,1994,868.0,174.0
 2102309,Buriti Bravo - MA,1995,799.0,160.0
 2102309,Buriti Bravo - MA,1996,511.0,128.0
 2102309,Buriti Bravo - MA,1997,485.0,146.0
@@ -853,7 +833,6 @@
 2102358,Buritirana - MA,2022,4.0,15.0
 2102358,Buritirana - MA,2023,4.0,18.0
 2102358,Buritirana - MA,2024,4.0,21.0
-2102408,Cajapió - MA,1994,10.0,3.0
 2102408,Cajapió - MA,1995,8.0,2.0
 2102408,Cajapió - MA,1996,57.0,22.0
 2102408,Cajapió - MA,1997,4.0,2.0
@@ -884,7 +863,6 @@
 2102408,Cajapió - MA,2022,4.0,9.0
 2102408,Cajapió - MA,2023,4.0,10.0
 2102408,Cajapió - MA,2024,4.0,9.0
-2102507,Cajari - MA,1994,1248.0,274.0
 2102507,Cajari - MA,1995,1173.0,293.0
 2102507,Cajari - MA,1996,3027.0,1059.0
 2102507,Cajari - MA,1997,3001.0,1290.0
@@ -937,7 +915,6 @@
 2102556,Campestre do Maranhão - MA,2022,5.0,19.0
 2102556,Campestre do Maranhão - MA,2023,4.0,22.0
 2102556,Campestre do Maranhão - MA,2024,5.0,27.0
-2102705,Cantanhede - MA,1994,92.0,33.0
 2102705,Cantanhede - MA,1995,93.0,35.0
 2102705,Cantanhede - MA,1996,74.0,18.0
 2102705,Cantanhede - MA,1997,75.0,19.0
@@ -1003,7 +980,6 @@
 2102804,Carolina - MA,2002,5.0,1.0
 2102804,Carolina - MA,2003,5.0,1.0
 2102804,Carolina - MA,2004,4.0,1.0
-2103000,Caxias - MA,1994,4600.0,920.0
 2103000,Caxias - MA,1995,4200.0,1008.0
 2103000,Caxias - MA,1996,4576.0,1236.0
 2103000,Caxias - MA,1997,2647.0,794.0
@@ -1034,7 +1010,6 @@
 2103000,Caxias - MA,2022,300.0,809.0
 2103000,Caxias - MA,2023,267.0,774.0
 2103000,Caxias - MA,2024,237.0,712.0
-2103109,Cedral - MA,1994,1.0,0.0
 2103109,Cedral - MA,1995,1.0,0.0
 2103109,Cedral - MA,1996,1.0,0.0
 2103109,Cedral - MA,1997,0.0,0.0
@@ -1093,7 +1068,6 @@
 2103125,Central do Maranhão - MA,2022,5.0,13.0
 2103125,Central do Maranhão - MA,2023,5.0,14.0
 2103125,Central do Maranhão - MA,2024,5.0,11.0
-2103208,Chapadinha - MA,1994,851.0,340.0
 2103208,Chapadinha - MA,1995,894.0,223.0
 2103208,Chapadinha - MA,1996,4500.0,1125.0
 2103208,Chapadinha - MA,1997,4168.0,1459.0
@@ -1147,7 +1121,6 @@
 2103257,Cidelândia - MA,2022,4.0,16.0
 2103257,Cidelândia - MA,2023,4.0,20.0
 2103257,Cidelândia - MA,2024,5.0,21.0
-2103307,Codó - MA,1994,9113.0,2187.0
 2103307,Codó - MA,1995,8475.0,2119.0
 2103307,Codó - MA,1996,6111.0,1650.0
 2103307,Codó - MA,1997,5278.0,1531.0
@@ -1178,7 +1151,6 @@
 2103307,Codó - MA,2022,552.0,1380.0
 2103307,Codó - MA,2023,491.0,1375.0
 2103307,Codó - MA,2024,437.0,1267.0
-2103406,Coelho Neto - MA,1994,239.0,52.0
 2103406,Coelho Neto - MA,1995,233.0,63.0
 2103406,Coelho Neto - MA,1996,351.0,98.0
 2103406,Coelho Neto - MA,1997,360.0,105.0
@@ -1209,7 +1181,6 @@
 2103406,Coelho Neto - MA,2022,74.0,199.0
 2103406,Coelho Neto - MA,2023,70.0,221.0
 2103406,Coelho Neto - MA,2024,65.0,208.0
-2103505,Colinas - MA,1994,819.0,164.0
 2103505,Colinas - MA,1995,1.0,0.0
 2103505,Colinas - MA,1996,486.0,136.0
 2103505,Colinas - MA,1997,479.0,139.0
@@ -1268,7 +1239,6 @@
 2103554,Conceição do Lago-Açu - MA,2022,318.0,636.0
 2103554,Conceição do Lago-Açu - MA,2023,292.0,673.0
 2103554,Conceição do Lago-Açu - MA,2024,280.0,701.0
-2103604,Coroatá - MA,1994,5040.0,1210.0
 2103604,Coroatá - MA,1995,4800.0,1200.0
 2103604,Coroatá - MA,1996,6699.0,1809.0
 2103604,Coroatá - MA,1997,4170.0,1209.0
@@ -1299,7 +1269,6 @@
 2103604,Coroatá - MA,2022,498.0,1344.0
 2103604,Coroatá - MA,2023,423.0,1185.0
 2103604,Coroatá - MA,2024,385.0,1117.0
-2103703,Cururupu - MA,1994,58.0,12.0
 2103703,Cururupu - MA,1995,50.0,12.0
 2103703,Cururupu - MA,1996,4.0,1.0
 2103703,Cururupu - MA,1997,2.0,0.0
@@ -1330,10 +1299,8 @@
 2103703,Cururupu - MA,2022,1.0,1.0
 2103703,Cururupu - MA,2023,1.0,2.0
 2103703,Cururupu - MA,2024,1.0,2.0
-2102606,Cândido Mendes - MA,1994,2.0,0.0
 2102606,Cândido Mendes - MA,1995,2.0,0.0
 2102606,Cândido Mendes - MA,1996,16.0,4.0
-2103802,Dom Pedro - MA,1994,655.0,229.0
 2103802,Dom Pedro - MA,1995,714.0,179.0
 2103802,Dom Pedro - MA,1996,684.0,192.0
 2103802,Dom Pedro - MA,1997,657.0,164.0
@@ -1364,7 +1331,6 @@
 2103802,Dom Pedro - MA,2022,276.0,482.0
 2103802,Dom Pedro - MA,2023,238.0,775.0
 2103802,Dom Pedro - MA,2024,233.0,817.0
-2103901,Duque Bacelar - MA,1994,121.0,27.0
 2103901,Duque Bacelar - MA,1995,119.0,31.0
 2103901,Duque Bacelar - MA,1996,124.0,34.0
 2103901,Duque Bacelar - MA,1997,131.0,37.0
@@ -1395,7 +1361,6 @@
 2103901,Duque Bacelar - MA,2022,26.0,72.0
 2103901,Duque Bacelar - MA,2023,21.0,68.0
 2103901,Duque Bacelar - MA,2024,19.0,63.0
-2104008,Esperantinópolis - MA,1994,942.0,311.0
 2104008,Esperantinópolis - MA,1995,961.0,192.0
 2104008,Esperantinópolis - MA,1996,628.0,138.0
 2104008,Esperantinópolis - MA,1997,642.0,180.0
@@ -1463,10 +1428,8 @@
 2104099,Formosa da Serra Negra - MA,2002,10.0,2.0
 2104099,Formosa da Serra Negra - MA,2003,10.0,2.0
 2104099,Formosa da Serra Negra - MA,2004,9.0,2.0
-2104107,Fortaleza dos Nogueiras - MA,1994,1.0,0.0
 2104107,Fortaleza dos Nogueiras - MA,1995,1.0,0.0
 2104107,Fortaleza dos Nogueiras - MA,1996,3.0,0.0
-2104206,Fortuna - MA,1994,79.0,16.0
 2104206,Fortuna - MA,1995,71.0,18.0
 2104206,Fortuna - MA,1996,298.0,83.0
 2104206,Fortuna - MA,1997,299.0,87.0
@@ -1497,7 +1460,6 @@
 2104206,Fortuna - MA,2022,158.0,332.0
 2104206,Fortuna - MA,2023,134.0,336.0
 2104206,Fortuna - MA,2024,129.0,379.0
-2104404,Gonçalves Dias - MA,1994,1588.0,508.0
 2104404,Gonçalves Dias - MA,1995,1699.0,459.0
 2104404,Gonçalves Dias - MA,1996,610.0,171.0
 2104404,Gonçalves Dias - MA,1997,601.0,180.0
@@ -1528,7 +1490,6 @@
 2104404,Gonçalves Dias - MA,2022,279.0,476.0
 2104404,Gonçalves Dias - MA,2023,246.0,826.0
 2104404,Gonçalves Dias - MA,2024,236.0,838.0
-2104503,Governador Archer - MA,1994,1139.0,399.0
 2104503,Governador Archer - MA,1995,1264.0,354.0
 2104503,Governador Archer - MA,1996,607.0,176.0
 2104503,Governador Archer - MA,1997,609.0,183.0
@@ -1559,7 +1520,6 @@
 2104503,Governador Archer - MA,2022,241.0,409.0
 2104503,Governador Archer - MA,2023,207.0,465.0
 2104503,Governador Archer - MA,2024,199.0,596.0
-2104602,Governador Eugênio Barros - MA,1994,954.0,353.0
 2104602,Governador Eugênio Barros - MA,1995,1012.0,263.0
 2104602,Governador Eugênio Barros - MA,1996,824.0,239.0
 2104602,Governador Eugênio Barros - MA,1997,594.0,178.0
@@ -1656,10 +1616,8 @@
 2104677,Governador Nunes Freire - MA,2004,13.0,8.0
 2104677,Governador Nunes Freire - MA,2005,13.0,9.0
 2104677,Governador Nunes Freire - MA,2006,13.0,9.0
-2104800,Grajaú - MA,1994,9.0,3.0
 2104800,Grajaú - MA,1995,9.0,2.0
 2104800,Grajaú - MA,1997,0.0,0.0
-2104701,Graça Aranha - MA,1994,1036.0,301.0
 2104701,Graça Aranha - MA,1995,1098.0,308.0
 2104701,Graça Aranha - MA,1996,681.0,204.0
 2104701,Graça Aranha - MA,1997,683.0,239.0
@@ -1690,7 +1648,6 @@
 2104701,Graça Aranha - MA,2022,319.0,532.0
 2104701,Graça Aranha - MA,2023,268.0,804.0
 2104701,Graça Aranha - MA,2024,257.0,835.0
-2104909,Guimarães - MA,1994,1.0,0.0
 2104909,Guimarães - MA,1995,1.0,0.0
 2104909,Guimarães - MA,1996,1.0,0.0
 2104909,Guimarães - MA,1997,0.0,0.0
@@ -1721,9 +1678,7 @@
 2104909,Guimarães - MA,2022,3.0,9.0
 2104909,Guimarães - MA,2023,3.0,9.0
 2104909,Guimarães - MA,2024,3.0,10.0
-2105104,Icatu - MA,1994,25.0,11.0
 2105104,Icatu - MA,1995,26.0,13.0
-2105203,Igarapé Grande - MA,1994,2043.0,613.0
 2105203,Igarapé Grande - MA,1995,2073.0,518.0
 2105203,Igarapé Grande - MA,1996,2874.0,719.0
 2105203,Igarapé Grande - MA,1997,1299.0,390.0
@@ -1782,7 +1737,6 @@
 2105153,Igarapé do Meio - MA,2022,222.0,319.0
 2105153,Igarapé do Meio - MA,2023,201.0,421.0
 2105153,Igarapé do Meio - MA,2024,191.0,455.0
-2105302,Imperatriz - MA,1994,559.0,224.0
 2105302,Imperatriz - MA,1995,531.0,212.0
 2105302,Imperatriz - MA,1996,18.0,7.0
 2105302,Imperatriz - MA,2004,4.0,2.0
@@ -1801,7 +1755,6 @@
 2105302,Imperatriz - MA,2024,8.0,48.0
 2105351,Itaipava do Grajaú - MA,2023,32.0,112.0
 2105351,Itaipava do Grajaú - MA,2024,5.0,22.0
-2105401,Itapecuru Mirim - MA,1994,1192.0,477.0
 2105401,Itapecuru Mirim - MA,1995,1194.0,358.0
 2105401,Itapecuru Mirim - MA,1996,495.0,124.0
 2105401,Itapecuru Mirim - MA,1997,496.0,149.0
@@ -1888,7 +1841,6 @@
 2105476,Jenipapo dos Vieiras - MA,2022,2.0,5.0
 2105476,Jenipapo dos Vieiras - MA,2023,1.0,4.0
 2105476,Jenipapo dos Vieiras - MA,2024,12.0,52.0
-2105609,Joselândia - MA,1994,546.0,180.0
 2105609,Joselândia - MA,1995,557.0,111.0
 2105609,Joselândia - MA,1996,1141.0,228.0
 2105609,Joselândia - MA,1997,1175.0,353.0
@@ -1919,7 +1871,6 @@
 2105609,Joselândia - MA,2022,577.0,1386.0
 2105609,Joselândia - MA,2023,232.0,608.0
 2105609,Joselândia - MA,2024,459.0,1606.0
-2105500,João Lisboa - MA,1994,300.0,114.0
 2105500,João Lisboa - MA,1995,289.0,144.0
 2105500,João Lisboa - MA,1996,18.0,5.0
 2105500,João Lisboa - MA,1997,3.0,1.0
@@ -1939,7 +1890,6 @@
 2105500,João Lisboa - MA,2022,2.0,10.0
 2105500,João Lisboa - MA,2023,2.0,11.0
 2105500,João Lisboa - MA,2024,3.0,14.0
-2105906,Lago Verde - MA,1994,1114.0,279.0
 2105906,Lago Verde - MA,1995,1111.0,278.0
 2105906,Lago Verde - MA,1996,1874.0,525.0
 2105906,Lago Verde - MA,1997,1930.0,560.0
@@ -1970,7 +1920,6 @@
 2105906,Lago Verde - MA,2022,551.0,1102.0
 2105906,Lago Verde - MA,2023,617.0,1420.0
 2105906,Lago Verde - MA,2024,591.0,1477.0
-2105708,Lago da Pedra - MA,1994,2226.0,534.0
 2105708,Lago da Pedra - MA,1995,1620.0,421.0
 2105708,Lago da Pedra - MA,1996,2245.0,629.0
 2105708,Lago da Pedra - MA,1997,2274.0,682.0
@@ -2001,7 +1950,6 @@
 2105708,Lago da Pedra - MA,2022,598.0,1495.0
 2105708,Lago da Pedra - MA,2023,688.0,1582.0
 2105708,Lago da Pedra - MA,2024,351.0,772.0
-2105807,Lago do Junco - MA,1994,2310.0,578.0
 2105807,Lago do Junco - MA,1995,1984.0,575.0
 2105807,Lago do Junco - MA,1996,3482.0,1010.0
 2105807,Lago do Junco - MA,1997,1436.0,359.0
@@ -2116,7 +2064,6 @@
 2105922,Lagoa do Mato - MA,2022,15.0,35.0
 2105922,Lagoa do Mato - MA,2023,15.0,37.0
 2105922,Lagoa do Mato - MA,2024,14.0,35.0
-2106003,Lima Campos - MA,1994,1112.0,367.0
 2106003,Lima Campos - MA,1995,1140.0,285.0
 2106003,Lima Campos - MA,1996,854.0,214.0
 2106003,Lima Campos - MA,1997,363.0,109.0
@@ -2147,7 +2094,6 @@
 2106003,Lima Campos - MA,2022,323.0,840.0
 2106003,Lima Campos - MA,2023,115.0,322.0
 2106003,Lima Campos - MA,2024,47.0,117.0
-2106102,Loreto - MA,1994,0.0,0.0
 2106102,Loreto - MA,1995,0.0,0.0
 2106102,Loreto - MA,1996,11.0,2.0
 2106102,Loreto - MA,1997,11.0,2.0
@@ -2228,7 +2174,6 @@
 2106375,Maranhãozinho - MA,2001,1.0,1.0
 2106375,Maranhãozinho - MA,2002,2.0,1.0
 2106375,Maranhãozinho - MA,2003,2.0,1.0
-2106409,Mata Roma - MA,1994,269.0,54.0
 2106409,Mata Roma - MA,1995,245.0,74.0
 2106409,Mata Roma - MA,1996,233.0,70.0
 2106409,Mata Roma - MA,1997,213.0,74.0
@@ -2259,7 +2204,6 @@
 2106409,Mata Roma - MA,2022,35.0,93.0
 2106409,Mata Roma - MA,2023,30.0,81.0
 2106409,Mata Roma - MA,2024,25.0,134.0
-2106508,Matinha - MA,1994,462.0,106.0
 2106508,Matinha - MA,1995,325.0,81.0
 2106508,Matinha - MA,1996,217.0,83.0
 2106508,Matinha - MA,1997,145.0,65.0
@@ -2290,7 +2234,6 @@
 2106508,Matinha - MA,2022,76.0,183.0
 2106508,Matinha - MA,2023,75.0,177.0
 2106508,Matinha - MA,2024,73.0,189.0
-2106607,Matões - MA,1994,610.0,85.0
 2106607,Matões - MA,1995,580.0,116.0
 2106607,Matões - MA,1996,1006.0,261.0
 2106607,Matões - MA,1997,1001.0,270.0
@@ -2377,7 +2320,6 @@
 2106672,Milagres do Maranhão - MA,2022,47.0,125.0
 2106672,Milagres do Maranhão - MA,2023,43.0,118.0
 2106672,Milagres do Maranhão - MA,2024,36.0,189.0
-2106706,Mirador - MA,1994,848.0,170.0
 2106706,Mirador - MA,1995,850.0,213.0
 2106706,Mirador - MA,1996,796.0,223.0
 2106706,Mirador - MA,1997,795.0,358.0
@@ -2408,7 +2350,6 @@
 2106706,Mirador - MA,2022,222.0,523.0
 2106706,Mirador - MA,2023,202.0,496.0
 2106706,Mirador - MA,2024,190.0,489.0
-2106755,Miranda do Norte - MA,1994,307.0,108.0
 2106755,Miranda do Norte - MA,1995,310.0,118.0
 2106755,Miranda do Norte - MA,1996,21.0,8.0
 2106755,Miranda do Norte - MA,1997,21.0,6.0
@@ -2439,7 +2380,6 @@
 2106755,Miranda do Norte - MA,2022,26.0,62.0
 2106755,Miranda do Norte - MA,2023,26.0,63.0
 2106755,Miranda do Norte - MA,2024,25.0,61.0
-2106805,Mirinzal - MA,1994,42.0,10.0
 2106805,Mirinzal - MA,1995,39.0,10.0
 2106805,Mirinzal - MA,1996,2.0,1.0
 2106805,Mirinzal - MA,1997,1.0,0.0
@@ -2470,9 +2410,7 @@
 2106805,Mirinzal - MA,2022,0.0,1.0
 2106805,Mirinzal - MA,2023,0.0,1.0
 2106805,Mirinzal - MA,2024,1.0,2.0
-2107001,Montes Altos - MA,1994,15.0,5.0
 2107001,Montes Altos - MA,1995,15.0,7.0
-2106904,Monção - MA,1994,868.0,174.0
 2106904,Monção - MA,1995,848.0,212.0
 2106904,Monção - MA,1996,2568.0,770.0
 2106904,Monção - MA,1997,2345.0,704.0
@@ -2503,9 +2441,7 @@
 2106904,Monção - MA,2022,342.0,540.0
 2106904,Monção - MA,2023,330.0,692.0
 2106904,Monção - MA,2024,315.0,757.0
-2107100,Morros - MA,1994,105.0,47.0
 2107100,Morros - MA,1995,109.0,55.0
-2107209,Nina Rodrigues - MA,1994,1208.0,459.0
 2107209,Nina Rodrigues - MA,1995,1209.0,387.0
 2107209,Nina Rodrigues - MA,1996,1073.0,268.0
 2107209,Nina Rodrigues - MA,1997,1068.0,320.0
@@ -2545,7 +2481,6 @@
 2107258,Nova Colinas - MA,2022,10.0,27.0
 2107258,Nova Colinas - MA,2023,8.0,25.0
 2107258,Nova Colinas - MA,2024,9.0,28.0
-2107308,Nova Iorque - MA,1994,62.0,19.0
 2107308,Nova Iorque - MA,1995,51.0,13.0
 2107308,Nova Iorque - MA,1996,61.0,15.0
 2107308,Nova Iorque - MA,1997,55.0,14.0
@@ -2576,7 +2511,6 @@
 2107308,Nova Iorque - MA,2022,5.0,12.0
 2107308,Nova Iorque - MA,2023,5.0,12.0
 2107308,Nova Iorque - MA,2024,4.0,11.0
-2107407,Olho d'Água das Cunhãs - MA,1994,1568.0,392.0
 2107407,Olho d'Água das Cunhãs - MA,1995,1333.0,267.0
 2107407,Olho d'Água das Cunhãs - MA,1996,1071.0,268.0
 2107407,Olho d'Água das Cunhãs - MA,1997,1124.0,326.0
@@ -2635,7 +2569,6 @@
 2107456,Olinda Nova do Maranhão - MA,2022,39.0,90.0
 2107456,Olinda Nova do Maranhão - MA,2023,40.0,101.0
 2107456,Olinda Nova do Maranhão - MA,2024,38.0,104.0
-2107605,Palmeirândia - MA,1994,47.0,14.0
 2107605,Palmeirândia - MA,1995,42.0,13.0
 2107605,Palmeirândia - MA,1996,890.0,223.0
 2107605,Palmeirândia - MA,1997,580.0,174.0
@@ -2666,7 +2599,6 @@
 2107605,Palmeirândia - MA,2022,131.0,341.0
 2107605,Palmeirândia - MA,2023,128.0,385.0
 2107605,Palmeirândia - MA,2024,126.0,392.0
-2107704,Paraibano - MA,1994,485.0,213.0
 2107704,Paraibano - MA,1995,363.0,109.0
 2107704,Paraibano - MA,1996,74.0,19.0
 2107704,Paraibano - MA,1997,70.0,17.0
@@ -2697,7 +2629,6 @@
 2107704,Paraibano - MA,2022,9.0,21.0
 2107704,Paraibano - MA,2023,8.0,20.0
 2107704,Paraibano - MA,2024,7.0,19.0
-2107803,Parnarama - MA,1994,623.0,81.0
 2107803,Parnarama - MA,1995,592.0,130.0
 2107803,Parnarama - MA,1996,916.0,238.0
 2107803,Parnarama - MA,1997,909.0,245.0
@@ -2728,7 +2659,6 @@
 2107803,Parnarama - MA,2022,74.0,132.0
 2107803,Parnarama - MA,2023,66.0,132.0
 2107803,Parnarama - MA,2024,60.0,126.0
-2107902,Passagem Franca - MA,1994,1463.0,497.0
 2107902,Passagem Franca - MA,1995,1052.0,316.0
 2107902,Passagem Franca - MA,1996,921.0,276.0
 2107902,Passagem Franca - MA,1997,464.0,130.0
@@ -2759,7 +2689,6 @@
 2107902,Passagem Franca - MA,2022,33.0,52.0
 2107902,Passagem Franca - MA,2023,26.0,50.0
 2107902,Passagem Franca - MA,2024,21.0,49.0
-2108009,Pastos Bons - MA,1994,336.0,104.0
 2108009,Pastos Bons - MA,1995,269.0,67.0
 2108009,Pastos Bons - MA,1996,153.0,41.0
 2108009,Pastos Bons - MA,1997,136.0,34.0
@@ -2790,7 +2719,6 @@
 2108009,Pastos Bons - MA,2022,10.0,23.0
 2108009,Pastos Bons - MA,2023,10.0,24.0
 2108009,Pastos Bons - MA,2024,8.0,22.0
-2108108,Paulo Ramos - MA,1994,2129.0,426.0
 2108108,Paulo Ramos - MA,1995,1660.0,399.0
 2108108,Paulo Ramos - MA,1996,2112.0,528.0
 2108108,Paulo Ramos - MA,1997,2113.0,613.0
@@ -2821,7 +2749,6 @@
 2108108,Paulo Ramos - MA,2022,690.0,1380.0
 2108108,Paulo Ramos - MA,2023,703.0,1547.0
 2108108,Paulo Ramos - MA,2024,641.0,1602.0
-2108207,Pedreiras - MA,1994,2578.0,851.0
 2108207,Pedreiras - MA,1995,2617.0,654.0
 2108207,Pedreiras - MA,1996,1233.0,308.0
 2108207,Pedreiras - MA,1997,507.0,177.0
@@ -2880,7 +2807,6 @@
 2108256,Pedro do Rosário - MA,2022,49.0,124.0
 2108256,Pedro do Rosário - MA,2023,50.0,135.0
 2108256,Pedro do Rosário - MA,2024,48.0,155.0
-2108306,Penalva - MA,1994,1351.0,311.0
 2108306,Penalva - MA,1995,676.0,169.0
 2108306,Penalva - MA,1996,2601.0,989.0
 2108306,Penalva - MA,1997,2578.0,1160.0
@@ -2911,7 +2837,6 @@
 2108306,Penalva - MA,2022,475.0,1093.0
 2108306,Penalva - MA,2023,1250.0,3375.0
 2108306,Penalva - MA,2024,1320.0,3630.0
-2108405,Peri Mirim - MA,1994,259.0,65.0
 2108405,Peri Mirim - MA,1995,238.0,72.0
 2108405,Peri Mirim - MA,1996,116.0,29.0
 2108405,Peri Mirim - MA,1997,95.0,28.0
@@ -2970,7 +2895,6 @@
 2108454,Peritoró - MA,2022,206.0,575.0
 2108454,Peritoró - MA,2023,183.0,585.0
 2108454,Peritoró - MA,2024,168.0,555.0
-2108504,Pindaré-Mirim - MA,1994,2840.0,625.0
 2108504,Pindaré-Mirim - MA,1995,2982.0,746.0
 2108504,Pindaré-Mirim - MA,1996,1418.0,425.0
 2108504,Pindaré-Mirim - MA,1997,620.0,155.0
@@ -3001,7 +2925,6 @@
 2108504,Pindaré-Mirim - MA,2022,162.0,261.0
 2108504,Pindaré-Mirim - MA,2023,155.0,325.0
 2108504,Pindaré-Mirim - MA,2024,146.0,362.0
-2108603,Pinheiro - MA,1994,586.0,158.0
 2108603,Pinheiro - MA,1995,540.0,135.0
 2108603,Pinheiro - MA,1996,991.0,297.0
 2108603,Pinheiro - MA,1997,375.0,113.0
@@ -3032,7 +2955,6 @@
 2108603,Pinheiro - MA,2022,128.0,344.0
 2108603,Pinheiro - MA,2023,124.0,359.0
 2108603,Pinheiro - MA,2024,119.0,427.0
-2108702,Pio XII - MA,1994,1165.0,291.0
 2108702,Pio XII - MA,1995,1096.0,274.0
 2108702,Pio XII - MA,1996,2265.0,566.0
 2108702,Pio XII - MA,1997,1295.0,389.0
@@ -3063,7 +2985,6 @@
 2108702,Pio XII - MA,2022,425.0,850.0
 2108702,Pio XII - MA,2023,468.0,1075.0
 2108702,Pio XII - MA,2024,397.0,795.0
-2108801,Pirapemas - MA,1994,757.0,272.0
 2108801,Pirapemas - MA,1995,763.0,290.0
 2108801,Pirapemas - MA,1996,1042.0,261.0
 2108801,Pirapemas - MA,1997,1032.0,310.0
@@ -3094,10 +3015,8 @@
 2108801,Pirapemas - MA,2022,481.0,1154.0
 2108801,Pirapemas - MA,2023,481.0,1202.0
 2108801,Pirapemas - MA,2024,450.0,1126.0
-2109007,Porto Franco - MA,1994,533.0,133.0
 2109007,Porto Franco - MA,1995,499.0,225.0
 2109007,Porto Franco - MA,1996,6.0,2.0
-2108900,Poção de Pedras - MA,1994,2364.0,756.0
 2108900,Poção de Pedras - MA,1995,2447.0,489.0
 2108900,Poção de Pedras - MA,1996,3743.0,936.0
 2108900,Poção de Pedras - MA,1997,3845.0,1038.0
@@ -3128,7 +3047,6 @@
 2108900,Poção de Pedras - MA,2022,740.0,1851.0
 2108900,Poção de Pedras - MA,2023,217.0,476.0
 2108900,Poção de Pedras - MA,2024,250.0,624.0
-2109106,Presidente Dutra - MA,1994,1613.0,516.0
 2109106,Presidente Dutra - MA,1995,1452.0,436.0
 2109106,Presidente Dutra - MA,1996,648.0,181.0
 2109106,Presidente Dutra - MA,1997,256.0,77.0
@@ -3159,7 +3077,6 @@
 2109106,Presidente Dutra - MA,2022,205.0,338.0
 2109106,Presidente Dutra - MA,2023,178.0,426.0
 2109106,Presidente Dutra - MA,2024,160.0,455.0
-2109205,Presidente Juscelino - MA,1994,61.0,27.0
 2109205,Presidente Juscelino - MA,1995,64.0,32.0
 2109205,Presidente Juscelino - MA,1996,10.0,3.0
 2109205,Presidente Juscelino - MA,1997,8.0,2.0
@@ -3222,7 +3139,6 @@
 2109270,Presidente Sarney - MA,2022,83.0,215.0
 2109270,Presidente Sarney - MA,2023,81.0,219.0
 2109270,Presidente Sarney - MA,2024,79.0,251.0
-2109304,Presidente Vargas - MA,1994,452.0,167.0
 2109304,Presidente Vargas - MA,1995,456.0,182.0
 2109304,Presidente Vargas - MA,1996,462.0,116.0
 2109304,Presidente Vargas - MA,1997,461.0,115.0
@@ -3253,7 +3169,6 @@
 2109304,Presidente Vargas - MA,2022,247.0,619.0
 2109304,Presidente Vargas - MA,2023,247.0,643.0
 2109304,Presidente Vargas - MA,2024,247.0,668.0
-2109502,Riachão - MA,1994,1.0,0.0
 2109502,Riachão - MA,1995,1.0,0.0
 2109502,Riachão - MA,2018,3.0,6.0
 2109502,Riachão - MA,2019,3.0,6.0
@@ -3262,7 +3177,6 @@
 2109502,Riachão - MA,2022,3.0,10.0
 2109502,Riachão - MA,2023,3.0,10.0
 2109502,Riachão - MA,2024,4.0,11.0
-2109601,Rosário - MA,1994,610.0,275.0
 2109601,Rosário - MA,1995,625.0,313.0
 2109601,Rosário - MA,1996,109.0,33.0
 2109601,Rosário - MA,1997,112.0,28.0
@@ -3293,7 +3207,6 @@
 2109601,Rosário - MA,2022,9.0,21.0
 2109601,Rosário - MA,2023,10.0,26.0
 2109601,Rosário - MA,2024,9.0,25.0
-2109700,Sambaíba - MA,1994,0.0,0.0
 2109700,Sambaíba - MA,1995,0.0,0.0
 2109700,Sambaíba - MA,1996,9.0,1.0
 2109700,Sambaíba - MA,1997,9.0,1.0
@@ -3339,7 +3252,6 @@
 2109759,Santa Filomena do Maranhão - MA,2022,7.0,16.0
 2109759,Santa Filomena do Maranhão - MA,2023,6.0,15.0
 2109759,Santa Filomena do Maranhão - MA,2024,6.0,16.0
-2109809,Santa Helena - MA,1994,200.0,60.0
 2109809,Santa Helena - MA,1995,196.0,59.0
 2109809,Santa Helena - MA,1996,99.0,30.0
 2109809,Santa Helena - MA,1997,97.0,29.0
@@ -3370,7 +3282,6 @@
 2109809,Santa Helena - MA,2022,32.0,77.0
 2109809,Santa Helena - MA,2023,31.0,76.0
 2109809,Santa Helena - MA,2024,30.0,77.0
-2109908,Santa Inês - MA,1994,901.0,171.0
 2109908,Santa Inês - MA,1995,974.0,243.0
 2109908,Santa Inês - MA,1996,249.0,62.0
 2109908,Santa Inês - MA,1997,230.0,62.0
@@ -3401,7 +3312,6 @@
 2109908,Santa Inês - MA,2022,108.0,175.0
 2109908,Santa Inês - MA,2023,102.0,224.0
 2109908,Santa Inês - MA,2024,96.0,242.0
-2110005,Santa Luzia - MA,1994,2340.0,445.0
 2110005,Santa Luzia - MA,1995,2254.0,541.0
 2110005,Santa Luzia - MA,1996,2876.0,1007.0
 2110005,Santa Luzia - MA,1997,1271.0,254.0
@@ -3432,7 +3342,6 @@
 2110005,Santa Luzia - MA,2022,306.0,423.0
 2110005,Santa Luzia - MA,2023,300.0,506.0
 2110005,Santa Luzia - MA,2024,287.0,573.0
-2110039,Santa Luzia do Paruá - MA,1994,63.0,9.0
 2110039,Santa Luzia do Paruá - MA,1995,62.0,14.0
 2110039,Santa Luzia do Paruá - MA,1996,28.0,8.0
 2110039,Santa Luzia do Paruá - MA,1997,28.0,7.0
@@ -3454,7 +3363,6 @@
 2110039,Santa Luzia do Paruá - MA,2022,11.0,47.0
 2110039,Santa Luzia do Paruá - MA,2023,10.0,47.0
 2110039,Santa Luzia do Paruá - MA,2024,11.0,60.0
-2110104,Santa Quitéria do Maranhão - MA,1994,215.0,97.0
 2110104,Santa Quitéria do Maranhão - MA,1995,228.0,103.0
 2110104,Santa Quitéria do Maranhão - MA,1996,577.0,231.0
 2110104,Santa Quitéria do Maranhão - MA,1997,579.0,232.0
@@ -3485,7 +3393,6 @@
 2110104,Santa Quitéria do Maranhão - MA,2022,355.0,924.0
 2110104,Santa Quitéria do Maranhão - MA,2023,302.0,936.0
 2110104,Santa Quitéria do Maranhão - MA,2024,257.0,950.0
-2110203,Santa Rita - MA,1994,513.0,231.0
 2110203,Santa Rita - MA,1995,462.0,231.0
 2110203,Santa Rita - MA,1996,10.0,3.0
 2110203,Santa Rita - MA,1997,10.0,2.0
@@ -3516,7 +3423,6 @@
 2110203,Santa Rita - MA,2022,7.0,20.0
 2110203,Santa Rita - MA,2023,7.0,22.0
 2110203,Santa Rita - MA,2024,7.0,21.0
-2110302,Santo Antônio dos Lopes - MA,1994,1431.0,487.0
 2110302,Santo Antônio dos Lopes - MA,1995,1453.0,363.0
 2110302,Santo Antônio dos Lopes - MA,1996,1533.0,307.0
 2110302,Santo Antônio dos Lopes - MA,1997,1402.0,351.0
@@ -3633,7 +3539,6 @@
 2111789,Serrano do Maranhão - MA,2022,1.0,2.0
 2111789,Serrano do Maranhão - MA,2023,1.0,2.0
 2111789,Serrano do Maranhão - MA,2024,1.0,2.0
-2111904,Sucupira do Norte - MA,1994,448.0,90.0
 2111904,Sucupira do Norte - MA,1995,448.0,112.0
 2111904,Sucupira do Norte - MA,1996,205.0,57.0
 2111904,Sucupira do Norte - MA,1997,204.0,61.0
@@ -3692,7 +3597,6 @@
 2111953,Sucupira do Riachão - MA,2022,11.0,26.0
 2111953,Sucupira do Riachão - MA,2023,10.0,27.0
 2111953,Sucupira do Riachão - MA,2024,9.0,24.0
-2110401,São Benedito do Rio Preto - MA,1994,496.0,174.0
 2110401,São Benedito do Rio Preto - MA,1995,497.0,159.0
 2110401,São Benedito do Rio Preto - MA,1996,575.0,172.0
 2110401,São Benedito do Rio Preto - MA,1997,518.0,181.0
@@ -3723,7 +3627,6 @@
 2110401,São Benedito do Rio Preto - MA,2022,82.0,218.0
 2110401,São Benedito do Rio Preto - MA,2023,81.0,221.0
 2110401,São Benedito do Rio Preto - MA,2024,73.0,377.0
-2110500,São Bento - MA,1994,121.0,36.0
 2110500,São Bento - MA,1995,109.0,33.0
 2110500,São Bento - MA,1996,15.0,5.0
 2110500,São Bento - MA,1997,15.0,5.0
@@ -3754,7 +3657,6 @@
 2110500,São Bento - MA,2022,5.0,14.0
 2110500,São Bento - MA,2023,5.0,17.0
 2110500,São Bento - MA,2024,5.0,18.0
-2110609,São Bernardo - MA,1994,4.0,2.0
 2110609,São Bernardo - MA,1995,4.0,1.0
 2110609,São Bernardo - MA,1996,16.0,5.0
 2110609,São Bernardo - MA,1997,17.0,7.0
@@ -3813,7 +3715,6 @@
 2110658,São Domingos do Azeitão - MA,2022,1.0,3.0
 2110658,São Domingos do Azeitão - MA,2023,1.0,3.0
 2110658,São Domingos do Azeitão - MA,2024,1.0,3.0
-2110708,São Domingos do Maranhão - MA,1994,415.0,83.0
 2110708,São Domingos do Maranhão - MA,1995,353.0,88.0
 2110708,São Domingos do Maranhão - MA,1996,255.0,71.0
 2110708,São Domingos do Maranhão - MA,1997,123.0,34.0
@@ -3844,7 +3745,6 @@
 2110708,São Domingos do Maranhão - MA,2022,58.0,125.0
 2110708,São Domingos do Maranhão - MA,2023,48.0,123.0
 2110708,São Domingos do Maranhão - MA,2024,46.0,127.0
-2110906,São Francisco do Maranhão - MA,1994,210.0,75.0
 2110906,São Francisco do Maranhão - MA,1995,157.0,47.0
 2110906,São Francisco do Maranhão - MA,1996,459.0,138.0
 2110906,São Francisco do Maranhão - MA,1997,425.0,119.0
@@ -3875,7 +3775,6 @@
 2110906,São Francisco do Maranhão - MA,2022,11.0,28.0
 2110906,São Francisco do Maranhão - MA,2023,12.0,30.0
 2110906,São Francisco do Maranhão - MA,2024,10.0,26.0
-2110807,São Félix de Balsas - MA,1994,126.0,46.0
 2110807,São Félix de Balsas - MA,1995,104.0,23.0
 2110807,São Félix de Balsas - MA,1996,17.0,3.0
 2110807,São Félix de Balsas - MA,1997,1.0,0.0
@@ -3934,7 +3833,6 @@
 2111250,São José dos Basílios - MA,2022,309.0,507.0
 2111250,São José dos Basílios - MA,2023,266.0,744.0
 2111250,São José dos Basílios - MA,2024,260.0,779.0
-2111003,São João Batista - MA,1994,54.0,16.0
 2111003,São João Batista - MA,1995,33.0,8.0
 2111003,São João Batista - MA,1996,91.0,35.0
 2111003,São João Batista - MA,1997,80.0,36.0
@@ -4021,7 +3919,6 @@
 2111078,São João do Soter - MA,2022,186.0,465.0
 2111078,São João do Soter - MA,2023,129.0,360.0
 2111078,São João do Soter - MA,2024,118.0,353.0
-2111102,São João dos Patos - MA,1994,215.0,73.0
 2111102,São João dos Patos - MA,1995,205.0,72.0
 2111102,São João dos Patos - MA,1996,171.0,51.0
 2111102,São João dos Patos - MA,1997,43.0,12.0
@@ -4052,7 +3949,6 @@
 2111102,São João dos Patos - MA,2022,7.0,16.0
 2111102,São João dos Patos - MA,2023,7.0,17.0
 2111102,São João dos Patos - MA,2024,7.0,18.0
-2111409,São Luís Gonzaga do Maranhão - MA,1994,750.0,180.0
 2111409,São Luís Gonzaga do Maranhão - MA,1995,728.0,182.0
 2111409,São Luís Gonzaga do Maranhão - MA,1996,3735.0,1046.0
 2111409,São Luís Gonzaga do Maranhão - MA,1997,3586.0,1076.0
@@ -4083,7 +3979,6 @@
 2111409,São Luís Gonzaga do Maranhão - MA,2022,998.0,2495.0
 2111409,São Luís Gonzaga do Maranhão - MA,2023,1078.0,3018.0
 2111409,São Luís Gonzaga do Maranhão - MA,2024,980.0,2941.0
-2111508,São Mateus do Maranhão - MA,1994,498.0,120.0
 2111508,São Mateus do Maranhão - MA,1995,481.0,120.0
 2111508,São Mateus do Maranhão - MA,1996,844.0,236.0
 2111508,São Mateus do Maranhão - MA,1997,691.0,207.0
@@ -4135,7 +4030,6 @@
 2111532,São Pedro da Água Branca - MA,2022,3.0,8.0
 2111532,São Pedro da Água Branca - MA,2023,3.0,15.0
 2111532,São Pedro da Água Branca - MA,2024,3.0,15.0
-2111607,São Raimundo das Mangabeiras - MA,1994,1.0,0.0
 2111607,São Raimundo das Mangabeiras - MA,1995,1.0,0.0
 2111607,São Raimundo das Mangabeiras - MA,1996,7.0,1.0
 2111607,São Raimundo das Mangabeiras - MA,1997,7.0,1.0
@@ -4196,7 +4090,6 @@
 2111672,São Roberto - MA,2022,10.0,24.0
 2111672,São Roberto - MA,2023,12.0,30.0
 2111672,São Roberto - MA,2024,2.0,9.0
-2111706,São Vicente Ferrer - MA,1994,36.0,11.0
 2111706,São Vicente Ferrer - MA,1995,28.0,7.0
 2111706,São Vicente Ferrer - MA,1996,2.0,1.0
 2111706,São Vicente Ferrer - MA,1997,2.0,1.0
@@ -4227,7 +4120,6 @@
 2111706,São Vicente Ferrer - MA,2022,10.0,22.0
 2111706,São Vicente Ferrer - MA,2023,11.0,28.0
 2111706,São Vicente Ferrer - MA,2024,12.0,31.0
-2111805,Sítio Novo - MA,1994,95.0,33.0
 2111805,Sítio Novo - MA,1995,92.0,46.0
 2111805,Sítio Novo - MA,1998,79.0,36.0
 2111805,Sítio Novo - MA,1999,74.0,37.0
@@ -4264,7 +4156,6 @@
 2112001,Tasso Fragoso - MA,2002,6.0,1.0
 2112001,Tasso Fragoso - MA,2003,6.0,1.0
 2112001,Tasso Fragoso - MA,2004,5.0,1.0
-2112100,Timbiras - MA,1994,1564.0,391.0
 2112100,Timbiras - MA,1995,1400.0,420.0
 2112100,Timbiras - MA,1996,2352.0,635.0
 2112100,Timbiras - MA,1997,2234.0,670.0
@@ -4295,7 +4186,6 @@
 2112100,Timbiras - MA,2022,270.0,676.0
 2112100,Timbiras - MA,2023,240.0,768.0
 2112100,Timbiras - MA,2024,223.0,737.0
-2112209,Timon - MA,1994,159.0,32.0
 2112209,Timon - MA,1995,161.0,40.0
 2112209,Timon - MA,1996,495.0,148.0
 2112209,Timon - MA,1997,492.0,148.0
@@ -4382,7 +4272,6 @@
 2112274,Tufilândia - MA,2022,99.0,158.0
 2112274,Tufilândia - MA,2023,92.0,183.0
 2112274,Tufilândia - MA,2024,84.0,194.0
-2112308,Tuntum - MA,1994,764.0,199.0
 2112308,Tuntum - MA,1995,741.0,200.0
 2112308,Tuntum - MA,1996,92.0,28.0
 2112308,Tuntum - MA,1997,78.0,23.0
@@ -4413,7 +4302,6 @@
 2112308,Tuntum - MA,2022,44.0,95.0
 2112308,Tuntum - MA,2023,36.0,91.0
 2112308,Tuntum - MA,2024,32.0,92.0
-2112407,Turiaçu - MA,1994,306.0,61.0
 2112407,Turiaçu - MA,1995,291.0,87.0
 2112407,Turiaçu - MA,1996,6.0,2.0
 2112407,Turiaçu - MA,1997,4.0,1.0
@@ -4501,7 +4389,6 @@
 2112506,Tutóia - MA,2022,7.0,20.0
 2112506,Tutóia - MA,2023,6.0,19.0
 2112506,Tutóia - MA,2024,5.0,19.0
-2112605,Urbano Santos - MA,1994,50.0,18.0
 2112605,Urbano Santos - MA,1995,50.0,18.0
 2112605,Urbano Santos - MA,1996,92.0,28.0
 2112605,Urbano Santos - MA,1997,83.0,29.0
@@ -4532,7 +4419,6 @@
 2112605,Urbano Santos - MA,2022,74.0,195.0
 2112605,Urbano Santos - MA,2023,70.0,193.0
 2112605,Urbano Santos - MA,2024,58.0,305.0
-2112704,Vargem Grande - MA,1994,1899.0,570.0
 2112704,Vargem Grande - MA,1995,1900.0,570.0
 2112704,Vargem Grande - MA,1996,7065.0,2120.0
 2112704,Vargem Grande - MA,1997,6624.0,2650.0
@@ -4563,7 +4449,6 @@
 2112704,Vargem Grande - MA,2022,993.0,2234.0
 2112704,Vargem Grande - MA,2023,993.0,2283.0
 2112704,Vargem Grande - MA,2024,993.0,2383.0
-2112803,Viana - MA,1994,1387.0,305.0
 2112803,Viana - MA,1995,902.0,225.0
 2112803,Viana - MA,1996,959.0,364.0
 2112803,Viana - MA,1997,888.0,409.0
@@ -4603,7 +4488,6 @@
 2112852,Vila Nova dos Martírios - MA,2022,3.0,8.0
 2112852,Vila Nova dos Martírios - MA,2023,3.0,12.0
 2112852,Vila Nova dos Martírios - MA,2024,3.0,13.0
-2113009,Vitorino Freire - MA,1994,1804.0,451.0
 2113009,Vitorino Freire - MA,1995,1558.0,312.0
 2113009,Vitorino Freire - MA,1996,1773.0,443.0
 2113009,Vitorino Freire - MA,1997,1827.0,530.0
@@ -4634,7 +4518,6 @@
 2113009,Vitorino Freire - MA,2022,427.0,1090.0
 2113009,Vitorino Freire - MA,2023,492.0,1229.0
 2113009,Vitorino Freire - MA,2024,481.0,1201.0
-2112902,Vitória do Mearim - MA,1994,1440.0,317.0
 2112902,Vitória do Mearim - MA,1995,1347.0,337.0
 2112902,Vitória do Mearim - MA,1996,3593.0,1365.0
 2112902,Vitória do Mearim - MA,1997,1031.0,464.0
@@ -4665,7 +4548,6 @@
 2112902,Vitória do Mearim - MA,2022,122.0,281.0
 2112902,Vitória do Mearim - MA,2023,115.0,289.0
 2112902,Vitória do Mearim - MA,2024,112.0,303.0
-2114007,Zé Doca - MA,1994,1160.0,244.0
 2114007,Zé Doca - MA,1995,1206.0,301.0
 2114007,Zé Doca - MA,1996,2319.0,626.0
 2114007,Zé Doca - MA,1997,582.0,145.0
