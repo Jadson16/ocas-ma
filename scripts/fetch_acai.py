@@ -1,4 +1,4 @@
-"""
+﻿"""
 Coleta dados PEVS (açaí) do SIDRA/IBGE para municípios do Maranhão.
 Tabela 289 — variáveis 144 (quantidade, t) e 145 (valor, mil R$).
 """
@@ -12,7 +12,7 @@ VARIABLES = "144|145"
 STATE_CODE = 21
 CLASSIFICATION = 193
 CATEGORY = 3403          # Açaí (bagas)
-START_YEAR = 1994        # Plano Real
+START_YEAR = 1995        # Plano Real
 END_YEAR = 2024
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "acai"
@@ -82,3 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

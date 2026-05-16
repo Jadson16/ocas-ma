@@ -486,7 +486,7 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
   <div class="ocas-section">
     <h2 class="ocas-section-title">Metodologia</h2>
     <div class="ocas-section-text">
-      <p>Os dados s&atilde;o coletados automaticamente via APIs p&uacute;blicas do IBGE. A s&eacute;rie hist&oacute;rica tem in&iacute;cio em <strong>1994</strong> (Plano Real), evitando incompatibilidades de deflacionamento entre moedas anteriores ao Real.</p>
+      <p>Os dados s&atilde;o coletados automaticamente via APIs p&uacute;blicas do IBGE. A s&eacute;rie hist&oacute;rica tem in&iacute;cio em <strong>1995</strong> (primeiro ano completo do Plano Real), evitando incompatibilidades de deflacionamento entre moedas anteriores ao Real.</p>
       <p>Para a extra&ccedil;&atilde;o vegetal (baba&ccedil;u, a&ccedil;a&iacute; e outros produtos da floresta), utiliza-se a <strong>Pesquisa da Extra&ccedil;&atilde;o Vegetal e da Silvicultura (PEVS/IBGE)</strong>, tabela 289. Para a apicultura (mel de abelha), utiliza-se a <strong>Pesquisa da Pecu&aacute;ria Municipal (PPM/IBGE)</strong>, tabela 74.</p>
       <p>A atualiza&ccedil;&atilde;o do painel &eacute; autom&aacute;tica via GitHub Actions, com execu&ccedil;&atilde;o mensal. O c&oacute;digo-fonte est&aacute; dispon&iacute;vel em <a href="https://github.com/Jadson16/ocas-ma" target="_blank" style="color:var(--ocas-mata)">github.com/Jadson16/ocas-ma</a>.</p>
     </div>

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Coleta dados PEVS (carnaúba - cera) do SIDRA/IBGE para municípios do Maranhão.
 Tabela 289 — variáveis 144 (quantidade, t) e 145 (valor, mil R$).
 """
@@ -12,7 +12,7 @@ VARIABLES = "144|145"
 STATE_CODE = 21
 CLASSIFICATION = 193
 CATEGORY = 3420          # Carnaúba (cera)
-START_YEAR = 1994
+START_YEAR = 1995
 END_YEAR = 2024
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "carnauba"
@@ -89,3 +89,4 @@ if __name__ == "__main__":
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     main()
+

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Coleta dados PEVS (carnaúba - fibra/folha) do SIDRA/IBGE para municípios do Maranhão.
 Tabela 289 — variáveis 144 (quantidade, t) e 145 (valor, mil R$).
 """
@@ -14,7 +14,7 @@ VARIABLES = "144|145"
 STATE_CODE = 21
 CLASSIFICATION = 193
 CATEGORY = 3424          # Carnaúba (fibra/folha)
-START_YEAR = 1994
+START_YEAR = 1995
 END_YEAR = 2024
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "carnauba_fibra"
@@ -89,3 +89,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

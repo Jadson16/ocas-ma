@@ -1,4 +1,4 @@
-"""
+﻿"""
 Coleta dados PEVS (babaçu) do SIDRA/IBGE para municípios do Maranhão.
 Tabela 289 — variáveis 144 (quantidade, t) e 145 (valor, mil R$).
 """
@@ -12,7 +12,7 @@ VARIABLES = "144|145"
 STATE_CODE = 21          # Maranhão
 CLASSIFICATION = 193
 CATEGORY = 3439          # Babaçu (amêndoa)
-START_YEAR = 1994  # Plano Real — evita incompatibilidade entre moedas
+START_YEAR = 1995  # Plano Real — evita incompatibilidade entre moedas
 END_YEAR = 2024
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "babacu"
@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

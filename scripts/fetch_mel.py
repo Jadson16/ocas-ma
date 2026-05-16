@@ -1,4 +1,4 @@
-"""
+﻿"""
 Coleta dados PPM (mel de abelha) do SIDRA/IBGE para municípios do Maranhão.
 Tabela 74 — variáveis 106 (quantidade, kg) e 215 (valor, mil R$).
 """
@@ -13,7 +13,7 @@ VARIABLES = "106|215"
 STATE_CODE = 21
 CLASSIFICATION = 80
 CATEGORY = 2687          # Mel de abelha
-START_YEAR = 1994        # Plano Real
+START_YEAR = 1995        # Plano Real
 END_YEAR = 2024
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "mel"
@@ -106,3 +106,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
