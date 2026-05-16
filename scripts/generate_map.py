@@ -15,70 +15,57 @@ DATA_DIR = ROOT / "data"
 # ------------------------------------------------------------------
 # Catálogo de produtos — adicionar novas cadeias aqui
 # ------------------------------------------------------------------
+def _p(group, label, csv_rel, qty_col, val_col, unit_qty, unit_val, fonte):
+    return {"group": group, "label": label, "csv": DATA_DIR / csv_rel,
+            "qty_col": qty_col, "val_col": val_col,
+            "unit_qty": unit_qty, "unit_val": unit_val, "fonte": fonte}
+
+_EVS = "PEVS — Extrativismo Vegetal"
+_PAT = "PAM — Lavouras Temporárias"
+_PAP = "PAM — Lavouras Permanentes"
+_PPP = "PPM — Produção Animal"
+_PPR = "PPM — Rebanhos"
+
 PRODUCTS = {
-    "babacu": {
-        "label": "Babaçu (amêndoa)",
-        "csv": DATA_DIR / "babacu" / "babacau_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
-    "acai": {
-        "label": "Açaí (bagas)",
-        "csv": DATA_DIR / "acai" / "acai_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
-    "mel": {
-        "label": "Mel de abelha",
-        "csv": DATA_DIR / "mel" / "mel_ppm.csv",
-        "qty_col": "quantidade_kg",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "kg",
-        "unit_val": "mil R$",
-        "fonte": "PPM/IBGE",
-    },
-    "buriti": {
-        "label": "Buriti (fibra)",
-        "csv": DATA_DIR / "buriti" / "buriti_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
-    "carnauba": {
-        "label": "Carnaúba (cera)",
-        "csv": DATA_DIR / "carnauba" / "carnauba_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
-    "carnauba_fibra": {
-        "label": "Carnaúba (fibra/folha)",
-        "csv": DATA_DIR / "carnauba_fibra" / "carnauba_fibra_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
-    "piacava": {
-        "label": "Piaçava (fibra)",
-        "csv": DATA_DIR / "piacava" / "piacava_pevs.csv",
-        "qty_col": "quantidade_ton",
-        "val_col": "valor_mil_reais",
-        "unit_qty": "t",
-        "unit_val": "mil R$",
-        "fonte": "PEVS/IBGE",
-    },
+    # --- PEVS ---
+    "babacu":        _p(_EVS, "Babaçu (amêndoa)",        "babacu/babacau_pevs.csv",             "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    "acai":          _p(_EVS, "Açaí (extrativista)",      "acai/acai_pevs.csv",                  "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    "buriti":        _p(_EVS, "Buriti (fibra)",           "buriti/buriti_pevs.csv",              "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    "carnauba":      _p(_EVS, "Carnaúba (cera)",          "carnauba/carnauba_pevs.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    "carnauba_fibra":_p(_EVS, "Carnaúba (fibra/folha)",  "carnauba_fibra/carnauba_fibra_pevs.csv","quantidade_ton",       "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    "piacava":       _p(_EVS, "Piaçava (fibra)",          "piacava/piacava_pevs.csv",             "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PEVS/IBGE"),
+    # --- PAM temporárias ---
+    "arroz":         _p(_PAT, "Arroz (em casca)",         "arroz/arroz_pam.csv",                 "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "feijao":        _p(_PAT, "Feijão (em grão)",         "feijao/feijao_pam.csv",               "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "mandioca":      _p(_PAT, "Mandioca",                 "mandioca/mandioca_pam.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "milho":         _p(_PAT, "Milho (em grão)",          "milho/milho_pam.csv",                 "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "soja":          _p(_PAT, "Soja (em grão)",           "soja/soja_pam.csv",                   "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "cana":          _p(_PAT, "Cana-de-açúcar",           "cana/cana_pam.csv",                   "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "melancia":      _p(_PAT, "Melancia",                 "melancia/melancia_pam.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "amendoim":      _p(_PAT, "Amendoim (em casca)",      "amendoim/amendoim_pam.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "algodao":       _p(_PAT, "Algodão herbáceo",         "algodao/algodao_pam.csv",             "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    # --- PAM permanentes ---
+    "banana":        _p(_PAP, "Banana (cacho)",           "banana/banana_pam.csv",               "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "castanha_caju": _p(_PAP, "Castanha de caju",         "castanha_caju/castanha_caju_pam.csv", "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "coco":          _p(_PAP, "Coco-da-baía",             "coco/coco_pam.csv",                   "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "laranja":       _p(_PAP, "Laranja",                  "laranja/laranja_pam.csv",             "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "acai_cult":     _p(_PAP, "Açaí (cultivado)",         "acai_cult/acai_cult_pam.csv",         "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "mamao":         _p(_PAP, "Mamão",                    "mamao/mamao_pam.csv",                 "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "manga":         _p(_PAP, "Manga",                    "manga/manga_pam.csv",                 "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "maracuja":      _p(_PAP, "Maracujá",                 "maracuja/maracuja_pam.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    "borracha":      _p(_PAP, "Borracha (látex)",         "borracha/borracha_pam.csv",           "quantidade_ton",        "valor_mil_reais", "t",       "mil R$", "PAM/IBGE"),
+    # --- PPM produção ---
+    "mel":           _p(_PPP, "Mel de abelha",            "mel/mel_ppm.csv",                     "quantidade_kg",         "valor_mil_reais", "kg",      "mil R$", "PPM/IBGE"),
+    "leite":         _p(_PPP, "Leite de vaca",            "leite/leite_ppm.csv",                 "quantidade_mil_litros", "valor_mil_reais", "mil l",   "mil R$", "PPM/IBGE"),
+    "ovos":          _p(_PPP, "Ovos de galinha",          "ovos/ovos_ppm.csv",                   "quantidade_mil_duzias", "valor_mil_reais", "mil dz",  "mil R$", "PPM/IBGE"),
+    # --- PPM rebanhos (sem valor) ---
+    "bovino":    _p(_PPR, "Bovino",    "bovino/bovino_ppm.csv",       "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "bubalino":  _p(_PPR, "Bubalino", "bubalino/bubalino_ppm.csv",   "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "equino":    _p(_PPR, "Equino",   "equino/equino_ppm.csv",       "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "suino":     _p(_PPR, "Suíno",    "suino/suino_ppm.csv",         "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "caprino":   _p(_PPR, "Caprino",  "caprino/caprino_ppm.csv",     "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "ovino":     _p(_PPR, "Ovino",    "ovino/ovino_ppm.csv",         "efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
+    "galinaceo": _p(_PPR, "Galináceos","galinaceo/galinaceo_ppm.csv","efetivo_cabecas", None, "cabeças", None, "PPM/IBGE"),
 }
 
 
@@ -123,8 +110,9 @@ def load_all_products(mid_list, name_map):
         df = pd.read_csv(cfg["csv"], dtype={"municipio_id": str})
         years = sorted(int(y) for y in df["ano"].unique())
 
+        has_val   = cfg["val_col"] is not None
         qty_pivot = df.pivot(index="municipio_id", columns="ano", values=cfg["qty_col"])
-        val_pivot = df.pivot(index="municipio_id", columns="ano", values=cfg["val_col"])
+        val_pivot = df.pivot(index="municipio_id", columns="ano", values=cfg["val_col"]) if has_val else None
 
         qty_by_year, val_by_year = {}, {}
         rank_qty, rank_val = {}, {}
@@ -133,18 +121,21 @@ def load_all_products(mid_list, name_map):
             qz, vz, rq, rv = [], [], [], []
             for mid in mid_list:
                 has_q = mid in qty_pivot.index and year in qty_pivot.columns
-                has_v = mid in val_pivot.index and year in val_pivot.columns
                 q = qty_pivot.at[mid, year] if has_q else None
-                v = val_pivot.at[mid, year] if has_v else None
                 q = None if (q is not None and pd.isna(q)) else q
-                v = None if (v is not None and pd.isna(v)) else v
                 qz.append(q)
-                vz.append(v)
-                name = name_map[mid]
                 if q is not None:
-                    rq.append({"mun": name, "val": q})
-                if v is not None:
-                    rv.append({"mun": name, "val": v})
+                    rq.append({"mun": name_map[mid], "val": q})
+
+                if has_val:
+                    has_v = mid in val_pivot.index and year in val_pivot.columns
+                    v = val_pivot.at[mid, year] if has_v else None
+                    v = None if (v is not None and pd.isna(v)) else v
+                    vz.append(v)
+                    if v is not None:
+                        rv.append({"mun": name_map[mid], "val": v})
+                else:
+                    vz.append(None)
 
             qty_by_year[year] = qz
             val_by_year[year] = vz
@@ -155,17 +146,18 @@ def load_all_products(mid_list, name_map):
         all_v = [v for z in val_by_year.values() for v in z if v is not None]
 
         js_data[key] = {
-            "label":        cfg["label"],
-            "fonte":        cfg["fonte"],
-            "unit_qty":     cfg["unit_qty"],
-            "unit_val":     cfg["unit_val"],
-            "anos":         years,
-            "qty":          qty_by_year,
-            "val":          val_by_year,
+            "label":         cfg["label"],
+            "fonte":         cfg["fonte"],
+            "unit_qty":      cfg["unit_qty"],
+            "unit_val":      cfg["unit_val"],
+            "has_val":       has_val,
+            "anos":          years,
+            "qty":           qty_by_year,
+            "val":           val_by_year,
             "color_max_qty": float(pd.Series(all_q).quantile(0.97)),
-            "color_max_val": float(pd.Series(all_v).quantile(0.97)),
-            "ranking_qty":  rank_qty,
-            "ranking_val":  rank_val,
+            "color_max_val": float(pd.Series(all_v).quantile(0.97)) if all_v else 0,
+            "ranking_qty":   rank_qty,
+            "ranking_val":   rank_val,
         }
 
     return js_data, list(available.keys())
@@ -236,10 +228,18 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
     serie       = f"{min(all_years)}–{max(all_years)}"
     update_date = datetime.now().strftime("%b. %Y")
 
-    prod_options = "\n".join(
-        f'          <option value="{k}">{js_data[k]["label"]}</option>'
-        for k in available_keys
-    )
+    # Agrupa produtos por grupo preservando ordem de inserção
+    groups: dict[str, list] = {}
+    for k in available_keys:
+        g = PRODUCTS[k]["group"]
+        groups.setdefault(g, []).append(k)
+    parts = []
+    for g, keys in groups.items():
+        parts.append(f'          <optgroup label="{g}">')
+        for k in keys:
+            parts.append(f'            <option value="{k}">{js_data[k]["label"]}</option>')
+        parts.append(f'          </optgroup>')
+    prod_options = "\n".join(parts)
 
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -407,7 +407,7 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
   <div class="ocas-card ocas-card--rio">
     <div class="ocas-card-label">Fonte</div>
     <div class="ocas-card-value" style="font-size:18px">IBGE</div>
-    <div class="ocas-card-desc">PEVS &middot; PPM</div>
+    <div class="ocas-card-desc">PEVS &middot; PAM &middot; PPM</div>
   </div>
 </div>
 
@@ -487,7 +487,7 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
     <h2 class="ocas-section-title">Metodologia</h2>
     <div class="ocas-section-text">
       <p>Os dados s&atilde;o coletados automaticamente via APIs p&uacute;blicas do IBGE. A s&eacute;rie hist&oacute;rica tem in&iacute;cio em <strong>1995</strong> (primeiro ano completo do Plano Real), evitando incompatibilidades de deflacionamento entre moedas anteriores ao Real.</p>
-      <p>Para a extra&ccedil;&atilde;o vegetal (baba&ccedil;u, a&ccedil;a&iacute; e outros produtos da floresta), utiliza-se a <strong>Pesquisa da Extra&ccedil;&atilde;o Vegetal e da Silvicultura (PEVS/IBGE)</strong>, tabela 289. Para a apicultura (mel de abelha), utiliza-se a <strong>Pesquisa da Pecu&aacute;ria Municipal (PPM/IBGE)</strong>, tabela 74.</p>
+      <p>Extrativismo vegetal (baba&ccedil;u, a&ccedil;a&iacute;, buriti e outros): <strong>PEVS/IBGE</strong>, tabela 289. Lavouras tempor&aacute;rias e permanentes (arroz, milho, soja, mandioca, banana e outras): <strong>PAM/IBGE</strong>, tabelas 1612 e 1613. Produ&ccedil;&atilde;o animal e rebanhos (leite, ovos, bovinos e outros): <strong>PPM/IBGE</strong>, tabelas 74 e 3939.</p>
       <p>A atualiza&ccedil;&atilde;o do painel &eacute; autom&aacute;tica via GitHub Actions, com execu&ccedil;&atilde;o mensal. O c&oacute;digo-fonte est&aacute; dispon&iacute;vel em <a href="https://github.com/Jadson16/ocas-ma" target="_blank" style="color:var(--ocas-mata)">github.com/Jadson16/ocas-ma</a>.</p>
     </div>
   </div>
@@ -594,18 +594,28 @@ function onYearChange(idx) {{
   update();
 }}
 
+function syncValBtn() {{
+  const hv = PD[curProd].has_val;
+  const btn = document.getElementById("btn-val");
+  btn.disabled = !hv;
+  btn.style.opacity = hv ? "1" : "0.35";
+  btn.style.cursor  = hv ? "pointer" : "not-allowed";
+  if (!hv && curVar === "val") {{ curVar = "qty"; }}
+  document.getElementById("btn-qty").classList.toggle("active", curVar === "qty");
+  document.getElementById("btn-val").classList.toggle("active", curVar === "val");
+}}
+
 function setVar(v) {{
+  if (!PD[curProd].has_val && v === "val") return;
   curVar = v;
-  document.getElementById("btn-qty").classList.toggle("active", v === "qty");
-  document.getElementById("btn-val").classList.toggle("active", v === "val");
+  syncValBtn();
   update();
 }}
 
 document.getElementById("prod-select").addEventListener("change", function() {{
   curProd = this.value;
   curVar  = "qty";
-  document.getElementById("btn-qty").classList.add("active");
-  document.getElementById("btn-val").classList.remove("active");
+  syncValBtn();
   initControls();
   update();
 }});
@@ -619,6 +629,7 @@ window.addEventListener("scroll", () => {{
   navs.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + cur));
 }});
 
+syncValBtn();
 initControls();
 update();
 </script>

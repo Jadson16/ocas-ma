@@ -1,0 +1,1495 @@
+﻿municipio_id,municipio,ano,quantidade_ton,valor_mil_reais
+2100105,Afonso Cunha - MA,1996,46.0,1.0
+2100105,Afonso Cunha - MA,1997,47.0,1.0
+2100105,Afonso Cunha - MA,1998,40.0,1.0
+2100105,Afonso Cunha - MA,1999,43.0,1.0
+2100105,Afonso Cunha - MA,2000,34.0,1.0
+2100105,Afonso Cunha - MA,2001,6.0,1.0
+2100105,Afonso Cunha - MA,2002,6.0,1.0
+2100105,Afonso Cunha - MA,2003,5.0,1.0
+2100105,Afonso Cunha - MA,2004,5.0,1.0
+2100105,Afonso Cunha - MA,2005,5.0,1.0
+2100105,Afonso Cunha - MA,2006,5.0,1.0
+2100105,Afonso Cunha - MA,2007,4.0,1.0
+2100105,Afonso Cunha - MA,2008,4.0,1.0
+2100204,Alcântara - MA,1997,1706.0,136.0
+2100204,Alcântara - MA,1998,1555.0,109.0
+2100204,Alcântara - MA,1999,1550.0,116.0
+2100204,Alcântara - MA,2000,1550.0,116.0
+2100204,Alcântara - MA,2001,314.0,24.0
+2100204,Alcântara - MA,2002,320.0,22.0
+2100204,Alcântara - MA,2003,296.0,36.0
+2100204,Alcântara - MA,2004,216.0,32.0
+2100204,Alcântara - MA,2005,190.0,29.0
+2100204,Alcântara - MA,2006,176.0,26.0
+2100204,Alcântara - MA,2007,176.0,21.0
+2100204,Alcântara - MA,2008,165.0,20.0
+2100204,Alcântara - MA,2011,200.0,10.0
+2100204,Alcântara - MA,2012,188.0,96.0
+2100204,Alcântara - MA,2013,163.0,82.0
+2100204,Alcântara - MA,2014,150.0,83.0
+2100204,Alcântara - MA,2015,128.0,83.0
+2100204,Alcântara - MA,2016,120.0,80.0
+2100204,Alcântara - MA,2017,112.0,72.0
+2100204,Alcântara - MA,2018,97.0,92.0
+2100204,Alcântara - MA,2019,61.0,58.0
+2100204,Alcântara - MA,2020,63.0,60.0
+2100204,Alcântara - MA,2021,76.0,74.0
+2100204,Alcântara - MA,2022,59.0,51.0
+2100204,Alcântara - MA,2023,61.0,56.0
+2100204,Alcântara - MA,2024,64.0,60.0
+2100303,Aldeias Altas - MA,1996,115.0,3.0
+2100303,Aldeias Altas - MA,1997,116.0,3.0
+2100303,Aldeias Altas - MA,1998,100.0,3.0
+2100303,Aldeias Altas - MA,1999,115.0,4.0
+2100303,Aldeias Altas - MA,2000,125.0,5.0
+2100303,Aldeias Altas - MA,2001,25.0,3.0
+2100303,Aldeias Altas - MA,2002,26.0,5.0
+2100303,Aldeias Altas - MA,2003,20.0,4.0
+2100303,Aldeias Altas - MA,2004,18.0,4.0
+2100303,Aldeias Altas - MA,2005,12.0,3.0
+2100303,Aldeias Altas - MA,2006,11.0,2.0
+2100303,Aldeias Altas - MA,2007,10.0,2.0
+2100303,Aldeias Altas - MA,2008,6.0,1.0
+2100303,Aldeias Altas - MA,2009,5.0,1.0
+2100303,Aldeias Altas - MA,2010,5.0,1.0
+2100303,Aldeias Altas - MA,2011,4.0,1.0
+2100303,Aldeias Altas - MA,2012,3.0,1.0
+2100303,Aldeias Altas - MA,2013,2.0,1.0
+2100303,Aldeias Altas - MA,2014,2.0,1.0
+2100303,Aldeias Altas - MA,2015,4.0,2.0
+2100402,Altamira do Maranhão - MA,1995,1323.0,26.0
+2100402,Altamira do Maranhão - MA,1996,182.0,4.0
+2100402,Altamira do Maranhão - MA,1997,128.0,3.0
+2100402,Altamira do Maranhão - MA,1998,150.0,3.0
+2100402,Altamira do Maranhão - MA,1999,150.0,3.0
+2100436,Alto Alegre do Maranhão - MA,1997,447.0,40.0
+2100436,Alto Alegre do Maranhão - MA,1998,385.0,6.0
+2100436,Alto Alegre do Maranhão - MA,1999,350.0,7.0
+2100436,Alto Alegre do Maranhão - MA,2000,400.0,8.0
+2100436,Alto Alegre do Maranhão - MA,2001,60.0,5.0
+2100436,Alto Alegre do Maranhão - MA,2002,60.0,5.0
+2100436,Alto Alegre do Maranhão - MA,2003,50.0,5.0
+2100436,Alto Alegre do Maranhão - MA,2004,29.0,3.0
+2100550,Amapá do Maranhão - MA,1998,14.0,0.0
+2100600,Amarante do Maranhão - MA,1996,695.0,33.0
+2100600,Amarante do Maranhão - MA,1997,695.0,35.0
+2100600,Amarante do Maranhão - MA,1998,687.0,34.0
+2100600,Amarante do Maranhão - MA,1999,660.0,38.0
+2100600,Amarante do Maranhão - MA,2000,598.0,33.0
+2100600,Amarante do Maranhão - MA,2001,147.0,8.0
+2100600,Amarante do Maranhão - MA,2002,127.0,8.0
+2100600,Amarante do Maranhão - MA,2003,111.0,14.0
+2100600,Amarante do Maranhão - MA,2004,105.0,16.0
+2100600,Amarante do Maranhão - MA,2005,74.0,13.0
+2100600,Amarante do Maranhão - MA,2006,75.0,13.0
+2100600,Amarante do Maranhão - MA,2007,73.0,14.0
+2100600,Amarante do Maranhão - MA,2008,66.0,15.0
+2100600,Amarante do Maranhão - MA,2009,44.0,11.0
+2100600,Amarante do Maranhão - MA,2010,21.0,5.0
+2100600,Amarante do Maranhão - MA,2011,23.0,6.0
+2100808,Anapurus - MA,1997,102.0,9.0
+2100808,Anapurus - MA,1998,109.0,13.0
+2100808,Anapurus - MA,2000,96.0,13.0
+2100808,Anapurus - MA,2001,27.0,3.0
+2100808,Anapurus - MA,2002,27.0,3.0
+2100832,Apicum-Açu - MA,1997,26.0,1.0
+2100873,Araguanã - MA,1997,29.0,1.0
+2100873,Araguanã - MA,1998,30.0,1.0
+2100907,Araioses - MA,1995,1503.0,53.0
+2100907,Araioses - MA,1996,194.0,10.0
+2100907,Araioses - MA,1997,128.0,7.0
+2100907,Araioses - MA,1998,150.0,8.0
+2100907,Araioses - MA,1999,161.0,10.0
+2100907,Araioses - MA,2000,163.0,13.0
+2100907,Araioses - MA,2001,33.0,4.0
+2100907,Araioses - MA,2002,33.0,17.0
+2100907,Araioses - MA,2003,38.0,23.0
+2100907,Araioses - MA,2004,43.0,30.0
+2100907,Araioses - MA,2006,69.0,62.0
+2100907,Araioses - MA,2007,90.0,86.0
+2100907,Araioses - MA,2008,102.0,100.0
+2100907,Araioses - MA,2010,145.0,145.0
+2100907,Araioses - MA,2011,149.0,179.0
+2100907,Araioses - MA,2012,175.0,166.0
+2100907,Araioses - MA,2013,193.0,261.0
+2100907,Araioses - MA,2014,201.0,271.0
+2100907,Araioses - MA,2015,47.0,38.0
+2100907,Araioses - MA,2016,89.0,80.0
+2100956,Arame - MA,1996,32.0,1.0
+2100956,Arame - MA,1997,30.0,1.0
+2100956,Arame - MA,1998,28.0,1.0
+2101004,Arari - MA,1996,378.0,19.0
+2101004,Arari - MA,1997,380.0,19.0
+2101004,Arari - MA,1998,380.0,38.0
+2101004,Arari - MA,2000,374.0,17.0
+2101004,Arari - MA,2001,82.0,11.0
+2101004,Arari - MA,2002,83.0,20.0
+2101004,Arari - MA,2003,83.0,30.0
+2101004,Arari - MA,2004,82.0,29.0
+2101004,Arari - MA,2005,75.0,28.0
+2101004,Arari - MA,2006,75.0,27.0
+2101004,Arari - MA,2007,63.0,19.0
+2101004,Arari - MA,2008,56.0,17.0
+2101004,Arari - MA,2009,42.0,15.0
+2101004,Arari - MA,2010,33.0,11.0
+2101004,Arari - MA,2011,32.0,11.0
+2101004,Arari - MA,2012,30.0,10.0
+2101004,Arari - MA,2013,25.0,9.0
+2101103,Axixá - MA,1997,88.0,7.0
+2100055,Açailândia - MA,1995,2419.0,242.0
+2100055,Açailândia - MA,1996,739.0,59.0
+2100055,Açailândia - MA,1997,570.0,11.0
+2100055,Açailândia - MA,1998,543.0,12.0
+2100055,Açailândia - MA,1999,572.0,14.0
+2100055,Açailândia - MA,2000,580.0,16.0
+2100055,Açailândia - MA,2001,128.0,17.0
+2100055,Açailândia - MA,2002,120.0,18.0
+2100055,Açailândia - MA,2003,111.0,19.0
+2100055,Açailândia - MA,2004,99.0,20.0
+2100055,Açailândia - MA,2005,88.0,19.0
+2100055,Açailândia - MA,2006,94.0,20.0
+2100055,Açailândia - MA,2007,36.0,8.0
+2100055,Açailândia - MA,2008,34.0,9.0
+2100055,Açailândia - MA,2009,12.0,4.0
+2100055,Açailândia - MA,2010,7.0,1.0
+2100055,Açailândia - MA,2011,9.0,3.0
+2100055,Açailândia - MA,2012,10.0,4.0
+2100055,Açailândia - MA,2013,6.0,2.0
+2101202,Bacabal - MA,1995,5500.0,138.0
+2101202,Bacabal - MA,1996,450.0,10.0
+2101202,Bacabal - MA,1997,184.0,4.0
+2101202,Bacabal - MA,1998,213.0,3.0
+2101202,Bacabal - MA,1999,177.0,3.0
+2101202,Bacabal - MA,2000,182.0,4.0
+2101202,Bacabal - MA,2001,16.0,1.0
+2101202,Bacabal - MA,2002,38.0,4.0
+2101202,Bacabal - MA,2003,37.0,4.0
+2101202,Bacabal - MA,2004,27.0,3.0
+2101202,Bacabal - MA,2006,28.0,4.0
+2101251,Bacabeira - MA,1997,344.0,28.0
+2101251,Bacabeira - MA,1998,337.0,24.0
+2101251,Bacabeira - MA,2008,40.0,68.0
+2101301,Bacuri - MA,1997,39.0,1.0
+2101350,Bacurituba - MA,1997,255.0,13.0
+2101350,Bacurituba - MA,1998,230.0,12.0
+2101350,Bacurituba - MA,1999,232.0,10.0
+2101350,Bacurituba - MA,2000,231.0,10.0
+2101350,Bacurituba - MA,2001,46.0,6.0
+2101350,Bacurituba - MA,2002,47.0,11.0
+2101350,Bacurituba - MA,2003,46.0,17.0
+2101350,Bacurituba - MA,2004,48.0,15.0
+2101350,Bacurituba - MA,2005,54.0,17.0
+2101350,Bacurituba - MA,2006,54.0,19.0
+2101350,Bacurituba - MA,2007,42.0,13.0
+2101350,Bacurituba - MA,2008,47.0,15.0
+2101350,Bacurituba - MA,2009,47.0,15.0
+2101350,Bacurituba - MA,2010,71.0,22.0
+2101350,Bacurituba - MA,2011,77.0,27.0
+2101350,Bacurituba - MA,2012,71.0,27.0
+2101350,Bacurituba - MA,2013,52.0,40.0
+2101350,Bacurituba - MA,2014,62.0,48.0
+2101350,Bacurituba - MA,2015,59.0,47.0
+2101350,Bacurituba - MA,2016,53.0,42.0
+2101350,Bacurituba - MA,2017,42.0,34.0
+2101350,Bacurituba - MA,2018,48.0,39.0
+2101350,Bacurituba - MA,2019,46.0,38.0
+2101350,Bacurituba - MA,2020,43.0,34.0
+2101350,Bacurituba - MA,2021,34.0,26.0
+2101350,Bacurituba - MA,2022,37.0,29.0
+2101350,Bacurituba - MA,2023,35.0,32.0
+2101350,Bacurituba - MA,2024,39.0,35.0
+2101608,Barra do Corda - MA,1996,2980.0,69.0
+2101608,Barra do Corda - MA,1997,1895.0,38.0
+2101608,Barra do Corda - MA,1998,2403.0,48.0
+2101608,Barra do Corda - MA,1999,2403.0,48.0
+2101608,Barra do Corda - MA,2000,2450.0,49.0
+2101707,Barreirinhas - MA,1997,393.0,24.0
+2101707,Barreirinhas - MA,1998,475.0,33.0
+2101707,Barreirinhas - MA,1999,450.0,45.0
+2101707,Barreirinhas - MA,2000,411.0,47.0
+2101707,Barreirinhas - MA,2001,368.0,46.0
+2101707,Barreirinhas - MA,2002,400.0,50.0
+2101707,Barreirinhas - MA,2003,400.0,52.0
+2101707,Barreirinhas - MA,2004,240.0,48.0
+2101707,Barreirinhas - MA,2005,192.0,48.0
+2101509,Barão de Grajaú - MA,1995,1152.0,115.0
+2101509,Barão de Grajaú - MA,1996,21.0,2.0
+2101509,Barão de Grajaú - MA,1997,42.0,4.0
+2101509,Barão de Grajaú - MA,1998,330.0,40.0
+2101509,Barão de Grajaú - MA,2000,100.0,14.0
+2101509,Barão de Grajaú - MA,2001,300.0,41.0
+2101509,Barão de Grajaú - MA,2002,150.0,75.0
+2101509,Barão de Grajaú - MA,2003,200.0,128.0
+2101509,Barão de Grajaú - MA,2004,267.0,166.0
+2101509,Barão de Grajaú - MA,2005,214.0,119.0
+2101509,Barão de Grajaú - MA,2008,147.0,74.0
+2101509,Barão de Grajaú - MA,2009,100.0,50.0
+2101509,Barão de Grajaú - MA,2010,,0.0
+2101772,Bela Vista do Maranhão - MA,1997,260.0,8.0
+2101772,Bela Vista do Maranhão - MA,1998,225.0,5.0
+2101731,Belágua - MA,1997,88.0,8.0
+2101731,Belágua - MA,1998,94.0,8.0
+2101731,Belágua - MA,1999,63.0,6.0
+2101731,Belágua - MA,2000,59.0,7.0
+2101731,Belágua - MA,2001,17.0,2.0
+2101731,Belágua - MA,2002,17.0,2.0
+2101731,Belágua - MA,2003,18.0,3.0
+2101731,Belágua - MA,2004,19.0,3.0
+2101731,Belágua - MA,2005,19.0,3.0
+2101731,Belágua - MA,2006,24.0,4.0
+2101731,Belágua - MA,2007,24.0,7.0
+2101731,Belágua - MA,2008,24.0,7.0
+2101731,Belágua - MA,2009,24.0,18.0
+2101731,Belágua - MA,2010,38.0,8.0
+2101731,Belágua - MA,2011,45.0,14.0
+2101731,Belágua - MA,2012,28.0,10.0
+2101731,Belágua - MA,2013,78.0,35.0
+2101731,Belágua - MA,2014,60.0,28.0
+2101731,Belágua - MA,2015,22.0,10.0
+2101731,Belágua - MA,2016,39.0,16.0
+2101905,Bequimão - MA,1997,301.0,5.0
+2101905,Bequimão - MA,1998,301.0,5.0
+2101905,Bequimão - MA,1999,320.0,5.0
+2101905,Bequimão - MA,2000,320.0,6.0
+2101905,Bequimão - MA,2001,46.0,1.0
+2101905,Bequimão - MA,2002,46.0,1.0
+2101905,Bequimão - MA,2003,46.0,1.0
+2101905,Bequimão - MA,2004,44.0,9.0
+2101905,Bequimão - MA,2005,45.0,77.0
+2101905,Bequimão - MA,2006,56.0,104.0
+2101905,Bequimão - MA,2007,55.0,69.0
+2101905,Bequimão - MA,2008,55.0,69.0
+2101905,Bequimão - MA,2009,54.0,59.0
+2101905,Bequimão - MA,2010,58.0,46.0
+2101905,Bequimão - MA,2011,62.0,51.0
+2101905,Bequimão - MA,2012,59.0,50.0
+2101905,Bequimão - MA,2013,49.0,42.0
+2101905,Bequimão - MA,2014,47.0,40.0
+2101905,Bequimão - MA,2015,50.0,44.0
+2101905,Bequimão - MA,2016,53.0,46.0
+2101905,Bequimão - MA,2017,51.0,45.0
+2101905,Bequimão - MA,2018,49.0,40.0
+2101905,Bequimão - MA,2019,44.0,34.0
+2101905,Bequimão - MA,2020,48.0,38.0
+2101905,Bequimão - MA,2021,56.0,43.0
+2101905,Bequimão - MA,2022,61.0,47.0
+2101905,Bequimão - MA,2023,59.0,55.0
+2101905,Bequimão - MA,2024,55.0,54.0
+2101939,Bernardo do Mearim - MA,1997,471.0,24.0
+2101939,Bernardo do Mearim - MA,1998,443.0,42.0
+2101939,Bernardo do Mearim - MA,1999,433.0,27.0
+2102002,Bom Jardim - MA,1996,155.0,5.0
+2102002,Bom Jardim - MA,1997,132.0,3.0
+2102002,Bom Jardim - MA,1998,126.0,3.0
+2102077,Bom Lugar - MA,1997,43.0,1.0
+2102077,Bom Lugar - MA,1998,55.0,1.0
+2102077,Bom Lugar - MA,1999,55.0,1.0
+2102077,Bom Lugar - MA,2000,120.0,2.0
+2102077,Bom Lugar - MA,2001,32.0,3.0
+2102077,Bom Lugar - MA,2002,30.0,3.0
+2102077,Bom Lugar - MA,2003,32.0,3.0
+2102077,Bom Lugar - MA,2004,24.0,2.0
+2102077,Bom Lugar - MA,2006,24.0,3.0
+2102101,Brejo - MA,1996,247.0,12.0
+2102101,Brejo - MA,1997,190.0,14.0
+2102101,Brejo - MA,1998,190.0,15.0
+2102101,Brejo - MA,1999,179.0,16.0
+2102101,Brejo - MA,2000,164.0,18.0
+2102101,Brejo - MA,2002,47.0,6.0
+2102101,Brejo - MA,2003,47.0,8.0
+2102101,Brejo - MA,2004,49.0,7.0
+2102101,Brejo - MA,2006,47.0,8.0
+2102101,Brejo - MA,2007,47.0,11.0
+2102101,Brejo - MA,2008,47.0,13.0
+2102101,Brejo - MA,2009,68.0,15.0
+2102101,Brejo - MA,2010,75.0,18.0
+2102101,Brejo - MA,2011,75.0,47.0
+2102101,Brejo - MA,2012,68.0,39.0
+2102101,Brejo - MA,2013,90.0,41.0
+2102101,Brejo - MA,2014,75.0,35.0
+2102101,Brejo - MA,2015,29.0,13.0
+2102101,Brejo - MA,2016,38.0,18.0
+2102150,Brejo de Areia - MA,1997,17.0,0.0
+2102150,Brejo de Areia - MA,1998,50.0,1.0
+2102150,Brejo de Areia - MA,1999,50.0,1.0
+2102150,Brejo de Areia - MA,2000,122.0,2.0
+2102150,Brejo de Areia - MA,2001,10.0,1.0
+2102150,Brejo de Areia - MA,2002,11.0,1.0
+2102200,Buriti - MA,2006,32.0,5.0
+2102200,Buriti - MA,2007,32.0,7.0
+2102200,Buriti - MA,2008,32.0,9.0
+2102200,Buriti - MA,2009,32.0,6.0
+2102200,Buriti - MA,2010,32.0,7.0
+2102200,Buriti - MA,2011,32.0,10.0
+2102200,Buriti - MA,2012,38.0,13.0
+2102309,Buriti Bravo - MA,1996,301.0,8.0
+2102309,Buriti Bravo - MA,1997,302.0,7.0
+2102309,Buriti Bravo - MA,1998,279.0,8.0
+2102309,Buriti Bravo - MA,1999,294.0,9.0
+2102309,Buriti Bravo - MA,2000,302.0,11.0
+2102309,Buriti Bravo - MA,2001,65.0,9.0
+2102309,Buriti Bravo - MA,2002,63.0,13.0
+2102309,Buriti Bravo - MA,2003,53.0,12.0
+2102309,Buriti Bravo - MA,2004,40.0,9.0
+2102309,Buriti Bravo - MA,2005,32.0,8.0
+2102309,Buriti Bravo - MA,2006,29.0,7.0
+2102309,Buriti Bravo - MA,2007,24.0,6.0
+2102309,Buriti Bravo - MA,2008,15.0,4.0
+2102309,Buriti Bravo - MA,2009,12.0,3.0
+2102309,Buriti Bravo - MA,2010,10.0,3.0
+2102325,Buriticupu - MA,1997,59.0,1.0
+2102325,Buriticupu - MA,1998,60.0,1.0
+2102358,Buritirana - MA,1997,60.0,1.0
+2102358,Buritirana - MA,1998,57.0,1.0
+2102358,Buritirana - MA,1999,55.0,1.0
+2102358,Buritirana - MA,2000,54.0,1.0
+2102358,Buritirana - MA,2001,9.0,1.0
+2102358,Buritirana - MA,2002,8.0,1.0
+2102358,Buritirana - MA,2003,5.0,1.0
+2102358,Buritirana - MA,2004,4.0,1.0
+2102358,Buritirana - MA,2005,2.0,
+2102358,Buritirana - MA,2006,2.0,0.0
+2102358,Buritirana - MA,2008,3.0,1.0
+2102408,Cajapió - MA,1996,350.0,18.0
+2102408,Cajapió - MA,1997,364.0,18.0
+2102408,Cajapió - MA,1998,339.0,17.0
+2102408,Cajapió - MA,1999,340.0,15.0
+2102408,Cajapió - MA,2000,339.0,15.0
+2102408,Cajapió - MA,2001,68.0,9.0
+2102408,Cajapió - MA,2002,69.0,17.0
+2102408,Cajapió - MA,2003,68.0,25.0
+2102408,Cajapió - MA,2004,74.0,24.0
+2102408,Cajapió - MA,2005,74.0,23.0
+2102408,Cajapió - MA,2006,69.0,24.0
+2102408,Cajapió - MA,2007,62.0,20.0
+2102408,Cajapió - MA,2008,55.0,17.0
+2102408,Cajapió - MA,2009,50.0,18.0
+2102408,Cajapió - MA,2010,48.0,16.0
+2102408,Cajapió - MA,2011,46.0,16.0
+2102408,Cajapió - MA,2012,36.0,12.0
+2102408,Cajapió - MA,2013,32.0,11.0
+2102408,Cajapió - MA,2014,27.0,9.0
+2102408,Cajapió - MA,2015,14.0,5.0
+2102408,Cajapió - MA,2016,10.0,4.0
+2102903,Carutapera - MA,1996,137.0,7.0
+2103000,Caxias - MA,1995,357.0,7.0
+2103000,Caxias - MA,1996,339.0,8.0
+2103000,Caxias - MA,1997,270.0,8.0
+2103000,Caxias - MA,1998,276.0,9.0
+2103000,Caxias - MA,1999,285.0,10.0
+2103000,Caxias - MA,2000,276.0,10.0
+2103000,Caxias - MA,2001,69.0,9.0
+2103000,Caxias - MA,2002,71.0,15.0
+2103000,Caxias - MA,2003,58.0,13.0
+2103000,Caxias - MA,2004,44.0,11.0
+2103000,Caxias - MA,2005,35.0,9.0
+2103000,Caxias - MA,2006,32.0,8.0
+2103000,Caxias - MA,2007,27.0,7.0
+2103000,Caxias - MA,2008,20.0,5.0
+2103000,Caxias - MA,2009,20.0,6.0
+2103000,Caxias - MA,2010,16.0,4.0
+2103000,Caxias - MA,2011,14.0,4.0
+2103000,Caxias - MA,2012,9.0,3.0
+2103000,Caxias - MA,2013,6.0,2.0
+2103000,Caxias - MA,2014,3.0,1.0
+2103000,Caxias - MA,2015,3.0,2.0
+2103174,Centro Novo do Maranhão - MA,1997,102.0,2.0
+2103174,Centro Novo do Maranhão - MA,1998,102.0,2.0
+2103208,Chapadinha - MA,2006,25.0,3.0
+2103208,Chapadinha - MA,2007,25.0,6.0
+2103208,Chapadinha - MA,2008,25.0,7.0
+2103208,Chapadinha - MA,2009,25.0,20.0
+2103208,Chapadinha - MA,2010,30.0,7.0
+2103208,Chapadinha - MA,2011,31.0,11.0
+2103208,Chapadinha - MA,2012,37.0,14.0
+2103208,Chapadinha - MA,2016,23.0,11.0
+2103257,Cidelândia - MA,1997,791.0,16.0
+2103257,Cidelândia - MA,1998,751.0,15.0
+2103257,Cidelândia - MA,1999,740.0,18.0
+2103257,Cidelândia - MA,2000,722.0,20.0
+2103257,Cidelândia - MA,2001,109.0,14.0
+2103257,Cidelândia - MA,2002,90.0,13.0
+2103257,Cidelândia - MA,2003,83.0,12.0
+2103257,Cidelândia - MA,2004,71.0,13.0
+2103257,Cidelândia - MA,2005,65.0,8.0
+2103257,Cidelândia - MA,2006,71.0,13.0
+2103257,Cidelândia - MA,2007,16.0,3.0
+2103257,Cidelândia - MA,2008,10.0,2.0
+2103257,Cidelândia - MA,2009,10.0,2.0
+2103307,Codó - MA,1995,1500.0,45.0
+2103307,Codó - MA,1996,584.0,16.0
+2103307,Codó - MA,1997,546.0,16.0
+2103307,Codó - MA,1998,544.0,17.0
+2103307,Codó - MA,1999,563.0,19.0
+2103307,Codó - MA,2000,616.0,22.0
+2103307,Codó - MA,2001,126.0,17.0
+2103307,Codó - MA,2002,129.0,25.0
+2103307,Codó - MA,2003,113.0,23.0
+2103307,Codó - MA,2004,110.0,23.0
+2103307,Codó - MA,2005,92.0,20.0
+2103307,Codó - MA,2006,81.0,18.0
+2103307,Codó - MA,2007,73.0,17.0
+2103307,Codó - MA,2008,63.0,15.0
+2103307,Codó - MA,2009,56.0,14.0
+2103307,Codó - MA,2010,51.0,13.0
+2103307,Codó - MA,2011,38.0,15.0
+2103307,Codó - MA,2012,27.0,12.0
+2103307,Codó - MA,2013,16.0,8.0
+2103406,Coelho Neto - MA,1996,171.0,4.0
+2103406,Coelho Neto - MA,1997,172.0,4.0
+2103406,Coelho Neto - MA,1998,156.0,5.0
+2103406,Coelho Neto - MA,1999,172.0,6.0
+2103406,Coelho Neto - MA,2000,176.0,6.0
+2103406,Coelho Neto - MA,2001,40.0,5.0
+2103406,Coelho Neto - MA,2002,42.0,9.0
+2103406,Coelho Neto - MA,2003,35.0,8.0
+2103406,Coelho Neto - MA,2004,30.0,7.0
+2103406,Coelho Neto - MA,2005,20.0,5.0
+2103406,Coelho Neto - MA,2006,18.0,5.0
+2103406,Coelho Neto - MA,2007,12.0,3.0
+2103406,Coelho Neto - MA,2008,8.0,2.0
+2103406,Coelho Neto - MA,2009,4.0,1.0
+2103406,Coelho Neto - MA,2010,3.0,0.0
+2103406,Coelho Neto - MA,2011,3.0,1.0
+2103406,Coelho Neto - MA,2014,1.0,1.0
+2103406,Coelho Neto - MA,2015,2.0,1.0
+2103505,Colinas - MA,1996,308.0,6.0
+2103505,Colinas - MA,1997,127.0,3.0
+2103505,Colinas - MA,1998,106.0,3.0
+2103505,Colinas - MA,1999,106.0,3.0
+2103505,Colinas - MA,2000,127.0,3.0
+2103554,Conceição do Lago-Açu - MA,1997,340.0,7.0
+2103554,Conceição do Lago-Açu - MA,1998,306.0,6.0
+2103554,Conceição do Lago-Açu - MA,1999,278.0,6.0
+2103554,Conceição do Lago-Açu - MA,2000,350.0,8.0
+2103554,Conceição do Lago-Açu - MA,2001,70.0,6.0
+2103554,Conceição do Lago-Açu - MA,2002,62.0,6.0
+2103554,Conceição do Lago-Açu - MA,2003,42.0,4.0
+2103554,Conceição do Lago-Açu - MA,2004,34.0,3.0
+2103554,Conceição do Lago-Açu - MA,2006,25.0,3.0
+2103604,Coroatá - MA,1995,4000.0,128.0
+2103604,Coroatá - MA,1996,138.0,4.0
+2102606,Cândido Mendes - MA,1996,39.0,2.0
+2103752,Davinópolis - MA,1997,165.0,3.0
+2103752,Davinópolis - MA,1998,165.0,3.0
+2103752,Davinópolis - MA,1999,161.0,4.0
+2103752,Davinópolis - MA,2000,153.0,3.0
+2103752,Davinópolis - MA,2001,27.0,4.0
+2103752,Davinópolis - MA,2002,28.0,4.0
+2103752,Davinópolis - MA,2003,27.0,4.0
+2103752,Davinópolis - MA,2004,25.0,4.0
+2103752,Davinópolis - MA,2005,18.0,3.0
+2103752,Davinópolis - MA,2006,21.0,4.0
+2103752,Davinópolis - MA,2007,21.0,4.0
+2103752,Davinópolis - MA,2008,14.0,3.0
+2103752,Davinópolis - MA,2009,11.0,3.0
+2103752,Davinópolis - MA,2010,5.0,1.0
+2103752,Davinópolis - MA,2011,4.0,1.0
+2103802,Dom Pedro - MA,1996,174.0,4.0
+2103802,Dom Pedro - MA,1997,144.0,4.0
+2103802,Dom Pedro - MA,1998,173.0,3.0
+2103802,Dom Pedro - MA,1999,202.0,4.0
+2103802,Dom Pedro - MA,2000,230.0,5.0
+2103802,Dom Pedro - MA,2006,406.0,244.0
+2104008,Esperantinópolis - MA,1996,90.0,4.0
+2104008,Esperantinópolis - MA,1997,73.0,4.0
+2104008,Esperantinópolis - MA,1998,69.0,7.0
+2104008,Esperantinópolis - MA,1999,69.0,9.0
+2104008,Esperantinópolis - MA,2000,69.0,9.0
+2104008,Esperantinópolis - MA,2001,14.0,2.0
+2104008,Esperantinópolis - MA,2002,14.0,2.0
+2104008,Esperantinópolis - MA,2003,14.0,2.0
+2104008,Esperantinópolis - MA,2004,28.0,3.0
+2104008,Esperantinópolis - MA,2005,40.0,6.0
+2104008,Esperantinópolis - MA,2006,54.0,9.0
+2104057,Estreito - MA,1995,1671.0,53.0
+2104057,Estreito - MA,1996,62.0,3.0
+2104057,Estreito - MA,1997,66.0,1.0
+2104057,Estreito - MA,1998,63.0,1.0
+2104057,Estreito - MA,1999,60.0,2.0
+2104057,Estreito - MA,2000,56.0,2.0
+2104057,Estreito - MA,2001,8.0,1.0
+2104057,Estreito - MA,2002,5.0,1.0
+2104057,Estreito - MA,2003,5.0,1.0
+2104057,Estreito - MA,2004,4.0,1.0
+2104057,Estreito - MA,2005,2.0,
+2104057,Estreito - MA,2006,1.0,0.0
+2104057,Estreito - MA,2007,1.0,0.0
+2104057,Estreito - MA,2008,1.0,0.0
+2104081,Fernando Falcão - MA,1998,360.0,7.0
+2104081,Fernando Falcão - MA,1999,360.0,7.0
+2104081,Fernando Falcão - MA,2000,378.0,8.0
+2104099,Formosa da Serra Negra - MA,1997,48.0,1.0
+2104099,Formosa da Serra Negra - MA,1998,48.0,1.0
+2104099,Formosa da Serra Negra - MA,1999,48.0,1.0
+2104206,Fortuna - MA,1996,282.0,4.0
+2104206,Fortuna - MA,1997,185.0,3.0
+2104206,Fortuna - MA,1998,211.0,20.0
+2104206,Fortuna - MA,1999,211.0,3.0
+2104206,Fortuna - MA,2000,211.0,5.0
+2104305,Godofredo Viana - MA,1996,153.0,5.0
+2104305,Godofredo Viana - MA,1997,34.0,1.0
+2104305,Godofredo Viana - MA,1998,30.0,1.0
+2104404,Gonçalves Dias - MA,1996,83.0,2.0
+2104404,Gonçalves Dias - MA,1997,77.0,2.0
+2104404,Gonçalves Dias - MA,1998,96.0,9.0
+2104404,Gonçalves Dias - MA,1999,96.0,2.0
+2104404,Gonçalves Dias - MA,2000,112.0,3.0
+2104503,Governador Archer - MA,1996,65.0,2.0
+2104503,Governador Archer - MA,1997,66.0,2.0
+2104503,Governador Archer - MA,1998,82.0,2.0
+2104503,Governador Archer - MA,1999,82.0,2.0
+2104503,Governador Archer - MA,2000,96.0,2.0
+2104552,Governador Edison Lobão - MA,1997,126.0,2.0
+2104552,Governador Edison Lobão - MA,1998,126.0,3.0
+2104552,Governador Edison Lobão - MA,1999,142.0,3.0
+2104552,Governador Edison Lobão - MA,2000,140.0,4.0
+2104552,Governador Edison Lobão - MA,2001,36.0,5.0
+2104552,Governador Edison Lobão - MA,2002,38.0,14.0
+2104552,Governador Edison Lobão - MA,2003,38.0,13.0
+2104552,Governador Edison Lobão - MA,2004,25.0,5.0
+2104552,Governador Edison Lobão - MA,2005,31.0,6.0
+2104552,Governador Edison Lobão - MA,2006,30.0,6.0
+2104552,Governador Edison Lobão - MA,2007,30.0,6.0
+2104552,Governador Edison Lobão - MA,2008,28.0,7.0
+2104552,Governador Edison Lobão - MA,2009,26.0,9.0
+2104552,Governador Edison Lobão - MA,2010,,0.0
+2104602,Governador Eugênio Barros - MA,1996,140.0,4.0
+2104602,Governador Eugênio Barros - MA,1997,34.0,1.0
+2104602,Governador Eugênio Barros - MA,1998,17.0,0.0
+2104602,Governador Eugênio Barros - MA,1999,17.0,0.0
+2104602,Governador Eugênio Barros - MA,2000,51.0,1.0
+2104628,Governador Luiz Rocha - MA,1997,27.0,1.0
+2104628,Governador Luiz Rocha - MA,1998,27.0,1.0
+2104628,Governador Luiz Rocha - MA,1999,27.0,1.0
+2104628,Governador Luiz Rocha - MA,2000,50.0,1.0
+2104677,Governador Nunes Freire - MA,1997,22.0,0.0
+2104677,Governador Nunes Freire - MA,1998,22.0,0.0
+2104800,Grajaú - MA,1996,208.0,5.0
+2104800,Grajaú - MA,1997,112.0,2.0
+2104800,Grajaú - MA,1998,93.0,1.0
+2104800,Grajaú - MA,1999,93.0,1.0
+2104800,Grajaú - MA,2000,111.0,2.0
+2105203,Igarapé Grande - MA,1996,759.0,34.0
+2105203,Igarapé Grande - MA,1997,220.0,11.0
+2105203,Igarapé Grande - MA,1998,212.0,20.0
+2105203,Igarapé Grande - MA,1999,212.0,17.0
+2105203,Igarapé Grande - MA,2000,212.0,18.0
+2105203,Igarapé Grande - MA,2001,52.0,1.0
+2105203,Igarapé Grande - MA,2002,212.0,23.0
+2105153,Igarapé do Meio - MA,1997,160.0,5.0
+2105153,Igarapé do Meio - MA,1998,120.0,3.0
+2105302,Imperatriz - MA,1995,5100.0,181.0
+2105302,Imperatriz - MA,1996,2051.0,82.0
+2105302,Imperatriz - MA,1997,252.0,5.0
+2105302,Imperatriz - MA,1998,252.0,6.0
+2105302,Imperatriz - MA,1999,252.0,6.0
+2105302,Imperatriz - MA,2000,266.0,7.0
+2105302,Imperatriz - MA,2001,59.0,8.0
+2105302,Imperatriz - MA,2002,64.0,9.0
+2105302,Imperatriz - MA,2003,56.0,10.0
+2105302,Imperatriz - MA,2004,52.0,10.0
+2105302,Imperatriz - MA,2005,48.0,11.0
+2105302,Imperatriz - MA,2006,45.0,10.0
+2105302,Imperatriz - MA,2007,29.0,7.0
+2105302,Imperatriz - MA,2008,28.0,8.0
+2105302,Imperatriz - MA,2009,28.0,8.0
+2105351,Itaipava do Grajaú - MA,1998,94.0,2.0
+2105351,Itaipava do Grajaú - MA,1999,141.0,3.0
+2105351,Itaipava do Grajaú - MA,2000,188.0,5.0
+2105427,Itinga do Maranhão - MA,1997,784.0,16.0
+2105427,Itinga do Maranhão - MA,1998,784.0,17.0
+2105427,Itinga do Maranhão - MA,1999,790.0,20.0
+2105427,Itinga do Maranhão - MA,2000,749.0,21.0
+2105427,Itinga do Maranhão - MA,2001,151.0,20.0
+2105427,Itinga do Maranhão - MA,2002,141.0,21.0
+2105427,Itinga do Maranhão - MA,2003,137.0,23.0
+2105427,Itinga do Maranhão - MA,2004,154.0,28.0
+2105427,Itinga do Maranhão - MA,2005,131.0,26.0
+2105427,Itinga do Maranhão - MA,2007,119.0,30.0
+2105427,Itinga do Maranhão - MA,2008,108.0,30.0
+2105450,Jatobá - MA,1997,82.0,1.0
+2105450,Jatobá - MA,1998,109.0,3.0
+2105450,Jatobá - MA,1999,109.0,3.0
+2105450,Jatobá - MA,2000,135.0,3.0
+2105476,Jenipapo dos Vieiras - MA,1997,127.0,2.0
+2105476,Jenipapo dos Vieiras - MA,1998,102.0,2.0
+2105476,Jenipapo dos Vieiras - MA,1999,102.0,2.0
+2105476,Jenipapo dos Vieiras - MA,2000,127.0,3.0
+2105609,Joselândia - MA,1996,302.0,24.0
+2105609,Joselândia - MA,1997,400.0,36.0
+2105609,Joselândia - MA,1998,406.0,49.0
+2105609,Joselândia - MA,1999,406.0,53.0
+2105609,Joselândia - MA,2000,406.0,55.0
+2105609,Joselândia - MA,2001,135.0,3.0
+2105609,Joselândia - MA,2002,101.0,15.0
+2105500,João Lisboa - MA,1995,5296.0,167.0
+2105500,João Lisboa - MA,1996,176.0,6.0
+2105500,João Lisboa - MA,1997,56.0,1.0
+2105500,João Lisboa - MA,1998,53.0,1.0
+2105500,João Lisboa - MA,1999,69.0,2.0
+2105500,João Lisboa - MA,2000,67.0,2.0
+2105500,João Lisboa - MA,2001,13.0,2.0
+2105500,João Lisboa - MA,2002,14.0,4.0
+2105500,João Lisboa - MA,2003,13.0,2.0
+2105500,João Lisboa - MA,2004,12.0,2.0
+2105500,João Lisboa - MA,2005,9.0,2.0
+2105500,João Lisboa - MA,2006,6.0,1.0
+2105500,João Lisboa - MA,2007,8.0,2.0
+2105500,João Lisboa - MA,2008,7.0,2.0
+2105500,João Lisboa - MA,2009,7.0,1.0
+2105500,João Lisboa - MA,2010,,0.0
+2105906,Lago Verde - MA,1995,360.0,6.0
+2105906,Lago Verde - MA,1996,450.0,8.0
+2105906,Lago Verde - MA,1997,272.0,5.0
+2105906,Lago Verde - MA,1998,271.0,5.0
+2105906,Lago Verde - MA,1999,240.0,6.0
+2105906,Lago Verde - MA,2000,360.0,7.0
+2105906,Lago Verde - MA,2001,72.0,6.0
+2105906,Lago Verde - MA,2002,70.0,7.0
+2105906,Lago Verde - MA,2003,42.0,4.0
+2105906,Lago Verde - MA,2004,34.0,3.0
+2105708,Lago da Pedra - MA,1995,540.0,12.0
+2105708,Lago da Pedra - MA,1996,42.0,1.0
+2105708,Lago da Pedra - MA,1997,291.0,7.0
+2105708,Lago da Pedra - MA,1998,450.0,10.0
+2105708,Lago da Pedra - MA,1999,450.0,10.0
+2105708,Lago da Pedra - MA,2000,558.0,12.0
+2105708,Lago da Pedra - MA,2001,121.0,11.0
+2105807,Lago do Junco - MA,1995,480.0,10.0
+2105807,Lago do Junco - MA,1996,92.0,2.0
+2105922,Lagoa do Mato - MA,1997,17.0,1.0
+2105922,Lagoa do Mato - MA,1998,6.0,1.0
+2105922,Lagoa do Mato - MA,1999,8.0,1.0
+2105922,Lagoa do Mato - MA,2000,10.0,1.0
+2105922,Lagoa do Mato - MA,2001,8.0,1.0
+2105922,Lagoa do Mato - MA,2002,9.0,2.0
+2105989,Lajeado Novo - MA,1997,30.0,1.0
+2105989,Lajeado Novo - MA,1998,29.0,1.0
+2105989,Lajeado Novo - MA,1999,30.0,1.0
+2105989,Lajeado Novo - MA,2000,28.0,1.0
+2105989,Lajeado Novo - MA,2001,7.0,1.0
+2105989,Lajeado Novo - MA,2002,6.0,1.0
+2105989,Lajeado Novo - MA,2003,6.0,1.0
+2105989,Lajeado Novo - MA,2004,2.0,0.0
+2105989,Lajeado Novo - MA,2005,7.0,2.0
+2105989,Lajeado Novo - MA,2006,7.0,2.0
+2105989,Lajeado Novo - MA,2007,6.0,2.0
+2106201,Luís Domingues - MA,1996,19.0,1.0
+2106201,Luís Domingues - MA,1997,14.0,0.0
+2106201,Luís Domingues - MA,1998,14.0,0.0
+2106300,Magalhães de Almeida - MA,1995,672.0,20.0
+2106300,Magalhães de Almeida - MA,1996,227.0,11.0
+2106300,Magalhães de Almeida - MA,1997,227.0,12.0
+2106300,Magalhães de Almeida - MA,1998,297.0,19.0
+2106300,Magalhães de Almeida - MA,1999,234.0,14.0
+2106300,Magalhães de Almeida - MA,2000,235.0,16.0
+2106300,Magalhães de Almeida - MA,2001,39.0,5.0
+2106300,Magalhães de Almeida - MA,2002,40.0,20.0
+2106300,Magalhães de Almeida - MA,2003,45.0,27.0
+2106300,Magalhães de Almeida - MA,2004,55.0,39.0
+2106300,Magalhães de Almeida - MA,2006,72.0,65.0
+2106300,Magalhães de Almeida - MA,2007,83.0,79.0
+2106300,Magalhães de Almeida - MA,2008,100.0,98.0
+2106300,Magalhães de Almeida - MA,2010,100.0,110.0
+2106300,Magalhães de Almeida - MA,2011,127.0,152.0
+2106300,Magalhães de Almeida - MA,2012,153.0,138.0
+2106300,Magalhães de Almeida - MA,2013,182.0,237.0
+2106300,Magalhães de Almeida - MA,2014,201.0,271.0
+2106300,Magalhães de Almeida - MA,2015,45.0,37.0
+2106300,Magalhães de Almeida - MA,2016,145.0,145.0
+2106300,Magalhães de Almeida - MA,2017,201.0,221.0
+2106300,Magalhães de Almeida - MA,2018,12.0,13.0
+2106300,Magalhães de Almeida - MA,2019,5.0,4.0
+2106300,Magalhães de Almeida - MA,2020,4.0,4.0
+2106359,Marajá do Sena - MA,1997,93.0,2.0
+2106359,Marajá do Sena - MA,1998,92.0,2.0
+2106359,Marajá do Sena - MA,1999,92.0,2.0
+2106359,Marajá do Sena - MA,2001,20.0,2.0
+2106359,Marajá do Sena - MA,2002,28.0,3.0
+2106359,Marajá do Sena - MA,2003,28.0,3.0
+2106359,Marajá do Sena - MA,2004,22.0,2.0
+2106359,Marajá do Sena - MA,2006,22.0,3.0
+2106409,Mata Roma - MA,2006,20.0,3.0
+2106409,Mata Roma - MA,2007,20.0,5.0
+2106409,Mata Roma - MA,2008,20.0,6.0
+2106409,Mata Roma - MA,2009,27.0,19.0
+2106409,Mata Roma - MA,2010,33.0,7.0
+2106409,Mata Roma - MA,2011,33.0,10.0
+2106409,Mata Roma - MA,2012,40.0,14.0
+2106409,Mata Roma - MA,2013,55.0,25.0
+2106409,Mata Roma - MA,2014,37.0,17.0
+2106409,Mata Roma - MA,2015,16.0,8.0
+2106409,Mata Roma - MA,2016,23.0,11.0
+2106508,Matinha - MA,1996,190.0,4.0
+2106508,Matinha - MA,1997,363.0,18.0
+2106508,Matinha - MA,1998,361.0,18.0
+2106508,Matinha - MA,1999,362.0,18.0
+2106508,Matinha - MA,2000,361.0,16.0
+2106508,Matinha - MA,2001,72.0,10.0
+2106508,Matinha - MA,2002,73.0,18.0
+2106508,Matinha - MA,2003,74.0,27.0
+2106508,Matinha - MA,2004,73.0,26.0
+2106508,Matinha - MA,2005,66.0,22.0
+2106508,Matinha - MA,2006,59.0,18.0
+2106508,Matinha - MA,2007,52.0,17.0
+2106508,Matinha - MA,2008,50.0,17.0
+2106508,Matinha - MA,2009,42.0,15.0
+2106508,Matinha - MA,2010,32.0,11.0
+2106508,Matinha - MA,2011,31.0,11.0
+2106631,Matões do Norte - MA,1997,62.0,3.0
+2106631,Matões do Norte - MA,1998,62.0,1.0
+2106631,Matões do Norte - MA,1999,62.0,1.0
+2106631,Matões do Norte - MA,2000,62.0,1.0
+2106631,Matões do Norte - MA,2001,12.0,0.0
+2106631,Matões do Norte - MA,2002,12.0,0.0
+2106631,Matões do Norte - MA,2003,12.0,0.0
+2106631,Matões do Norte - MA,2004,4.0,1.0
+2106631,Matões do Norte - MA,2005,5.0,6.0
+2106631,Matões do Norte - MA,2006,5.0,7.0
+2106631,Matões do Norte - MA,2007,6.0,9.0
+2106631,Matões do Norte - MA,2008,6.0,10.0
+2106672,Milagres do Maranhão - MA,1997,240.0,19.0
+2106672,Milagres do Maranhão - MA,1998,410.0,37.0
+2106672,Milagres do Maranhão - MA,1999,366.0,37.0
+2106672,Milagres do Maranhão - MA,2000,293.0,32.0
+2106672,Milagres do Maranhão - MA,2001,81.0,8.0
+2106672,Milagres do Maranhão - MA,2002,284.0,31.0
+2106672,Milagres do Maranhão - MA,2003,330.0,53.0
+2106672,Milagres do Maranhão - MA,2004,312.0,47.0
+2106672,Milagres do Maranhão - MA,2006,300.0,39.0
+2106672,Milagres do Maranhão - MA,2007,300.0,39.0
+2106672,Milagres do Maranhão - MA,2008,300.0,75.0
+2106672,Milagres do Maranhão - MA,2009,300.0,60.0
+2106672,Milagres do Maranhão - MA,2010,312.0,78.0
+2106672,Milagres do Maranhão - MA,2011,195.0,59.0
+2106672,Milagres do Maranhão - MA,2012,190.0,67.0
+2106672,Milagres do Maranhão - MA,2013,150.0,68.0
+2106672,Milagres do Maranhão - MA,2014,112.0,52.0
+2106672,Milagres do Maranhão - MA,2015,39.0,18.0
+2106672,Milagres do Maranhão - MA,2016,38.0,18.0
+2106706,Mirador - MA,1996,138.0,3.0
+2106706,Mirador - MA,1997,92.0,2.0
+2106706,Mirador - MA,1998,115.0,11.0
+2106706,Mirador - MA,1999,115.0,2.0
+2106706,Mirador - MA,2000,161.0,3.0
+2106706,Mirador - MA,2019,27.0,32.0
+2106706,Mirador - MA,2020,26.0,30.0
+2107001,Montes Altos - MA,1995,2663.0,87.0
+2107001,Montes Altos - MA,1996,22.0,1.0
+2106904,Monção - MA,1996,12.0,0.0
+2106904,Monção - MA,1997,30.0,1.0
+2106904,Monção - MA,1998,25.0,1.0
+2107209,Nina Rodrigues - MA,1998,201.0,3.0
+2107209,Nina Rodrigues - MA,1999,201.0,3.0
+2107209,Nina Rodrigues - MA,2000,201.0,3.0
+2107209,Nina Rodrigues - MA,2001,33.0,1.0
+2107209,Nina Rodrigues - MA,2002,33.0,0.0
+2107209,Nina Rodrigues - MA,2003,33.0,0.0
+2107209,Nina Rodrigues - MA,2004,9.0,2.0
+2107209,Nina Rodrigues - MA,2005,9.0,9.0
+2107209,Nina Rodrigues - MA,2006,9.0,5.0
+2107209,Nina Rodrigues - MA,2007,9.0,6.0
+2107357,Nova Olinda do Maranhão - MA,1997,18.0,0.0
+2107357,Nova Olinda do Maranhão - MA,1998,13.0,0.0
+2107407,Olho d'Água das Cunhãs - MA,1995,340.0,7.0
+2107407,Olho d'Água das Cunhãs - MA,1996,150.0,3.0
+2107407,Olho d'Água das Cunhãs - MA,1997,155.0,3.0
+2107407,Olho d'Água das Cunhãs - MA,1998,97.0,2.0
+2107407,Olho d'Água das Cunhãs - MA,1999,97.0,2.0
+2107407,Olho d'Água das Cunhãs - MA,2000,100.0,2.0
+2107407,Olho d'Água das Cunhãs - MA,2001,20.0,2.0
+2107407,Olho d'Água das Cunhãs - MA,2002,13.0,1.0
+2107407,Olho d'Água das Cunhãs - MA,2004,15.0,2.0
+2107456,Olinda Nova do Maranhão - MA,1997,609.0,30.0
+2107456,Olinda Nova do Maranhão - MA,1998,572.0,29.0
+2107456,Olinda Nova do Maranhão - MA,1999,571.0,29.0
+2107456,Olinda Nova do Maranhão - MA,2000,572.0,26.0
+2107456,Olinda Nova do Maranhão - MA,2001,114.0,15.0
+2107456,Olinda Nova do Maranhão - MA,2002,113.0,27.0
+2107456,Olinda Nova do Maranhão - MA,2003,114.0,41.0
+2107456,Olinda Nova do Maranhão - MA,2004,113.0,36.0
+2107456,Olinda Nova do Maranhão - MA,2005,107.0,33.0
+2107456,Olinda Nova do Maranhão - MA,2006,101.0,28.0
+2107456,Olinda Nova do Maranhão - MA,2007,88.0,29.0
+2107456,Olinda Nova do Maranhão - MA,2008,82.0,26.0
+2107456,Olinda Nova do Maranhão - MA,2009,75.0,26.0
+2107456,Olinda Nova do Maranhão - MA,2010,50.0,17.0
+2107456,Olinda Nova do Maranhão - MA,2011,36.0,13.0
+2107456,Olinda Nova do Maranhão - MA,2012,27.0,9.0
+2107456,Olinda Nova do Maranhão - MA,2013,21.0,7.0
+2107456,Olinda Nova do Maranhão - MA,2014,14.0,5.0
+2107456,Olinda Nova do Maranhão - MA,2015,15.0,5.0
+2107456,Olinda Nova do Maranhão - MA,2016,14.0,5.0
+2107605,Palmeirândia - MA,1997,717.0,11.0
+2107605,Palmeirândia - MA,1998,737.0,13.0
+2107605,Palmeirândia - MA,1999,778.0,14.0
+2107605,Palmeirândia - MA,2000,778.0,17.0
+2107605,Palmeirândia - MA,2001,170.0,3.0
+2107605,Palmeirândia - MA,2002,47.0,1.0
+2107605,Palmeirândia - MA,2003,47.0,1.0
+2107605,Palmeirândia - MA,2004,48.0,12.0
+2107605,Palmeirândia - MA,2005,50.0,85.0
+2107605,Palmeirândia - MA,2006,52.0,94.0
+2107605,Palmeirândia - MA,2007,54.0,81.0
+2107605,Palmeirândia - MA,2008,54.0,84.0
+2107605,Palmeirândia - MA,2009,53.0,81.0
+2107605,Palmeirândia - MA,2010,52.0,52.0
+2107605,Palmeirândia - MA,2011,53.0,59.0
+2107605,Palmeirândia - MA,2012,49.0,29.0
+2107605,Palmeirândia - MA,2013,48.0,66.0
+2107605,Palmeirândia - MA,2014,45.0,61.0
+2107605,Palmeirândia - MA,2015,43.0,43.0
+2107605,Palmeirândia - MA,2016,75.0,74.0
+2107605,Palmeirândia - MA,2017,66.0,63.0
+2107605,Palmeirândia - MA,2018,50.0,48.0
+2107605,Palmeirândia - MA,2019,48.0,44.0
+2107605,Palmeirândia - MA,2020,53.0,48.0
+2107605,Palmeirândia - MA,2021,48.0,35.0
+2107605,Palmeirândia - MA,2022,52.0,38.0
+2107605,Palmeirândia - MA,2023,58.0,55.0
+2107605,Palmeirândia - MA,2024,66.0,61.0
+2107704,Paraibano - MA,1995,85.0,9.0
+2107803,Parnarama - MA,1998,1112.0,31.0
+2107803,Parnarama - MA,1999,1086.0,28.0
+2107803,Parnarama - MA,2000,1013.0,24.0
+2107803,Parnarama - MA,2001,148.0,20.0
+2107803,Parnarama - MA,2002,142.0,21.0
+2107803,Parnarama - MA,2003,160.0,23.0
+2107803,Parnarama - MA,2004,137.0,21.0
+2107803,Parnarama - MA,2006,122.0,18.0
+2107803,Parnarama - MA,2007,113.0,18.0
+2107803,Parnarama - MA,2008,107.0,17.0
+2107803,Parnarama - MA,2009,107.0,16.0
+2108058,Paulino Neves - MA,1997,693.0,38.0
+2108058,Paulino Neves - MA,1998,770.0,50.0
+2108058,Paulino Neves - MA,1999,805.0,56.0
+2108058,Paulino Neves - MA,2000,840.0,67.0
+2108058,Paulino Neves - MA,2001,142.0,19.0
+2108058,Paulino Neves - MA,2002,143.0,64.0
+2108058,Paulino Neves - MA,2003,148.0,74.0
+2108058,Paulino Neves - MA,2004,160.0,96.0
+2108058,Paulino Neves - MA,2005,172.0,120.0
+2108058,Paulino Neves - MA,2006,190.0,171.0
+2108058,Paulino Neves - MA,2007,199.0,189.0
+2108058,Paulino Neves - MA,2008,216.0,212.0
+2108058,Paulino Neves - MA,2010,275.0,275.0
+2108058,Paulino Neves - MA,2011,306.0,337.0
+2108058,Paulino Neves - MA,2012,338.0,304.0
+2108058,Paulino Neves - MA,2013,371.0,464.0
+2108058,Paulino Neves - MA,2014,389.0,506.0
+2108058,Paulino Neves - MA,2015,26.0,22.0
+2108058,Paulino Neves - MA,2016,58.0,52.0
+2108058,Paulino Neves - MA,2017,388.0,349.0
+2108058,Paulino Neves - MA,2018,4.0,4.0
+2108058,Paulino Neves - MA,2019,3.0,3.0
+2108058,Paulino Neves - MA,2020,2.0,2.0
+2108108,Paulo Ramos - MA,1995,1330.0,40.0
+2108108,Paulo Ramos - MA,1996,700.0,21.0
+2108108,Paulo Ramos - MA,1997,505.0,11.0
+2108108,Paulo Ramos - MA,1998,559.0,12.0
+2108108,Paulo Ramos - MA,1999,559.0,11.0
+2108108,Paulo Ramos - MA,2000,558.0,11.0
+2108108,Paulo Ramos - MA,2001,107.0,8.0
+2108108,Paulo Ramos - MA,2002,105.0,9.0
+2108108,Paulo Ramos - MA,2003,50.0,5.0
+2108108,Paulo Ramos - MA,2004,43.0,4.0
+2107506,Paço do Lumiar - MA,1995,100.0,10.0
+2107506,Paço do Lumiar - MA,1996,540.0,27.0
+2107506,Paço do Lumiar - MA,1997,357.0,18.0
+2107506,Paço do Lumiar - MA,1998,288.0,12.0
+2107506,Paço do Lumiar - MA,1999,276.0,12.0
+2107506,Paço do Lumiar - MA,2000,282.0,28.0
+2107506,Paço do Lumiar - MA,2001,58.0,8.0
+2107506,Paço do Lumiar - MA,2002,54.0,16.0
+2107506,Paço do Lumiar - MA,2003,48.0,14.0
+2107506,Paço do Lumiar - MA,2004,46.0,14.0
+2107506,Paço do Lumiar - MA,2005,45.0,14.0
+2107506,Paço do Lumiar - MA,2006,49.0,17.0
+2107506,Paço do Lumiar - MA,2007,49.0,74.0
+2107506,Paço do Lumiar - MA,2008,49.0,83.0
+2107506,Paço do Lumiar - MA,2009,96.0,149.0
+2107506,Paço do Lumiar - MA,2010,90.0,135.0
+2107506,Paço do Lumiar - MA,2011,81.0,162.0
+2107506,Paço do Lumiar - MA,2012,60.0,57.0
+2108256,Pedro do Rosário - MA,1997,216.0,3.0
+2108256,Pedro do Rosário - MA,1998,302.0,5.0
+2108256,Pedro do Rosário - MA,1999,345.0,6.0
+2108256,Pedro do Rosário - MA,2000,347.0,6.0
+2108256,Pedro do Rosário - MA,2001,50.0,1.0
+2108256,Pedro do Rosário - MA,2002,75.0,1.0
+2108256,Pedro do Rosário - MA,2003,50.0,1.0
+2108256,Pedro do Rosário - MA,2004,48.0,11.0
+2108256,Pedro do Rosário - MA,2005,51.0,92.0
+2108256,Pedro do Rosário - MA,2006,52.0,97.0
+2108256,Pedro do Rosário - MA,2007,50.0,60.0
+2108256,Pedro do Rosário - MA,2008,52.0,17.0
+2108256,Pedro do Rosário - MA,2009,50.0,18.0
+2108256,Pedro do Rosário - MA,2010,42.0,14.0
+2108256,Pedro do Rosário - MA,2011,35.0,13.0
+2108256,Pedro do Rosário - MA,2012,30.0,11.0
+2108256,Pedro do Rosário - MA,2013,24.0,9.0
+2108256,Pedro do Rosário - MA,2014,18.0,6.0
+2108256,Pedro do Rosário - MA,2015,23.0,9.0
+2108256,Pedro do Rosário - MA,2016,24.0,9.0
+2108306,Penalva - MA,1996,285.0,9.0
+2108306,Penalva - MA,1997,289.0,14.0
+2108306,Penalva - MA,1998,289.0,29.0
+2108306,Penalva - MA,1999,290.0,15.0
+2108306,Penalva - MA,2000,288.0,14.0
+2108306,Penalva - MA,2001,58.0,8.0
+2108306,Penalva - MA,2002,59.0,14.0
+2108306,Penalva - MA,2003,58.0,21.0
+2108306,Penalva - MA,2004,49.0,17.0
+2108306,Penalva - MA,2005,42.0,14.0
+2108306,Penalva - MA,2006,42.0,13.0
+2108306,Penalva - MA,2007,35.0,12.0
+2108306,Penalva - MA,2008,34.0,11.0
+2108306,Penalva - MA,2009,28.0,10.0
+2108306,Penalva - MA,2010,24.0,8.0
+2108306,Penalva - MA,2011,20.0,7.0
+2108306,Penalva - MA,2012,19.0,7.0
+2108306,Penalva - MA,2013,14.0,5.0
+2108405,Peri Mirim - MA,1997,44.0,1.0
+2108405,Peri Mirim - MA,1998,88.0,1.0
+2108405,Peri Mirim - MA,1999,132.0,2.0
+2108405,Peri Mirim - MA,2000,132.0,3.0
+2108405,Peri Mirim - MA,2001,33.0,1.0
+2108454,Peritoró - MA,1997,94.0,3.0
+2108454,Peritoró - MA,1998,95.0,3.0
+2108454,Peritoró - MA,1999,105.0,4.0
+2108454,Peritoró - MA,2000,119.0,4.0
+2108454,Peritoró - MA,2001,32.0,4.0
+2108454,Peritoró - MA,2002,35.0,7.0
+2108454,Peritoró - MA,2003,35.0,8.0
+2108454,Peritoró - MA,2004,34.0,8.0
+2108454,Peritoró - MA,2005,27.0,6.0
+2108454,Peritoró - MA,2006,25.0,6.0
+2108454,Peritoró - MA,2007,25.0,6.0
+2108454,Peritoró - MA,2008,24.0,6.0
+2108454,Peritoró - MA,2009,20.0,5.0
+2108454,Peritoró - MA,2010,12.0,4.0
+2108454,Peritoró - MA,2011,8.0,4.0
+2108454,Peritoró - MA,2012,5.0,2.0
+2108454,Peritoró - MA,2013,4.0,2.0
+2108603,Pinheiro - MA,1997,506.0,8.0
+2108603,Pinheiro - MA,1998,548.0,9.0
+2108603,Pinheiro - MA,1999,632.0,11.0
+2108603,Pinheiro - MA,2000,759.0,14.0
+2108603,Pinheiro - MA,2001,126.0,3.0
+2108603,Pinheiro - MA,2002,126.0,3.0
+2108603,Pinheiro - MA,2003,133.0,4.0
+2108603,Pinheiro - MA,2004,131.0,33.0
+2108603,Pinheiro - MA,2005,131.0,236.0
+2108603,Pinheiro - MA,2006,18.0,9.0
+2108603,Pinheiro - MA,2007,19.0,11.0
+2108603,Pinheiro - MA,2008,19.0,10.0
+2108603,Pinheiro - MA,2009,24.0,15.0
+2108603,Pinheiro - MA,2010,25.0,16.0
+2108603,Pinheiro - MA,2011,24.0,17.0
+2108603,Pinheiro - MA,2012,23.0,17.0
+2108603,Pinheiro - MA,2014,24.0,16.0
+2108603,Pinheiro - MA,2015,24.0,19.0
+2108603,Pinheiro - MA,2016,29.0,23.0
+2108603,Pinheiro - MA,2017,70.0,57.0
+2108603,Pinheiro - MA,2018,72.0,60.0
+2108603,Pinheiro - MA,2019,67.0,59.0
+2108603,Pinheiro - MA,2020,68.0,59.0
+2108603,Pinheiro - MA,2021,71.0,63.0
+2108603,Pinheiro - MA,2022,67.0,60.0
+2108603,Pinheiro - MA,2023,68.0,68.0
+2108603,Pinheiro - MA,2024,72.0,73.0
+2108702,Pio XII - MA,1995,1335.0,25.0
+2108702,Pio XII - MA,1996,138.0,3.0
+2108702,Pio XII - MA,1997,134.0,3.0
+2108702,Pio XII - MA,1998,21.0,0.0
+2108702,Pio XII - MA,1999,86.0,2.0
+2108702,Pio XII - MA,2002,84.0,8.0
+2108702,Pio XII - MA,2003,6.0,1.0
+2108702,Pio XII - MA,2004,24.0,5.0
+2108702,Pio XII - MA,2006,24.0,5.0
+2109007,Porto Franco - MA,1995,2054.0,73.0
+2109007,Porto Franco - MA,1996,55.0,3.0
+2109007,Porto Franco - MA,1997,28.0,1.0
+2109007,Porto Franco - MA,1998,27.0,1.0
+2109007,Porto Franco - MA,1999,28.0,1.0
+2109007,Porto Franco - MA,2000,27.0,1.0
+2109007,Porto Franco - MA,2006,288.0,86.0
+2109056,Porto Rico do Maranhão - MA,1997,27.0,1.0
+2109056,Porto Rico do Maranhão - MA,1998,54.0,1.0
+2109056,Porto Rico do Maranhão - MA,1999,81.0,2.0
+2109106,Presidente Dutra - MA,1996,315.0,8.0
+2109106,Presidente Dutra - MA,1997,281.0,4.0
+2109106,Presidente Dutra - MA,1998,300.0,8.0
+2109106,Presidente Dutra - MA,1999,300.0,5.0
+2109106,Presidente Dutra - MA,2000,1229.0,123.0
+2109270,Presidente Sarney - MA,1997,174.0,3.0
+2109270,Presidente Sarney - MA,1998,217.0,4.0
+2109270,Presidente Sarney - MA,1999,260.0,6.0
+2109270,Presidente Sarney - MA,2000,290.0,6.0
+2109270,Presidente Sarney - MA,2001,19.0,0.0
+2109270,Presidente Sarney - MA,2002,34.0,1.0
+2109270,Presidente Sarney - MA,2003,32.0,1.0
+2109270,Presidente Sarney - MA,2004,30.0,8.0
+2109270,Presidente Sarney - MA,2005,31.0,56.0
+2109270,Presidente Sarney - MA,2006,32.0,59.0
+2109270,Presidente Sarney - MA,2007,32.0,42.0
+2109270,Presidente Sarney - MA,2008,32.0,42.0
+2109270,Presidente Sarney - MA,2009,33.0,38.0
+2109270,Presidente Sarney - MA,2010,33.0,37.0
+2109270,Presidente Sarney - MA,2011,38.0,44.0
+2109270,Presidente Sarney - MA,2012,48.0,30.0
+2109270,Presidente Sarney - MA,2014,37.0,23.0
+2109270,Presidente Sarney - MA,2015,38.0,25.0
+2109270,Presidente Sarney - MA,2016,42.0,28.0
+2109270,Presidente Sarney - MA,2017,45.0,30.0
+2109270,Presidente Sarney - MA,2018,43.0,31.0
+2109270,Presidente Sarney - MA,2019,34.0,25.0
+2109270,Presidente Sarney - MA,2020,33.0,24.0
+2109270,Presidente Sarney - MA,2021,37.0,28.0
+2109270,Presidente Sarney - MA,2022,46.0,35.0
+2109270,Presidente Sarney - MA,2023,40.0,37.0
+2109270,Presidente Sarney - MA,2024,48.0,45.0
+2109403,Primeira Cruz - MA,1997,150.0,12.0
+2109403,Primeira Cruz - MA,1998,138.0,11.0
+2109403,Primeira Cruz - MA,1999,140.0,12.0
+2109452,Raposa - MA,1997,25.0,2.0
+2109452,Raposa - MA,1998,27.0,2.0
+2109452,Raposa - MA,1999,25.0,2.0
+2109601,Rosário - MA,1997,192.0,15.0
+2109601,Rosário - MA,1998,189.0,15.0
+2109809,Santa Helena - MA,1997,42.0,1.0
+2109809,Santa Helena - MA,1998,84.0,1.0
+2109809,Santa Helena - MA,1999,105.0,2.0
+2109908,Santa Inês - MA,1996,11.0,0.0
+2109908,Santa Inês - MA,1997,14.0,0.0
+2109908,Santa Inês - MA,1998,14.0,0.0
+2110005,Santa Luzia - MA,1996,128.0,5.0
+2110005,Santa Luzia - MA,1997,104.0,2.0
+2110005,Santa Luzia - MA,1998,90.0,2.0
+2110039,Santa Luzia do Paruá - MA,1996,43.0,2.0
+2110039,Santa Luzia do Paruá - MA,1997,12.0,0.0
+2110039,Santa Luzia do Paruá - MA,1998,12.0,0.0
+2110104,Santa Quitéria do Maranhão - MA,1995,6440.0,193.0
+2110104,Santa Quitéria do Maranhão - MA,1996,990.0,50.0
+2110104,Santa Quitéria do Maranhão - MA,1997,1134.0,62.0
+2110104,Santa Quitéria do Maranhão - MA,1998,1225.0,80.0
+2110104,Santa Quitéria do Maranhão - MA,1999,1210.0,85.0
+2110104,Santa Quitéria do Maranhão - MA,2000,1250.0,100.0
+2110104,Santa Quitéria do Maranhão - MA,2001,217.0,29.0
+2110104,Santa Quitéria do Maranhão - MA,2002,220.0,121.0
+2110104,Santa Quitéria do Maranhão - MA,2003,234.0,140.0
+2110104,Santa Quitéria do Maranhão - MA,2004,264.0,185.0
+2110104,Santa Quitéria do Maranhão - MA,2005,294.0,235.0
+2110104,Santa Quitéria do Maranhão - MA,2006,331.0,298.0
+2110104,Santa Quitéria do Maranhão - MA,2007,371.0,352.0
+2110104,Santa Quitéria do Maranhão - MA,2008,412.0,404.0
+2110104,Santa Quitéria do Maranhão - MA,2010,448.0,448.0
+2110104,Santa Quitéria do Maranhão - MA,2011,580.0,638.0
+2110104,Santa Quitéria do Maranhão - MA,2012,720.0,670.0
+2110104,Santa Quitéria do Maranhão - MA,2013,762.0,953.0
+2110104,Santa Quitéria do Maranhão - MA,2014,787.0,1023.0
+2110104,Santa Quitéria do Maranhão - MA,2015,56.0,48.0
+2110104,Santa Quitéria do Maranhão - MA,2016,93.0,93.0
+2110104,Santa Quitéria do Maranhão - MA,2017,784.0,1019.0
+2110104,Santa Quitéria do Maranhão - MA,2018,17.0,16.0
+2110104,Santa Quitéria do Maranhão - MA,2019,8.0,7.0
+2110104,Santa Quitéria do Maranhão - MA,2020,6.0,5.0
+2110302,Santo Antônio dos Lopes - MA,1996,282.0,23.0
+2110302,Santo Antônio dos Lopes - MA,1997,227.0,11.0
+2110302,Santo Antônio dos Lopes - MA,1998,241.0,23.0
+2110302,Santo Antônio dos Lopes - MA,1999,241.0,20.0
+2111722,Satubinha - MA,1997,45.0,1.0
+2111722,Satubinha - MA,1998,40.0,1.0
+2111722,Satubinha - MA,1999,40.0,1.0
+2111722,Satubinha - MA,2000,40.0,1.0
+2111722,Satubinha - MA,2001,8.0,1.0
+2111722,Satubinha - MA,2002,7.0,1.0
+2111748,Senador Alexandre Costa - MA,1997,42.0,1.0
+2111748,Senador Alexandre Costa - MA,1998,21.0,1.0
+2111748,Senador Alexandre Costa - MA,1999,21.0,1.0
+2111748,Senador Alexandre Costa - MA,2000,42.0,1.0
+2111763,Senador La Rocque - MA,1997,180.0,4.0
+2111763,Senador La Rocque - MA,1998,173.0,3.0
+2111763,Senador La Rocque - MA,1999,192.0,4.0
+2111763,Senador La Rocque - MA,2000,204.0,4.0
+2111789,Serrano do Maranhão - MA,1997,129.0,2.0
+2111953,Sucupira do Riachão - MA,1997,80.0,7.0
+2111953,Sucupira do Riachão - MA,1998,76.0,7.0
+2111953,Sucupira do Riachão - MA,2000,78.0,4.0
+2111953,Sucupira do Riachão - MA,2001,36.0,5.0
+2111953,Sucupira do Riachão - MA,2002,28.0,7.0
+2111953,Sucupira do Riachão - MA,2003,30.0,8.0
+2111953,Sucupira do Riachão - MA,2004,33.0,14.0
+2111953,Sucupira do Riachão - MA,2005,34.0,14.0
+2111953,Sucupira do Riachão - MA,2006,24.0,11.0
+2111953,Sucupira do Riachão - MA,2007,25.0,13.0
+2111953,Sucupira do Riachão - MA,2008,26.0,13.0
+2110401,São Benedito do Rio Preto - MA,1997,77.0,7.0
+2110401,São Benedito do Rio Preto - MA,1998,109.0,10.0
+2110401,São Benedito do Rio Preto - MA,1999,111.0,11.0
+2110401,São Benedito do Rio Preto - MA,2000,116.0,13.0
+2110401,São Benedito do Rio Preto - MA,2001,32.0,4.0
+2110401,São Benedito do Rio Preto - MA,2002,32.0,4.0
+2110401,São Benedito do Rio Preto - MA,2003,32.0,5.0
+2110401,São Benedito do Rio Preto - MA,2004,34.0,5.0
+2110401,São Benedito do Rio Preto - MA,2006,34.0,5.0
+2110401,São Benedito do Rio Preto - MA,2007,34.0,9.0
+2110401,São Benedito do Rio Preto - MA,2008,34.0,10.0
+2110401,São Benedito do Rio Preto - MA,2009,34.0,12.0
+2110401,São Benedito do Rio Preto - MA,2010,42.0,10.0
+2110401,São Benedito do Rio Preto - MA,2011,56.0,14.0
+2110401,São Benedito do Rio Preto - MA,2012,57.0,17.0
+2110401,São Benedito do Rio Preto - MA,2013,90.0,77.0
+2110401,São Benedito do Rio Preto - MA,2014,75.0,35.0
+2110401,São Benedito do Rio Preto - MA,2015,29.0,13.0
+2110401,São Benedito do Rio Preto - MA,2016,22.0,10.0
+2110500,São Bento - MA,1997,79.0,1.0
+2110500,São Bento - MA,1998,105.0,2.0
+2110500,São Bento - MA,1999,131.0,2.0
+2110500,São Bento - MA,2000,133.0,3.0
+2110500,São Bento - MA,2001,131.0,3.0
+2110500,São Bento - MA,2002,32.0,1.0
+2110500,São Bento - MA,2003,33.0,1.0
+2110500,São Bento - MA,2004,35.0,8.0
+2110500,São Bento - MA,2005,33.0,56.0
+2110500,São Bento - MA,2006,40.0,20.0
+2110500,São Bento - MA,2007,30.0,42.0
+2110500,São Bento - MA,2010,26.0,25.0
+2110500,São Bento - MA,2011,28.0,27.0
+2110500,São Bento - MA,2012,25.0,20.0
+2110500,São Bento - MA,2013,23.0,22.0
+2110500,São Bento - MA,2014,26.0,25.0
+2110500,São Bento - MA,2015,26.0,25.0
+2110500,São Bento - MA,2016,44.0,42.0
+2110500,São Bento - MA,2017,42.0,41.0
+2110500,São Bento - MA,2018,32.0,30.0
+2110500,São Bento - MA,2019,33.0,31.0
+2110500,São Bento - MA,2020,42.0,37.0
+2110500,São Bento - MA,2021,58.0,45.0
+2110500,São Bento - MA,2022,60.0,47.0
+2110500,São Bento - MA,2023,62.0,61.0
+2110500,São Bento - MA,2024,70.0,68.0
+2110609,São Bernardo - MA,1995,2016.0,60.0
+2110609,São Bernardo - MA,1996,150.0,12.0
+2110609,São Bernardo - MA,1997,132.0,8.0
+2110609,São Bernardo - MA,1998,132.0,9.0
+2110609,São Bernardo - MA,1999,130.0,9.0
+2110609,São Bernardo - MA,2000,132.0,11.0
+2110609,São Bernardo - MA,2001,27.0,4.0
+2110609,São Bernardo - MA,2002,32.0,19.0
+2110609,São Bernardo - MA,2003,44.0,31.0
+2110609,São Bernardo - MA,2004,58.0,44.0
+2110609,São Bernardo - MA,2005,71.0,57.0
+2110609,São Bernardo - MA,2006,91.0,82.0
+2110609,São Bernardo - MA,2007,117.0,111.0
+2110609,São Bernardo - MA,2008,136.0,136.0
+2110609,São Bernardo - MA,2010,154.0,184.0
+2110609,São Bernardo - MA,2011,180.0,225.0
+2110609,São Bernardo - MA,2012,225.0,214.0
+2110609,São Bernardo - MA,2013,266.0,359.0
+2110609,São Bernardo - MA,2014,285.0,371.0
+2110609,São Bernardo - MA,2015,54.0,48.0
+2110609,São Bernardo - MA,2016,87.0,87.0
+2110609,São Bernardo - MA,2017,285.0,371.0
+2110609,São Bernardo - MA,2018,14.0,14.0
+2110609,São Bernardo - MA,2019,6.0,4.0
+2110609,São Bernardo - MA,2020,7.0,5.0
+2110708,São Domingos do Maranhão - MA,1996,674.0,13.0
+2110708,São Domingos do Maranhão - MA,1997,351.0,9.0
+2110708,São Domingos do Maranhão - MA,1998,322.0,8.0
+2110708,São Domingos do Maranhão - MA,1999,322.0,8.0
+2110708,São Domingos do Maranhão - MA,2000,377.0,9.0
+2110856,São Francisco do Brejão - MA,1997,90.0,2.0
+2110856,São Francisco do Brejão - MA,1998,90.0,2.0
+2110856,São Francisco do Brejão - MA,1999,89.0,2.0
+2110856,São Francisco do Brejão - MA,2000,87.0,2.0
+2110856,São Francisco do Brejão - MA,2001,19.0,2.0
+2110856,São Francisco do Brejão - MA,2002,15.0,2.0
+2110856,São Francisco do Brejão - MA,2003,15.0,2.0
+2110856,São Francisco do Brejão - MA,2004,14.0,3.0
+2110856,São Francisco do Brejão - MA,2005,11.0,2.0
+2110856,São Francisco do Brejão - MA,2007,8.0,2.0
+2110856,São Francisco do Brejão - MA,2008,5.0,1.0
+2110856,São Francisco do Brejão - MA,2009,5.0,1.0
+2110856,São Francisco do Brejão - MA,2010,,0.0
+2111201,São José de Ribamar - MA,1995,160.0,16.0
+2111201,São José de Ribamar - MA,1996,92.0,7.0
+2111201,São José de Ribamar - MA,1997,200.0,17.0
+2111201,São José de Ribamar - MA,1998,112.0,10.0
+2111201,São José de Ribamar - MA,1999,112.0,10.0
+2111201,São José de Ribamar - MA,2007,80.0,80.0
+2111201,São José de Ribamar - MA,2008,96.0,144.0
+2111201,São José de Ribamar - MA,2009,96.0,144.0
+2111201,São José de Ribamar - MA,2010,100.0,150.0
+2111201,São José de Ribamar - MA,2011,80.0,160.0
+2111201,São José de Ribamar - MA,2012,50.0,45.0
+2111003,São João Batista - MA,1996,376.0,19.0
+2111003,São João Batista - MA,1997,511.0,26.0
+2111003,São João Batista - MA,1998,509.0,25.0
+2111003,São João Batista - MA,1999,510.0,26.0
+2111003,São João Batista - MA,2000,508.0,23.0
+2111003,São João Batista - MA,2001,102.0,14.0
+2111003,São João Batista - MA,2002,103.0,25.0
+2111003,São João Batista - MA,2003,103.0,37.0
+2111003,São João Batista - MA,2004,101.0,32.0
+2111003,São João Batista - MA,2005,107.0,35.0
+2111003,São João Batista - MA,2006,100.0,30.0
+2111003,São João Batista - MA,2007,96.0,32.0
+2111003,São João Batista - MA,2008,90.0,28.0
+2111003,São João Batista - MA,2009,84.0,29.0
+2111003,São João Batista - MA,2010,65.0,22.0
+2111003,São João Batista - MA,2011,48.0,17.0
+2111003,São João Batista - MA,2012,30.0,11.0
+2111003,São João Batista - MA,2013,25.0,9.0
+2111003,São João Batista - MA,2014,40.0,13.0
+2111003,São João Batista - MA,2015,12.0,4.0
+2111003,São João Batista - MA,2016,9.0,3.0
+2111052,São João do Paraíso - MA,1997,54.0,1.0
+2111052,São João do Paraíso - MA,1998,51.0,1.0
+2111052,São João do Paraíso - MA,1999,52.0,1.0
+2111052,São João do Paraíso - MA,2000,50.0,1.0
+2111052,São João do Paraíso - MA,2001,9.0,1.0
+2111052,São João do Paraíso - MA,2002,8.0,1.0
+2111052,São João do Paraíso - MA,2003,8.0,1.0
+2111052,São João do Paraíso - MA,2004,7.0,1.0
+2111052,São João do Paraíso - MA,2005,8.0,1.0
+2111052,São João do Paraíso - MA,2006,5.0,1.0
+2111052,São João do Paraíso - MA,2007,4.0,1.0
+2111078,São João do Soter - MA,1997,39.0,1.0
+2111078,São João do Soter - MA,1998,42.0,1.0
+2111078,São João do Soter - MA,1999,44.0,1.0
+2111078,São João do Soter - MA,2000,40.0,1.0
+2111078,São João do Soter - MA,2001,10.0,1.0
+2111078,São João do Soter - MA,2002,11.0,2.0
+2111078,São João do Soter - MA,2003,10.0,2.0
+2111078,São João do Soter - MA,2004,9.0,2.0
+2111078,São João do Soter - MA,2005,9.0,2.0
+2111078,São João do Soter - MA,2006,8.0,2.0
+2111078,São João do Soter - MA,2007,8.0,2.0
+2111078,São João do Soter - MA,2008,8.0,2.0
+2111078,São João do Soter - MA,2009,7.0,2.0
+2111078,São João do Soter - MA,2010,6.0,1.0
+2111078,São João do Soter - MA,2011,6.0,2.0
+2111078,São João do Soter - MA,2012,3.0,1.0
+2111078,São João do Soter - MA,2013,4.0,2.0
+2111102,São João dos Patos - MA,1999,14.0,1.0
+2111102,São João dos Patos - MA,2000,15.0,1.0
+2111102,São João dos Patos - MA,2001,9.0,1.0
+2111102,São João dos Patos - MA,2002,10.0,4.0
+2111102,São João dos Patos - MA,2004,12.0,5.0
+2111102,São João dos Patos - MA,2005,12.0,5.0
+2111102,São João dos Patos - MA,2006,13.0,6.0
+2111102,São João dos Patos - MA,2008,15.0,9.0
+2111102,São João dos Patos - MA,2009,14.0,8.0
+2111300,São Luís - MA,1997,350.0,18.0
+2111300,São Luís - MA,1998,301.0,12.0
+2111300,São Luís - MA,1999,302.0,13.0
+2111300,São Luís - MA,2006,238.0,309.0
+2111300,São Luís - MA,2007,240.0,264.0
+2111300,São Luís - MA,2008,240.0,360.0
+2111300,São Luís - MA,2009,120.0,180.0
+2111300,São Luís - MA,2010,120.0,180.0
+2111300,São Luís - MA,2011,90.0,113.0
+2111300,São Luís - MA,2012,60.0,36.0
+2111300,São Luís - MA,2013,58.0,35.0
+2111300,São Luís - MA,2014,44.0,32.0
+2111300,São Luís - MA,2015,40.0,32.0
+2111300,São Luís - MA,2016,38.0,31.0
+2111409,São Luís Gonzaga do Maranhão - MA,1995,800.0,10.0
+2111409,São Luís Gonzaga do Maranhão - MA,1996,46.0,1.0
+2111409,São Luís Gonzaga do Maranhão - MA,1997,197.0,3.0
+2111409,São Luís Gonzaga do Maranhão - MA,1998,368.0,7.0
+2111409,São Luís Gonzaga do Maranhão - MA,1999,322.0,6.0
+2111409,São Luís Gonzaga do Maranhão - MA,2000,350.0,7.0
+2111409,São Luís Gonzaga do Maranhão - MA,2001,62.0,5.0
+2111409,São Luís Gonzaga do Maranhão - MA,2002,60.0,6.0
+2111409,São Luís Gonzaga do Maranhão - MA,2003,48.0,6.0
+2111409,São Luís Gonzaga do Maranhão - MA,2004,37.0,4.0
+2111409,São Luís Gonzaga do Maranhão - MA,2006,36.0,5.0
+2111508,São Mateus do Maranhão - MA,1995,960.0,14.0
+2111508,São Mateus do Maranhão - MA,1996,540.0,9.0
+2111508,São Mateus do Maranhão - MA,1997,344.0,31.0
+2111508,São Mateus do Maranhão - MA,1998,450.0,54.0
+2111508,São Mateus do Maranhão - MA,1999,405.0,10.0
+2111508,São Mateus do Maranhão - MA,2000,450.0,11.0
+2111508,São Mateus do Maranhão - MA,2002,76.0,8.0
+2111532,São Pedro da Água Branca - MA,1998,13.0,0.0
+2111532,São Pedro da Água Branca - MA,1999,13.0,0.0
+2111532,São Pedro da Água Branca - MA,2000,13.0,0.0
+2111532,São Pedro da Água Branca - MA,2001,3.0,0.0
+2111532,São Pedro da Água Branca - MA,2002,2.0,0.0
+2111532,São Pedro da Água Branca - MA,2003,2.0,0.0
+2111532,São Pedro da Água Branca - MA,2004,3.0,1.0
+2111532,São Pedro da Água Branca - MA,2005,2.0,
+2111805,Sítio Novo - MA,1996,16.0,1.0
+2111805,Sítio Novo - MA,1997,18.0,1.0
+2111805,Sítio Novo - MA,1998,16.0,1.0
+2111805,Sítio Novo - MA,1999,15.0,1.0
+2112100,Timbiras - MA,1995,250.0,9.0
+2112100,Timbiras - MA,1996,43.0,1.0
+2112100,Timbiras - MA,1997,44.0,1.0
+2112100,Timbiras - MA,1998,43.0,4.0
+2112100,Timbiras - MA,1999,45.0,2.0
+2112100,Timbiras - MA,2000,54.0,2.0
+2112100,Timbiras - MA,2001,12.0,2.0
+2112100,Timbiras - MA,2002,13.0,3.0
+2112100,Timbiras - MA,2003,9.0,2.0
+2112100,Timbiras - MA,2004,8.0,2.0
+2112100,Timbiras - MA,2005,8.0,2.0
+2112100,Timbiras - MA,2006,8.0,2.0
+2112209,Timon - MA,1996,1306.0,33.0
+2112209,Timon - MA,1997,1197.0,48.0
+2112209,Timon - MA,1998,1177.0,112.0
+2112209,Timon - MA,1999,1171.0,30.0
+2112209,Timon - MA,2000,1081.0,29.0
+2112209,Timon - MA,2001,398.0,54.0
+2112209,Timon - MA,2002,352.0,99.0
+2112209,Timon - MA,2003,344.0,96.0
+2112209,Timon - MA,2004,263.0,76.0
+2112209,Timon - MA,2005,224.0,66.0
+2112209,Timon - MA,2006,213.0,64.0
+2112209,Timon - MA,2007,51.0,15.0
+2112209,Timon - MA,2008,191.0,57.0
+2112209,Timon - MA,2009,191.0,57.0
+2112209,Timon - MA,2010,196.0,60.0
+2112308,Tuntum - MA,1995,205.0,2.0
+2112308,Tuntum - MA,1996,253.0,4.0
+2112308,Tuntum - MA,1997,188.0,8.0
+2112308,Tuntum - MA,1998,165.0,4.0
+2112308,Tuntum - MA,1999,164.0,4.0
+2112308,Tuntum - MA,2000,188.0,5.0
+2112407,Turiaçu - MA,1995,84.0,3.0
+2112407,Turiaçu - MA,1997,44.0,1.0
+2112506,Tutóia - MA,1995,2475.0,87.0
+2112506,Tutóia - MA,1996,511.0,26.0
+2112506,Tutóia - MA,1997,1946.0,107.0
+2112506,Tutóia - MA,1998,2085.0,136.0
+2112605,Urbano Santos - MA,1997,96.0,9.0
+2112605,Urbano Santos - MA,1998,94.0,9.0
+2112605,Urbano Santos - MA,1999,87.0,9.0
+2112605,Urbano Santos - MA,2000,91.0,10.0
+2112605,Urbano Santos - MA,2001,26.0,3.0
+2112605,Urbano Santos - MA,2002,26.0,3.0
+2112605,Urbano Santos - MA,2003,26.0,4.0
+2112605,Urbano Santos - MA,2004,29.0,5.0
+2112605,Urbano Santos - MA,2006,32.0,5.0
+2112605,Urbano Santos - MA,2007,32.0,7.0
+2112605,Urbano Santos - MA,2008,32.0,10.0
+2112605,Urbano Santos - MA,2009,33.0,25.0
+2112605,Urbano Santos - MA,2010,39.0,9.0
+2112605,Urbano Santos - MA,2011,41.0,12.0
+2112605,Urbano Santos - MA,2012,45.0,16.0
+2112605,Urbano Santos - MA,2013,45.0,38.0
+2112605,Urbano Santos - MA,2014,38.0,17.0
+2112605,Urbano Santos - MA,2015,12.0,6.0
+2112605,Urbano Santos - MA,2016,22.0,10.0
+2112704,Vargem Grande - MA,1998,56.0,1.0
+2112704,Vargem Grande - MA,1999,56.0,1.0
+2112704,Vargem Grande - MA,2000,56.0,1.0
+2112704,Vargem Grande - MA,2001,11.0,0.0
+2112704,Vargem Grande - MA,2002,11.0,0.0
+2112704,Vargem Grande - MA,2003,11.0,0.0
+2112704,Vargem Grande - MA,2004,8.0,2.0
+2112704,Vargem Grande - MA,2005,8.0,8.0
+2112704,Vargem Grande - MA,2006,8.0,9.0
+2112704,Vargem Grande - MA,2007,8.0,10.0
+2112704,Vargem Grande - MA,2008,8.0,10.0
+2112803,Viana - MA,1996,222.0,5.0
+2112803,Viana - MA,1997,78.0,4.0
+2112803,Viana - MA,1998,79.0,4.0
+2112803,Viana - MA,1999,80.0,4.0
+2112803,Viana - MA,2000,80.0,4.0
+2112803,Viana - MA,2001,21.0,3.0
+2112803,Viana - MA,2002,22.0,5.0
+2112803,Viana - MA,2003,23.0,8.0
+2112803,Viana - MA,2004,30.0,11.0
+2112803,Viana - MA,2005,29.0,10.0
+2112803,Viana - MA,2006,28.0,10.0
+2112803,Viana - MA,2007,27.0,9.0
+2112803,Viana - MA,2008,28.0,9.0
+2112803,Viana - MA,2009,22.0,8.0
+2112803,Viana - MA,2010,20.0,7.0
+2112803,Viana - MA,2011,19.0,7.0
+2112803,Viana - MA,2012,17.0,6.0
+2112803,Viana - MA,2013,12.0,4.0
+2112803,Viana - MA,2014,12.0,4.0
+2112803,Viana - MA,2015,10.0,5.0
+2112803,Viana - MA,2016,10.0,5.0
+2112852,Vila Nova dos Martírios - MA,1997,39.0,1.0
+2112852,Vila Nova dos Martírios - MA,1998,39.0,1.0
+2112852,Vila Nova dos Martírios - MA,1999,38.0,1.0
+2112852,Vila Nova dos Martírios - MA,2000,36.0,1.0
+2112852,Vila Nova dos Martírios - MA,2001,10.0,1.0
+2112852,Vila Nova dos Martírios - MA,2002,9.0,1.0
+2112852,Vila Nova dos Martírios - MA,2003,9.0,1.0
+2112852,Vila Nova dos Martírios - MA,2004,8.0,1.0
+2112852,Vila Nova dos Martírios - MA,2005,7.0,1.0
+2112852,Vila Nova dos Martírios - MA,2006,7.0,1.0
+2112852,Vila Nova dos Martírios - MA,2007,7.0,1.0
+2112852,Vila Nova dos Martírios - MA,2008,6.0,1.0
+2112852,Vila Nova dos Martírios - MA,2009,6.0,1.0
+2112852,Vila Nova dos Martírios - MA,2010,6.0,1.0
+2112852,Vila Nova dos Martírios - MA,2011,7.0,2.0
+2112852,Vila Nova dos Martírios - MA,2012,5.0,1.0
+2112852,Vila Nova dos Martírios - MA,2013,4.0,1.0
+2112852,Vila Nova dos Martírios - MA,2014,3.0,1.0
+2112852,Vila Nova dos Martírios - MA,2015,3.0,1.0
+2113009,Vitorino Freire - MA,1995,1197.0,26.0
+2113009,Vitorino Freire - MA,1996,538.0,11.0
+2113009,Vitorino Freire - MA,1997,531.0,11.0
+2113009,Vitorino Freire - MA,1998,520.0,12.0
+2113009,Vitorino Freire - MA,1999,477.0,11.0
+2113009,Vitorino Freire - MA,2000,490.0,11.0
+2113009,Vitorino Freire - MA,2001,122.0,11.0
+2113009,Vitorino Freire - MA,2002,108.0,10.0
+2113009,Vitorino Freire - MA,2003,80.0,8.0
+2113009,Vitorino Freire - MA,2004,61.0,6.0
+2113009,Vitorino Freire - MA,2006,49.0,11.0
+2112902,Vitória do Mearim - MA,1996,839.0,17.0
+2112902,Vitória do Mearim - MA,1997,418.0,21.0
+2112902,Vitória do Mearim - MA,1998,416.0,21.0
+2112902,Vitória do Mearim - MA,1999,414.0,21.0
+2112902,Vitória do Mearim - MA,2000,413.0,20.0
+2112902,Vitória do Mearim - MA,2001,83.0,11.0
+2112902,Vitória do Mearim - MA,2002,84.0,20.0
+2112902,Vitória do Mearim - MA,2003,83.0,30.0
+2112902,Vitória do Mearim - MA,2004,82.0,29.0
+2112902,Vitória do Mearim - MA,2005,74.0,27.0
+2112902,Vitória do Mearim - MA,2006,68.0,24.0
+2112902,Vitória do Mearim - MA,2007,60.0,20.0
+2112902,Vitória do Mearim - MA,2008,54.0,17.0
+2112902,Vitória do Mearim - MA,2009,56.0,20.0
+2112902,Vitória do Mearim - MA,2010,51.0,17.0
+2112902,Vitória do Mearim - MA,2011,42.0,15.0
+2112902,Vitória do Mearim - MA,2012,32.0,11.0
+2112902,Vitória do Mearim - MA,2013,26.0,9.0
+2112902,Vitória do Mearim - MA,2014,21.0,7.0
+2112902,Vitória do Mearim - MA,2015,25.0,9.0
+2112902,Vitória do Mearim - MA,2016,19.0,7.0
+2114007,Zé Doca - MA,1996,48.0,2.0
+2114007,Zé Doca - MA,1997,16.0,0.0
+2114007,Zé Doca - MA,1998,6.0,0.0
+2100154,Água Doce do Maranhão - MA,1997,65.0,3.0
+2100154,Água Doce do Maranhão - MA,1998,99.0,5.0
+2100154,Água Doce do Maranhão - MA,1999,72.0,4.0
+2100154,Água Doce do Maranhão - MA,2000,73.0,6.0
+2100154,Água Doce do Maranhão - MA,2001,12.0,2.0
+2100154,Água Doce do Maranhão - MA,2002,16.0,8.0
+2100154,Água Doce do Maranhão - MA,2003,20.0,11.0
+2100154,Água Doce do Maranhão - MA,2004,27.0,16.0
+2100154,Água Doce do Maranhão - MA,2005,37.0,26.0
+2100154,Água Doce do Maranhão - MA,2006,48.0,38.0
+2100154,Água Doce do Maranhão - MA,2007,59.0,41.0
+2100154,Água Doce do Maranhão - MA,2008,75.0,60.0
+2100154,Água Doce do Maranhão - MA,2011,100.0,85.0
+2100154,Água Doce do Maranhão - MA,2012,128.0,115.0
+2100154,Água Doce do Maranhão - MA,2013,140.0,140.0
+2100154,Água Doce do Maranhão - MA,2014,148.0,163.0
+2100154,Água Doce do Maranhão - MA,2015,33.0,27.0
+2100154,Água Doce do Maranhão - MA,2016,50.0,40.0
+2100154,Água Doce do Maranhão - MA,2017,148.0,178.0
+2100154,Água Doce do Maranhão - MA,2018,8.0,7.0
+2100154,Água Doce do Maranhão - MA,2019,5.0,4.0
+2100154,Água Doce do Maranhão - MA,2020,3.0,2.0
