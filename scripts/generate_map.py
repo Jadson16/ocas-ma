@@ -340,6 +340,15 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
     .ocas-ranking tr:last-child td {{ border-bottom: none; }}
     .rank-pos {{ color: var(--ocas-buriti); font-size: 9px; width: 18px; }}
 
+    /* DOWNLOAD */
+    .ocas-btn-download {{ font-family: var(--ocas-font-label); font-size: 10px; letter-spacing: .5px; padding: 7px 14px; background: var(--ocas-bg-card); color: var(--ocas-mata); border: 1px solid var(--ocas-border-soft); border-radius: var(--ocas-radius-sm); cursor: pointer; transition: background .15s; white-space: nowrap; }}
+    .ocas-btn-download:hover {{ background: var(--ocas-varzea); }}
+
+    /* TIME SERIES */
+    .ocas-ts-wrap {{ margin-top: 20px; background: var(--ocas-bg-card); border: .5px solid var(--ocas-border); border-radius: var(--ocas-radius-md); padding: 16px 18px; box-shadow: var(--ocas-shadow-card); }}
+    .ocas-ts-title {{ font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ocas-igapo); margin-bottom: 8px; }}
+    #ts-container {{ width: 100%; height: 220px; }}
+
     /* FOOTER */
     .ocas-footer {{ padding: 16px 28px; font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 1px; color: var(--ocas-buriti); border-top: .5px solid var(--ocas-border); background: var(--ocas-bg-page); text-align: center; margin-top: 8px; }}
   </style>
@@ -440,6 +449,9 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
           <span id="slider-max"></span>
         </div>
       </div>
+      <div class="ocas-control-group" style="justify-content:flex-end;align-self:flex-end">
+        <button class="ocas-btn-download" onclick="downloadCSV()">&#8595; Baixar CSV</button>
+      </div>
     </div>
 
     <div class="ocas-map-wrap">
@@ -454,6 +466,11 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
           <tbody id="ranking-body"></tbody>
         </table>
       </div>
+    </div>
+
+    <div class="ocas-ts-wrap">
+      <div class="ocas-ts-title" id="ts-title">Evolu&ccedil;&atilde;o estadual &mdash; Quantidade</div>
+      <div id="ts-container"></div>
     </div>
   </div>
 </section>
@@ -586,7 +603,64 @@ function updateRanking() {{
   }}).join("");
 }}
 
-function update() {{ updateMap(); updateRanking(); }}
+function updateTimeseries() {{
+  const p    = PD[curProd];
+  const isQ  = curVar === "qty";
+  const unit = isQ ? p.unit_qty : p.unit_val;
+  const lbl  = isQ ? "Quantidade" : "Valor";
+  const anos = p.anos;
+
+  const totals = anos.map(yr => {{
+    const zd = p[curVar][yr];
+    return zd.reduce((s, v) => s + (v != null ? v : 0), 0);
+  }});
+
+  document.getElementById("ts-title").textContent =
+    "Evolução estadual — " + lbl + " (" + unit + ")";
+
+  Plotly.react("ts-container", [{{
+    x: anos, y: totals, type: "scatter", mode: "lines+markers",
+    line:   {{ color: "#2D6A4F", width: 2 }},
+    marker: {{ color: "#52B788", size: 5 }},
+    hovertemplate: "<b>%{{x}}</b><br>" + lbl + ": %{{y:,.0f}} " + unit + "<extra></extra>",
+  }}], {{
+    margin: {{ t: 8, r: 16, b: 36, l: 72 }},
+    paper_bgcolor: "rgba(0,0,0,0)",
+    plot_bgcolor:  "#F7FAF8",
+    xaxis: {{ showgrid: false, tickfont: {{ size: 10 }} }},
+    yaxis: {{ tickfont: {{ size: 10 }}, tickformat: ",.0f" }},
+    height: 220,
+    shapes: [{{
+      type: "line", xref: "x", yref: "paper",
+      x0: curYear(), x1: curYear(), y0: 0, y1: 1,
+      line: {{ color: "#C9A84C", width: 1.5, dash: "dot" }},
+    }}],
+  }}, {{ responsive: true, displaylogo: false, staticPlot: false,
+         modeBarButtonsToRemove: ["toImage","lasso2d","select2d"] }});
+}}
+
+function downloadCSV() {{
+  const p   = PD[curProd];
+  const isQ = curVar === "qty";
+  const col = isQ ? "quantidade_" + p.unit_qty.replace(" ","_") : "valor_mil_reais";
+  const rows = [["municipio_id","municipio","ano", col]];
+  p.anos.forEach(yr => {{
+    const zd = p[curVar][yr];
+    MIDS.forEach((mid, i) => {{
+      if (zd[i] != null)
+        rows.push([mid, NMAP[mid].replace(" - MA",""), yr, zd[i]]);
+    }});
+  }});
+  const csv  = rows.map(r => r.join(",")).join("\r\n");
+  const blob = new Blob(["﻿" + csv], {{ type: "text/csv;charset=utf-8;" }});
+  const url  = URL.createObjectURL(blob);
+  const a    = Object.assign(document.createElement("a"),
+                 {{ href: url, download: "ocas-ma_" + curProd + ".csv" }});
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}}
+
+function update() {{ updateMap(); updateRanking(); updateTimeseries(); }}
 
 function onYearChange(idx) {{
   curYearIdx = parseInt(idx);
