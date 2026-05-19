@@ -39,6 +39,10 @@
     .ocas-brand-text { display: flex; flex-direction: column; gap: 2px; }
     .ocas-sigla { font-family: var(--ocas-font-titulo); font-size: 22px; font-weight: 700; color: var(--ocas-floresta); letter-spacing: 1px; line-height: 1; }
     .ocas-vinculo { font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--ocas-igapo); }
+    .ocas-header-right { display: flex; align-items: center; gap: 20px; }
+    .ocas-header-logos { display: flex; align-items: center; gap: 14px; padding-right: 20px; border-right: 1px solid var(--ocas-border); }
+    .ocas-header-logos img { height: 38px; width: auto; object-fit: contain; opacity: .88; }
+    @media (max-width: 700px) { .ocas-header-logos { display: none; } }
     .ocas-header-meta { font-family: var(--ocas-font-label); font-size: 10px; color: var(--ocas-igapo); text-align: right; line-height: 1.8; }
     .ocas-status { color: var(--ocas-babacu); margin-left: 6px; }
     .ocas-visits { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
@@ -140,12 +144,18 @@
         <span class="ocas-vinculo">GEIA &middot; CECON &middot; UFMA</span>
       </div>
     </div>
-    <div class="ocas-header-meta">
-      Atualiza&ccedil;&atilde;o: Mai. 2026
-      <span class="ocas-status">&#9679; online</span>
-      <div class="ocas-visits">
-        <span class="ocas-visits-label">Visitantes</span>
-        <img src="https://jadsonpessoa.goatcounter.com/counter/TOTAL.svg" alt="contador de visitas" title="Total de visitas ao OCAS-MA">
+    <div class="ocas-header-right">
+      <div class="ocas-header-logos">
+        <img src="logos/LogoGEIA.png" alt="GEIA" title="Grupo de Estudos em Inova&ccedil;&atilde;o e Agroneg&oacute;cio">
+        <img src="logos/UFMA.png"     alt="UFMA" title="Universidade Federal do Maranh&atilde;o">
+      </div>
+      <div class="ocas-header-meta">
+        Atualiza&ccedil;&atilde;o: Mai. 2026
+        <span class="ocas-status">&#9679; online</span>
+        <div class="ocas-visits">
+          <span class="ocas-visits-label">Visitantes</span>
+          <img src="https://jadsonpessoa.goatcounter.com/counter/TOTAL.svg" alt="contador de visitas" title="Total de visitas ao OCAS-MA">
+        </div>
       </div>
     </div>
   </div>
