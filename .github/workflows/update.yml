@@ -26,20 +26,20 @@ jobs:
         run: pip install requests pandas plotly
 
       - name: Coletar PEVS (extrativismo vegetal)
-        run: |
-          python scripts/fetch_data.py
-          python scripts/fetch_acai.py
-          python scripts/fetch_buriti.py
-          python scripts/fetch_carnauba.py
-          python scripts/fetch_carnauba_fibra.py
-          python scripts/fetch_piacava.py
+        id: pevs
+        continue-on-error: true
+        run: python scripts/fetch_pevs.py
 
       - name: Coletar PAM (lavouras)
+        id: pam
+        continue-on-error: true
         run: |
           python scripts/fetch_pam_temp.py
           python scripts/fetch_pam_perm.py
 
-      - name: Coletar PPM (producao animal e rebanhos)
+      - name: Coletar PPM (produção animal e rebanhos)
+        id: ppm
+        continue-on-error: true
         run: |
           python scripts/fetch_ppm_prod.py
           python scripts/fetch_ppm_rebanhos.py
@@ -48,21 +48,6 @@ jobs:
       - name: Gerar mapa interativo
         run: python scripts/generate_map.py
 
-      - name: Atualizar data do painel
-        run: |
-          python - <<'EOF'
-          import re, datetime
-          meses = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"]
-          now = datetime.datetime.utcnow()
-          label = f"{meses[now.month]}. {now.year}"
-          with open("index.html", "r", encoding="utf-8") as f:
-              html = f.read()
-          html = re.sub(r"Atualiza&ccedil;&atilde;o: \w+\. \d{4}", f"Atualiza&ccedil;&atilde;o: {label}", html)
-          with open("index.html", "w", encoding="utf-8") as f:
-              f.write(html)
-          print(f"Data atualizada para: {label}")
-          EOF
-
       - name: Commit e push dos artefatos atualizados
         run: |
           git config user.name "github-actions[bot]"
@@ -70,3 +55,28 @@ jobs:
           git add data/ index.html
           git diff --cached --quiet || git commit -m "chore: atualiza dados e mapa [$(date +'%Y-%m-%d')]"
           git push
+
+      - name: Sumário do pipeline
+        if: always()
+        run: |
+          STATUS_PEVS="${{ steps.pevs.outcome }}"
+          STATUS_PAM="${{ steps.pam.outcome }}"
+          STATUS_PPM="${{ steps.ppm.outcome }}"
+
+          icon() { [ "$1" = "success" ] && echo "✅" || echo "❌"; }
+
+          {
+            echo "## OCAS-MA — Atualização $(date +'%d/%m/%Y')"
+            echo ""
+            echo "| Etapa | Status | Detalhes |"
+            echo "| --- | --- | --- |"
+            echo "| PEVS | $(icon $STATUS_PEVS) $STATUS_PEVS | $(find data/babacu data/acai data/buriti data/carnauba data/carnauba_fibra data/piacava -name '*.csv' 2>/dev/null | wc -l) CSVs |"
+            echo "| PAM  | $(icon $STATUS_PAM) $STATUS_PAM  | $(find data/arroz data/milho data/soja data/mandioca data/feijao data/cana data/melancia data/amendoim data/algodao data/banana data/castanha_caju data/coco data/laranja data/acai_cult data/mamao data/manga data/maracuja data/borracha -name '*.csv' 2>/dev/null | wc -l) CSVs |"
+            echo "| PPM  | $(icon $STATUS_PPM) $STATUS_PPM  | $(find data/mel data/leite data/ovos data/bovino data/bubalino data/equino data/suino data/caprino data/ovino data/galinaceo -name '*.csv' 2>/dev/null | wc -l) CSVs |"
+            echo ""
+            echo "**Dashboard:** \`index.html\` — $(du -sh index.html | cut -f1)"
+            echo ""
+            if [ "$STATUS_PEVS" != "success" ] || [ "$STATUS_PAM" != "success" ] || [ "$STATUS_PPM" != "success" ]; then
+              echo "> ⚠️ Uma ou mais etapas de coleta falharam. Verifique os logs acima."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

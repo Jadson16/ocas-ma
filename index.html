@@ -41,6 +41,9 @@
     .ocas-vinculo { font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--ocas-igapo); }
     .ocas-header-meta { font-family: var(--ocas-font-label); font-size: 10px; color: var(--ocas-igapo); text-align: right; line-height: 1.8; }
     .ocas-status { color: var(--ocas-babacu); margin-left: 6px; }
+    .ocas-visits { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
+    .ocas-visits-label { font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ocas-buriti); }
+    .ocas-visits img { height: 14px; vertical-align: middle; opacity: .85; }
 
     /* NAV */
     .ocas-nav { background: var(--ocas-bg-nav); border-bottom: 1px solid var(--ocas-border); display: flex; padding: 0 28px; overflow-x: auto; }
@@ -138,8 +141,12 @@
       </div>
     </div>
     <div class="ocas-header-meta">
-      Atualiza&ccedil;&atilde;o: May. 2026
+      Atualiza&ccedil;&atilde;o: Mai. 2026
       <span class="ocas-status">&#9679; online</span>
+      <div class="ocas-visits">
+        <span class="ocas-visits-label">Visitantes</span>
+        <img src="https://jadsonpessoa.goatcounter.com/counter/TOTAL.svg" alt="contador de visitas" title="Total de visitas ao OCAS-MA">
+      </div>
     </div>
   </div>
 </header>
@@ -474,8 +481,8 @@ function downloadCSV() {
         rows.push([mid, NMAP[mid].replace(" - MA",""), yr, zd[i]]);
     });
   });
-  const csv  = rows.map(r => r.join(",")).join("\r\n");
-  const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8;" });
+  const csv  = rows.map(r => r.join(",")).join("\\r\\n");
+  const blob = new Blob(["\\ufeff" + csv], { type: "text/csv;charset=utf-8;" });
   const url  = URL.createObjectURL(blob);
   const a    = Object.assign(document.createElement("a"),
                  { href: url, download: "ocas-ma_" + curProd + ".csv" });
@@ -538,5 +545,6 @@ syncValBtn();
 initControls();
 update();
 </script>
+<script data-goatcounter="https://jadsonpessoa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
