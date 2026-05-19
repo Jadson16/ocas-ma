@@ -469,7 +469,10 @@ def build_html(fig, js_data, available_keys, mid_list, name_map):
     </div>
 
     <div class="ocas-ts-wrap">
-      <div class="ocas-ts-title" id="ts-title">Evolu&ccedil;&atilde;o estadual &mdash; Quantidade</div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+        <div class="ocas-ts-title" id="ts-title" style="margin-bottom:0">Evolu&ccedil;&atilde;o estadual &mdash; Quantidade</div>
+        <button id="ts-reset" onclick="resetMun()" style="display:none;font-family:var(--ocas-font-label);font-size:9px;letter-spacing:.5px;padding:3px 10px;background:var(--ocas-bg-card);color:var(--ocas-mata);border:1px solid var(--ocas-border-soft);border-radius:var(--ocas-radius-sm);cursor:pointer">&larr; Estado</button>
+      </div>
       <div id="ts-container"></div>
     </div>
   </div>
@@ -535,11 +538,23 @@ const FIG  = {fig_json};
 let curProd    = "{first_key}";
 let curVar     = "qty";
 let curYearIdx = 0;
+let curMunIdx  = null;
 
 // --- init Plotly ---
 Plotly.newPlot("map-container", FIG.data, FIG.layout, {{
   responsive: true, displaylogo: false,
   modeBarButtonsToRemove: ["toImage","sendDataToCloud","lasso2d","select2d"],
+}}).then(function() {{
+  document.getElementById("map-container").on("plotly_click", function(evt) {{
+    if (!evt || !evt.points || !evt.points.length) return;
+    const pt = evt.points[0];
+    if (pt.curveNumber !== 0) return;
+    const idx = MIDS.indexOf(String(pt.location));
+    if (idx < 0) return;
+    curMunIdx = (curMunIdx === idx) ? null : idx;
+    document.getElementById("ts-reset").style.display = curMunIdx !== null ? "inline-block" : "none";
+    updateTimeseries();
+  }});
 }});
 
 // --- helpers ---
@@ -610,18 +625,26 @@ function updateTimeseries() {{
   const lbl  = isQ ? "Quantidade" : "Valor";
   const anos = p.anos;
 
-  const totals = anos.map(yr => {{
-    const zd = p[curVar][yr];
-    return zd.reduce((s, v) => s + (v != null ? v : 0), 0);
-  }});
+  let values, titleText, lineColor, markerColor;
+  if (curMunIdx !== null) {{
+    const munName = NMAP[MIDS[curMunIdx]].replace(" - MA", "");
+    values      = anos.map(yr => {{ const v = p[curVar][yr][curMunIdx]; return v != null ? v : 0; }});
+    titleText   = "Evolução municipal — " + lbl + " (" + unit + ") · " + munName;
+    lineColor   = "#C9A84C";
+    markerColor = "#C9A84C";
+  }} else {{
+    values      = anos.map(yr => {{ const zd = p[curVar][yr]; return zd.reduce((s, v) => s + (v != null ? v : 0), 0); }});
+    titleText   = "Evolução estadual — " + lbl + " (" + unit + ")";
+    lineColor   = "#2D6A4F";
+    markerColor = "#52B788";
+  }}
 
-  document.getElementById("ts-title").textContent =
-    "Evolução estadual — " + lbl + " (" + unit + ")";
+  document.getElementById("ts-title").textContent = titleText;
 
   Plotly.react("ts-container", [{{
-    x: anos, y: totals, type: "scatter", mode: "lines+markers",
-    line:   {{ color: "#2D6A4F", width: 2 }},
-    marker: {{ color: "#52B788", size: 5 }},
+    x: anos, y: values, type: "scatter", mode: "lines+markers",
+    line:   {{ color: lineColor,   width: 2 }},
+    marker: {{ color: markerColor, size: 5 }},
     hovertemplate: "<b>%{{x}}</b><br>" + lbl + ": %{{y:,.0f}} " + unit + "<extra></extra>",
   }}], {{
     margin: {{ t: 8, r: 16, b: 36, l: 72 }},
@@ -686,9 +709,17 @@ function setVar(v) {{
   update();
 }}
 
+function resetMun() {{
+  curMunIdx = null;
+  document.getElementById("ts-reset").style.display = "none";
+  updateTimeseries();
+}}
+
 document.getElementById("prod-select").addEventListener("change", function() {{
   curProd = this.value;
   curVar  = "qty";
+  curMunIdx = null;
+  document.getElementById("ts-reset").style.display = "none";
   syncValBtn();
   initControls();
   update();

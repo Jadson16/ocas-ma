@@ -41,9 +41,6 @@
     .ocas-vinculo { font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--ocas-igapo); }
     .ocas-header-meta { font-family: var(--ocas-font-label); font-size: 10px; color: var(--ocas-igapo); text-align: right; line-height: 1.8; }
     .ocas-status { color: var(--ocas-babacu); margin-left: 6px; }
-    .ocas-visits { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
-    .ocas-visits-label { font-family: var(--ocas-font-label); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ocas-buriti); }
-    .ocas-visits img { height: 14px; vertical-align: middle; opacity: .85; }
 
     /* NAV */
     .ocas-nav { background: var(--ocas-bg-nav); border-bottom: 1px solid var(--ocas-border); display: flex; padding: 0 28px; overflow-x: auto; }
@@ -141,12 +138,8 @@
       </div>
     </div>
     <div class="ocas-header-meta">
-      Atualiza&ccedil;&atilde;o: Mai. 2026
+      Atualiza&ccedil;&atilde;o: May. 2026
       <span class="ocas-status">&#9679; online</span>
-      <div class="ocas-visits">
-        <span class="ocas-visits-label">Visitantes</span>
-        <img src="https://jadsonpessoa.goatcounter.com/counter/TOTAL.svg" alt="contador de visitas" title="Total de visitas ao OCAS-MA">
-      </div>
     </div>
   </div>
 </header>
@@ -276,7 +269,10 @@
     </div>
 
     <div class="ocas-ts-wrap">
-      <div class="ocas-ts-title" id="ts-title">Evolu&ccedil;&atilde;o estadual &mdash; Quantidade</div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+        <div class="ocas-ts-title" id="ts-title" style="margin-bottom:0">Evolu&ccedil;&atilde;o estadual &mdash; Quantidade</div>
+        <button id="ts-reset" onclick="resetMun()" style="display:none;font-family:var(--ocas-font-label);font-size:9px;letter-spacing:.5px;padding:3px 10px;background:var(--ocas-bg-card);color:var(--ocas-mata);border:1px solid var(--ocas-border-soft);border-radius:var(--ocas-radius-sm);cursor:pointer">&larr; Estado</button>
+      </div>
       <div id="ts-container"></div>
     </div>
   </div>
@@ -287,7 +283,7 @@
   <div class="ocas-section">
     <h2 class="ocas-section-title">O que &eacute; o OCAS-MA</h2>
     <div class="ocas-section-text">
-      <p>O <strong>Observat&oacute;rio de Cadeias, Arranjos e Sustentabilidade do Maranh&atilde;o (OCAS-MA)</strong> &eacute; uma iniciativa do Grupo de Pesquisa em Economia, Inova&ccedil;&atilde;o e Meio Ambiente (GEIA), vinculado ao Curso de Ci&ecirc;ncias Econ&ocirc;micas (CECON) da Universidade Federal do Maranh&atilde;o (UFMA).</p>
+      <p>O <strong>Observat&oacute;rio de Cadeias, Arranjos e Sustentabilidade do Maranh&atilde;o (OCAS-MA)</strong> &eacute; uma iniciativa do Grupo de Estudos em Inova&ccedil;&atilde;o e Agroneg&oacute;cio (GEIA), vinculado ao Centro de Ci&ecirc;ncias Econ&ocirc;micas e Administrativas (CECON) da Universidade Federal do Maranh&atilde;o (UFMA).</p>
       <p>Seu objeto de an&aacute;lise s&atilde;o as <strong>cadeias produtivas e arranjos produtivos locais (APLs)</strong> com express&atilde;o territorial no Maranh&atilde;o, monitorados na unidade de an&aacute;lise municipal com cobertura estadual completa.</p>
       <p>O observat&oacute;rio integra, de forma progressiva, dados das dimens&otilde;es <strong>produtiva, socioambiental, de trabalho e de cr&eacute;dito</strong>, a partir de fontes p&uacute;blicas nacionais como IBGE (PEVS, PPM, Censo Agropecu&aacute;rio), CONAB, MapBiomas, RAIS/CAGED e Banco Central do Brasil.</p>
     </div>
@@ -300,7 +296,7 @@
     <h2 class="ocas-section-title">Quem somos</h2>
     <div class="ocas-section-text">
       <p><strong>Coordena&ccedil;&atilde;o:</strong> Prof. Dr. Jadson Pessoa da Silva &mdash; GEIA / CECON / UFMA</p>
-      <p>O OCAS-MA &eacute; desenvolvido por pesquisadores e estudantes do GEIA (Grupo de Pesquisa em Economia, Inova&ccedil;&atilde;o e Meio Ambiente), com apoio institucional do CECON e da UFMA.</p>
+      <p>O OCAS-MA &eacute; desenvolvido por pesquisadores e estudantes do GEIA (Grupo de Estudos em Inova&ccedil;&atilde;o e Agroneg&oacute;cio), com apoio institucional do CECON e da UFMA.</p>
     </div>
   </div>
 </section>
@@ -342,11 +338,23 @@ const FIG  = {"data":[{"colorbar":{"len":0.5,"thickness":12,"title":{"text":"Qua
 let curProd    = "babacu";
 let curVar     = "qty";
 let curYearIdx = 0;
+let curMunIdx  = null;
 
 // --- init Plotly ---
 Plotly.newPlot("map-container", FIG.data, FIG.layout, {
   responsive: true, displaylogo: false,
   modeBarButtonsToRemove: ["toImage","sendDataToCloud","lasso2d","select2d"],
+}).then(function() {
+  document.getElementById("map-container").on("plotly_click", function(evt) {
+    if (!evt || !evt.points || !evt.points.length) return;
+    const pt = evt.points[0];
+    if (pt.curveNumber !== 0) return;
+    const idx = MIDS.indexOf(String(pt.location));
+    if (idx < 0) return;
+    curMunIdx = (curMunIdx === idx) ? null : idx;
+    document.getElementById("ts-reset").style.display = curMunIdx !== null ? "inline-block" : "none";
+    updateTimeseries();
+  });
 });
 
 // --- helpers ---
@@ -417,18 +425,26 @@ function updateTimeseries() {
   const lbl  = isQ ? "Quantidade" : "Valor";
   const anos = p.anos;
 
-  const totals = anos.map(yr => {
-    const zd = p[curVar][yr];
-    return zd.reduce((s, v) => s + (v != null ? v : 0), 0);
-  });
+  let values, titleText, lineColor, markerColor;
+  if (curMunIdx !== null) {
+    const munName = NMAP[MIDS[curMunIdx]].replace(" - MA", "");
+    values      = anos.map(yr => { const v = p[curVar][yr][curMunIdx]; return v != null ? v : 0; });
+    titleText   = "Evolução municipal — " + lbl + " (" + unit + ") · " + munName;
+    lineColor   = "#C9A84C";
+    markerColor = "#C9A84C";
+  } else {
+    values      = anos.map(yr => { const zd = p[curVar][yr]; return zd.reduce((s, v) => s + (v != null ? v : 0), 0); });
+    titleText   = "Evolução estadual — " + lbl + " (" + unit + ")";
+    lineColor   = "#2D6A4F";
+    markerColor = "#52B788";
+  }
 
-  document.getElementById("ts-title").textContent =
-    "Evolução estadual — " + lbl + " (" + unit + ")";
+  document.getElementById("ts-title").textContent = titleText;
 
   Plotly.react("ts-container", [{
-    x: anos, y: totals, type: "scatter", mode: "lines+markers",
-    line:   { color: "#2D6A4F", width: 2 },
-    marker: { color: "#52B788", size: 5 },
+    x: anos, y: values, type: "scatter", mode: "lines+markers",
+    line:   { color: lineColor,   width: 2 },
+    marker: { color: markerColor, size: 5 },
     hovertemplate: "<b>%{x}</b><br>" + lbl + ": %{y:,.0f} " + unit + "<extra></extra>",
   }], {
     margin: { t: 8, r: 16, b: 36, l: 72 },
@@ -493,9 +509,17 @@ function setVar(v) {
   update();
 }
 
+function resetMun() {
+  curMunIdx = null;
+  document.getElementById("ts-reset").style.display = "none";
+  updateTimeseries();
+}
+
 document.getElementById("prod-select").addEventListener("change", function() {
   curProd = this.value;
   curVar  = "qty";
+  curMunIdx = null;
+  document.getElementById("ts-reset").style.display = "none";
   syncValBtn();
   initControls();
   update();
@@ -514,7 +538,5 @@ syncValBtn();
 initControls();
 update();
 </script>
-
-<script data-goatcounter="https://jadsonpessoa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
