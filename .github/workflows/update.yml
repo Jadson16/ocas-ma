@@ -48,6 +48,21 @@ jobs:
       - name: Gerar mapa interativo
         run: python scripts/generate_map.py
 
+      - name: Atualizar data do painel
+        run: |
+          python - <<'EOF'
+          import re, datetime
+          meses = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"]
+          now = datetime.datetime.utcnow()
+          label = f"{meses[now.month]}. {now.year}"
+          with open("index.html", "r", encoding="utf-8") as f:
+              html = f.read()
+          html = re.sub(r"Atualiza&ccedil;&atilde;o: \w+\. \d{4}", f"Atualiza&ccedil;&atilde;o: {label}", html)
+          with open("index.html", "w", encoding="utf-8") as f:
+              f.write(html)
+          print(f"Data atualizada para: {label}")
+          EOF
+
       - name: Commit e push dos artefatos atualizados
         run: |
           git config user.name "github-actions[bot]"
