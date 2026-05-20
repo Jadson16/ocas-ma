@@ -55,6 +55,19 @@
     .ocas-nav-item:hover { color: var(--ocas-mata); }
     .ocas-nav-item.active { color: var(--ocas-mata); border-bottom-color: var(--ocas-mata); }
 
+    /* FORM */
+    .ocas-form { max-width: 560px; display: flex; flex-direction: column; gap: 14px; margin-top: 20px; }
+    .ocas-form-field label { display: block; font-family: var(--ocas-font-label); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--ocas-igapo); margin-bottom: 5px; }
+    .ocas-form input, .ocas-form textarea { width: 100%; box-sizing: border-box; border: 1px solid var(--ocas-border); border-radius: var(--ocas-radius-sm); padding: 9px 12px; font-family: var(--ocas-font-body); font-size: 13px; color: var(--ocas-floresta); background: #fff; outline: none; transition: border-color .2s; }
+    .ocas-form input:focus, .ocas-form textarea:focus { border-color: var(--ocas-mata); box-shadow: 0 0 0 2px rgba(45,106,79,.12); }
+    .ocas-form textarea { resize: vertical; min-height: 120px; }
+    .ocas-form-btn { align-self: flex-start; background: var(--ocas-mata); color: #fff; border: none; border-radius: var(--ocas-radius-sm); padding: 10px 24px; font-family: var(--ocas-font-label); font-size: 11px; letter-spacing: .5px; cursor: pointer; transition: background .2s; }
+    .ocas-form-btn:hover:not(:disabled) { background: var(--ocas-igapo); }
+    .ocas-form-btn:disabled { opacity: .55; cursor: default; }
+    .ocas-form-notice { font-size: 13px; padding: 10px 14px; border-radius: var(--ocas-radius-sm); display: none; margin-top: 4px; }
+    .ocas-form-notice.ok  { background: #d8f3dc; color: var(--ocas-mata); border: 1px solid var(--ocas-border); }
+    .ocas-form-notice.err { background: #fde8e8; color: #b03030; border: 1px solid #f5c6c6; }
+
     /* CARDS */
     .ocas-cards-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 12px; padding: 20px 28px; max-width: 1400px; margin: 0 auto; }
     .ocas-card { background: var(--ocas-bg-card); border: .5px solid var(--ocas-border); border-radius: var(--ocas-radius-md); border-left: 2px solid var(--ocas-mata); padding: 16px 18px; box-shadow: var(--ocas-shadow-card); }
@@ -168,6 +181,7 @@
   <a href="#equipe"      class="ocas-nav-item">Quem somos</a>
   <a href="#metodologia" class="ocas-nav-item">Metodologia</a>
   <a href="#boletins"    class="ocas-nav-item">Boletins</a>
+  <a href="#contato"     class="ocas-nav-item">Fale conosco</a>
 </nav>
 
 <!-- STAT CARDS -->
@@ -340,6 +354,36 @@
     </div>
   </div>
 </section>
+
+<!-- FALE CONOSCO -->
+<div class="ocas-section--alt" id="contato">
+  <div class="ocas-section">
+    <h2 class="ocas-section-title">Fale conosco</h2>
+    <div class="ocas-section-text">
+      <p>D&uacute;vidas, sugest&otilde;es ou propostas de colabora&ccedil;&atilde;o? Preencha o formul&aacute;rio abaixo e responderemos em breve.</p>
+    </div>
+    <form class="ocas-form" id="contact-form">
+      <div class="ocas-form-field">
+        <label for="cf-nome">Nome</label>
+        <input type="text" id="cf-nome" name="nome" placeholder="Seu nome completo" required>
+      </div>
+      <div class="ocas-form-field">
+        <label for="cf-email">E-mail para resposta</label>
+        <input type="email" id="cf-email" name="email" placeholder="seu@email.com" required>
+      </div>
+      <div class="ocas-form-field">
+        <label for="cf-assunto">Assunto</label>
+        <input type="text" id="cf-assunto" name="assunto" placeholder="Assunto da mensagem" required>
+      </div>
+      <div class="ocas-form-field">
+        <label for="cf-msg">Mensagem</label>
+        <textarea id="cf-msg" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+      <div id="contact-notice" class="ocas-form-notice"></div>
+      <button type="submit" class="ocas-form-btn" id="contact-btn">Enviar mensagem</button>
+    </form>
+  </div>
+</div>
 
 <!-- FOOTER -->
 <footer class="ocas-footer">
@@ -554,6 +598,38 @@ window.addEventListener("scroll", () => {
 syncValBtn();
 initControls();
 update();
+
+// Formulário Fale conosco — Formspree
+document.getElementById("contact-form").addEventListener("submit", async function(e) {
+  e.preventDefault();
+  const btn    = document.getElementById("contact-btn");
+  const notice = document.getElementById("contact-notice");
+  btn.disabled    = true;
+  btn.textContent = "Enviando…";
+  notice.style.display = "none";
+  notice.className     = "ocas-form-notice";
+  try {
+    const res = await fetch("https://formspree.io/f/FORMSPREE_ID", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: new FormData(this),
+    });
+    if (res.ok) {
+      notice.textContent   = "Mensagem enviada com sucesso! Retornaremos em breve.";
+      notice.classList.add("ok");
+      this.reset();
+    } else {
+      const data = await res.json().catch(() => ({}));
+      throw new Error(data.error || "Erro desconhecido");
+    }
+  } catch (err) {
+    notice.textContent   = "Não foi possível enviar. Tente novamente ou escreva diretamente para jadson.pessoa@ufma.br.";
+    notice.classList.add("err");
+  }
+  notice.style.display = "block";
+  btn.disabled    = false;
+  btn.textContent = "Enviar mensagem";
+});
 </script>
 <script data-goatcounter="https://jadsonpessoa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
