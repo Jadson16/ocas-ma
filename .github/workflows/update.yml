@@ -48,12 +48,18 @@ jobs:
       - name: Gerar mapa interativo
         run: python scripts/generate_map.py
 
+      - name: Calcular indicadores quantitativos
+        run: python scripts/compute_indicators.py
+
+      - name: Gerar painel de indicadores
+        run: python scripts/generate_stats.py
+
       - name: Commit e push dos artefatos atualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ index.html
-          git diff --cached --quiet || git commit -m "chore: atualiza dados e mapa [$(date +'%Y-%m-%d')]"
+          git add data/ index.html indicadores.html
+          git diff --cached --quiet || git commit -m "chore: atualiza dados e painéis [$(date +'%Y-%m-%d')]"
           git push
 
       - name: Sumário do pipeline
@@ -75,6 +81,7 @@ jobs:
             echo "| PPM  | $(icon $STATUS_PPM) $STATUS_PPM  | $(find data/mel data/leite data/ovos data/bovino data/bubalino data/equino data/suino data/caprino data/ovino data/galinaceo -name '*.csv' 2>/dev/null | wc -l) CSVs |"
             echo ""
             echo "**Dashboard:** \`index.html\` — $(du -sh index.html | cut -f1)"
+            echo "**Indicadores:** \`indicadores.html\` — $(du -sh indicadores.html 2>/dev/null | cut -f1 || echo 'não gerado')"
             echo ""
             if [ "$STATUS_PEVS" != "success" ] || [ "$STATUS_PAM" != "success" ] || [ "$STATUS_PPM" != "success" ]; then
               echo "> ⚠️ Uma ou mais etapas de coleta falharam. Verifique os logs acima."
