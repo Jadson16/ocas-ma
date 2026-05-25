@@ -12,3 +12,7 @@ Thumbs.db
 scripts/_test_*.py
 .claude/
 data/sicor/*_raw.csv
+
+# Arquivos e pastas apenas locais (não versionados)
+paper/
+TODO-list.md

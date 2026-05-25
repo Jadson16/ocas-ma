@@ -18,6 +18,21 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+DEFLATOR_FILE = Path(__file__).parent.parent / "data" / "ipca_deflator.csv"
+
+
+def load_deflator() -> dict[int, float]:
+    """
+    Carrega deflator IPCA base 2024.
+    Retorna {ano: deflator_base2024} ou {} se arquivo ausente.
+    Para deflacionar: valor_real2024 = valor_nominal × deflator[ano]
+    """
+    if not DEFLATOR_FILE.exists():
+        log.warning("ipca_deflator.csv não encontrado — indicadores em valores nominais")
+        return {}
+    df = pd.read_csv(DEFLATOR_FILE)
+    return dict(zip(df["ano"].astype(int), df["deflator_base2024"].astype(float)))
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger(__name__)
 
@@ -81,8 +96,12 @@ def _safe(v) -> float | None:
         return None
 
 
-def load_data() -> tuple[dict[str, pd.DataFrame], set[str]]:
-    """Carrega CSVs disponíveis. Retorna dfs e conjunto de municípios."""
+def load_data(deflator: dict[int, float]) -> tuple[dict[str, pd.DataFrame], set[str]]:
+    """
+    Carrega CSVs disponíveis e aplica deflator IPCA base 2024.
+    QL e PR são inalterados (mesmo deflator cancela no mesmo ano).
+    TCG passa a refletir crescimento real.
+    """
     dfs: dict[str, pd.DataFrame] = {}
     all_mids: set[str] = set()
     for key, (csv_rel, qty_col, _) in PRODUCTS_COM_VALOR.items():
@@ -96,6 +115,12 @@ def load_data() -> tuple[dict[str, pd.DataFrame], set[str]]:
             continue
         df = df[["municipio_id", "municipio", "ano", "valor_mil_reais"]].copy()
         df = df[df["valor_mil_reais"].notna() & (df["valor_mil_reais"] > 0)]
+        # Aplica deflação: valor_real2024 = valor_nominal × deflator[ano]
+        if deflator:
+            df["valor_mil_reais"] = df.apply(
+                lambda r: r["valor_mil_reais"] * deflator.get(int(r["ano"]), 1.0),
+                axis=1,
+            )
         dfs[key] = df
         all_mids.update(df["municipio_id"].unique())
         log.info("  %-18s %d linhas com valor", key, len(df))
@@ -192,7 +217,13 @@ def compute_tcg_idm(
 def main() -> None:
     log.info("=== compute_indicators — início ===")
 
-    dfs, _ = load_data()
+    deflator = load_deflator()
+    if deflator:
+        log.info("  Deflator IPCA base 2024 carregado (%d anos)", len(deflator))
+    else:
+        log.warning("  Rodando sem deflação — valores nominais")
+
+    dfs, _ = load_data(deflator)
     if not dfs:
         log.error("Nenhum CSV carregado. Abortando.")
         raise SystemExit(1)
@@ -237,6 +268,7 @@ def main() -> None:
             "anos_disponiveis": anos,
             "tcg_janela_anos": TCG_JANELA,
             "n_produtos": len(dfs),
+            "deflacao": "IPCA base 2024 (BCB SGS 433)" if deflator else "nenhuma (valores nominais)",
         },
         "municipios": nomes,
         "produtos": produtos_meta,

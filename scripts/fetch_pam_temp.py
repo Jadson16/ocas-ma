@@ -8,7 +8,7 @@ from pathlib import Path
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 TABLE      = 1612
-VARS       = "214|215"
+VARS       = "214|215|109|216"   # 109=área plantada, 216=área colhida
 CLASSIF    = 81
 STATE_CODE = 21
 START_YEAR = 1995
@@ -52,7 +52,12 @@ def parse(data):
                            columns="var_id", values="valor")
               .reset_index())
     wide.columns.name = None
-    wide = wide.rename(columns={"214": "quantidade_ton", "215": "valor_mil_reais"})
+    wide = wide.rename(columns={
+        "214": "quantidade_ton",
+        "215": "valor_mil_reais",
+        "109": "area_plantada_ha",
+        "216": "area_colhida_ha",
+    })
     return wide.sort_values(["municipio","ano"]).reset_index(drop=True)
 
 
@@ -85,12 +90,18 @@ def fetch(key, cat, label):
     print(f"  {label}: {df['municipio_id'].nunique()} mun, {n} registros com producao")
 
 
-def main():
-    for key, (cat, label) in PRODUCTS.items():
+def main(only: str | None = None):
+    produtos = {k: v for k, v in PRODUCTS.items() if not only or k == only}
+    if not produtos:
+        print(f"Produto '{only}' nao encontrado. Opcoes: {', '.join(PRODUCTS)}")
+        return
+    for key, (cat, label) in produtos.items():
         print(f"\n{label}...")
         fetch(key, cat, label)
     print("\nConcluido.")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    _only = sys.argv[1] if len(sys.argv) > 1 else None
+    main(only=_only)
